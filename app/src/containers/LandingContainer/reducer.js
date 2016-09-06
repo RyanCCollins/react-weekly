@@ -1,19 +1,37 @@
 import {
-  LANDING_DEFAULT_ACTION,
+  SUBMIT_EMAIL_INITIATION,
+  SUBMIT_EMAIL_SUCCESS,
+  SUBMIT_EMAIL_FAILURE,
 } from './constants';
 
 const initialState = {
-  // Initial State goes here!
+  isSubmitting: false,
+  didSubmit: false,
+  error: null,
+  message: null,
 };
 
 const landingReducer =
   (state = initialState, action) => {
     switch (action.type) {
-      case DEFAULT_ACTION:
-        return state;
+      case SUBMIT_EMAIL_INITIATION:
+        return Object.assign({}, state, {
+          isSubmitting: true,
+        });
+      case SUBMIT_EMAIL_SUCCESS:
+        return Object.assign({}, state, {
+          isSubmitting: false,
+          didSubmit: true,
+          message: action.message,
+        });
+      case SUBMIT_EMAIL_FAILURE:
+        return Object.assign({}, state, {
+          isSubmitting: false,
+          error: action.error,
+        });
       default:
         return state;
     }
-};
+  };
 
 export default landingReducer;

@@ -8,8 +8,15 @@ import rootReducer from './reducers';
 
 const initialState = {
   landing: {
-    isLoading: false,
     isSubmitting: false,
+    didSubmit: false,
+    error: null,
+    message: null,
+  },
+  contentStream: {
+    isLoading: false,
+    posts: [],
+    error: null,
   },
 };
 

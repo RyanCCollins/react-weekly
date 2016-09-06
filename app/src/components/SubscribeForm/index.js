@@ -21,7 +21,6 @@ const SubscribeForm = ({
         className={styles.formField}
         label="Email"
         htmlFor="emailInput"
-        help="Where should we send the newsletter?"
         error={emailInput.touched && emailInput.error ? emailInput.error : null}
       >
         <input

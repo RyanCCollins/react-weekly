@@ -1,0 +1,16 @@
+.appFooter {
+  background: #fbfbfb;
+  padding: 50px;
+  title {
+    color: black !important;
+  }
+}
+
+.flexOne {
+  flex: 1;
+}
+
+$darker-purple: #501EB4;
+.footerAnchor {
+  color: $darker-purple !important;
+}
