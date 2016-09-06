@@ -4,7 +4,7 @@ import Title from 'grommet/components/Title';
 import Menu from 'grommet/components/Menu';
 import Anchor from 'grommet/components/Anchor';
 import Search from 'grommet/components/Search';
-import LogoImage from './logo.png';
+import LogoImage from './rwlogo.png';
 
 import styles from './index.module.scss';
 import cssModules from 'react-css-modules';
@@ -12,20 +12,22 @@ import cssModules from 'react-css-modules';
 const Navbar = () => (
   <div className={styles.navbar}>
     <Header justify="between">
-      <Title>
-        <img className={styles.logo} src={LogoImage} alt="logo"/>
+      <Title className={styles.title}>
+        <Anchor href="/">
+          <img className={styles.logo} src={LogoImage} alt="logo"/>
+        </Anchor>
       </Title>
       <Menu direction="row" align="center" responsive={false}>
         <Anchor href="#" className="active">
-          First
+          Home
         </Anchor>
-        <Anchor href="#">
-          Second
+        <Anchor href="/about">
+          About
         </Anchor>
-        <Anchor href="#">
-          Third
+        <Anchor href="/contact">
+          Contact Us
         </Anchor>
-        <Search dropAlign={{"right": "right"}} />
+        <Search dropAlign={{ right: 'right' }} />
       </Menu>
     </Header>
   </div>
