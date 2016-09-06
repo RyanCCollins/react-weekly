@@ -1,3 +1,17 @@
 .subscribeForm {
-  
+  margin-top: 40px;
+}
+
+.formField {
+  margin-right: 20px;
+  input {
+    max-width: 350px;
+  }
+  input:focus {
+    outline: 0;
+  }
+  @media screen and (max-width: 720px) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }

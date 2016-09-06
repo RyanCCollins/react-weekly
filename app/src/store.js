@@ -7,10 +7,9 @@ import promiseMiddleware from 'redux-promise-middleware';
 import rootReducer from './reducers';
 
 const initialState = {
-  featureComponent: {
+  landing: {
     isLoading: false,
-    data: {},
-    error: {},
+    isSubmitting: false,
   },
 };
 

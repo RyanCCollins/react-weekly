@@ -29,8 +29,8 @@ const HomeHero = ({
       <Heading tag="h4" align="center">
         Curated React JS content sent to your inbox weekly
       </Heading>
+      {children}
     </Box>
-    {children}
   </Section>
 );
 

@@ -14,10 +14,12 @@ const SubscribeForm = ({
   <Form className={styles.subscribeForm} onSubmit={onSubmit}>
     <Box
       direction="row"
-      justify="around"
+      justify="between"
     >
       <FormField
-        label="Your Email *"
+        size="small"
+        className={styles.formField}
+        label="Email"
         htmlFor="emailInput"
         help="Where should we send the newsletter?"
         error={emailInput.touched && emailInput.error ? emailInput.error : null}
@@ -30,7 +32,7 @@ const SubscribeForm = ({
           {...emailInput}
         />
       </FormField>
-      <Button>
+      <Button primary onClick={(e) => e}>
         Submit
       </Button>
     </Box>
