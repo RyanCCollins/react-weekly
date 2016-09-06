@@ -7,8 +7,10 @@ import Heading from 'grommet/components/Heading';
 import Image from 'grommet/components/Image';
 import ReactLogo from './react-logo.png';
 
-const HomeHero = (props) => (
-  <Section {...props} className={styles.homeHero}>
+const HomeHero = ({
+  children,
+}) => (
+  <Section className={styles.homeHero}>
     <Box
       appCentered
       full
@@ -21,9 +23,19 @@ const HomeHero = (props) => (
         size="small"
         className={styles.mainLogo}
       />
+      <Heading tag="h1" strong align="center">
+        React Weekly
+      </Heading>
+      <Heading tag="h4" align="center">
+        Curated React JS content sent to your inbox weekly
+      </Heading>
     </Box>
+    {children}
   </Section>
 );
 
+HomeHero.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default cssModules(HomeHero, styles);
