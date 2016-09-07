@@ -13,8 +13,8 @@ const HomeHero = ({
   <Section className={styles.homeHero}>
     <Box
       appCentered
-      full
       justify="start"
+      className={styles.noPad}
       align="center"
       pad={{ vertical: 'large' }}
     >

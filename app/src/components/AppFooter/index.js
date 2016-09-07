@@ -8,7 +8,13 @@ import SocialShare from 'grommet/components/SocialShare';
 
 const AppFooter = () => (
   <Footer className={styles.appFooter}>
-    <Box direction="column" align="center" pad="none" responsive className={styles.flexOne}>
+    <Box
+      direction="column"
+      align="center"
+      pad={{ vertical: 'large' }}
+      responsive
+      className={styles.flexOne}
+    >
       <Heading tag="h3">
         React Weekly
       </Heading>

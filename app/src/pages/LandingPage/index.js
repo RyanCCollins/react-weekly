@@ -5,11 +5,11 @@ import { LandingContainer, ContentStreamContainer } from 'containers';
 import { AppFooter } from 'components';
 
 const LandingPage = () => (
-  <div className={styles.container}>
+  <main>
     <LandingContainer />
     <ContentStreamContainer />
     <AppFooter />
-  </div>
+  </main>
 );
 
 export default cssModules(LandingPage, styles);

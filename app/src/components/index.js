@@ -1,4 +1,5 @@
 /* Assemble all components for export */
+export PostTeaser from './PostTeaser';
 export AppFooter from './AppFooter';
 export LoadingIndicator from './LoadingIndicator';
 export SubscribeForm from './SubscribeForm';
