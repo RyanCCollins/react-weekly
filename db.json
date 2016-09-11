@@ -1,1004 +1,1163 @@
 {
-    "posts": [
-      {
-        "id": "bcf40211f89b",
-        "versionId": "8caf81b8db6c",
-        "creatorId": "b062baa1709d",
-        "homeCollectionId": "955bdba6e52f",
-        "title": "Is React.js fast?\nFaster than {framework}?\n\u2026 or are there more relevant questions to be asking?",
-        "detectedLanguage": "en",
-        "latestVersion": "8caf81b8db6c",
-        "latestPublishedVersion": "8caf81b8db6c",
-        "hasUnpublishedEdits": false,
-        "latestRev": 489,
-        "createdAt": 1436649586177,
-        "updatedAt": 1473122145774,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1437068783914,
-        "latestPublishedAt": 1437070399023,
-        "vote": true,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "virtuals": {
-          "statusForCollection": "APPROVED",
-          "createdAtRelative": "a year ago",
-          "updatedAtRelative": "19 hours ago",
-          "acceptedAtRelative": "",
-          "createdAtEnglish": "July 11, 2015",
-          "updatedAtEnglish": "September 5, 2016",
-          "acceptedAtEnglish": "",
-          "firstPublishedAtEnglish": "July 16, 2015",
-          "latestPublishedAtEnglish": "July 16, 2015",
-          "allowNotes": true,
-          "snippet": "I give training in React.js via CodeWinds, and one of the questions I\u2019m often asked is whether it is faster than X?",
-          "previewImage": {
-            "imageId": "1*Qmhtum3UG8KqFTnr6EsuDw.jpeg",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 3008,
-            "originalHeight": 2000,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "wordCount": 833,
-          "imageCount": 1,
-          "readingTime": 3.3433962264151,
-          "subtitle": "I give training in React.js via CodeWinds, and one of the questions I\u2019m often asked is whether it is faster than X?",
-          "userPostRelation": {
-            "userId": "bcc0b1e6ca00",
-            "postId": "bcf40211f89b",
-            "readAt": 1473122776317,
-            "readLaterAddedAt": 0,
-            "votedAt": 1473124205383,
-            "collaboratorAddedAt": 0,
-            "notesAddedAt": 0,
-            "subscribedAt": 0,
-            "lastReadSectionName": "2567",
-            "lastReadVersionId": "8caf81b8db6c",
-            "lastReadAt": 1473125665317,
-            "lastReadParagraphName": "08c5",
-            "lastReadPercentage": 0.23,
-            "viewedAt": 1473182097391,
-            "presentedCountInResponseManagement": 0
-          },
-          "publishedInCount": 1,
-          "usersBySocialRecommends": [
-            {
-              "userId": "25004747627f",
-              "name": "Jed Watson",
-              "username": "jedwatson",
-              "createdAt": 1352525309076,
-              "lastPostCreatedAt": 1463747859094,
-              "imageId": "1*KnY1bXiee6HiHO9ssQGi9Q.png",
-              "backgroundImageId": "",
-              "bio": "Partner at @thethinkmill, Javascript \/ node.js developer, creator of @KeystoneJS and @TouchstoneJS",
-              "twitterScreenName": "JedWatson",
-              "facebookAccountId": "10152684928250856",
-              "allowNotes": 1,
-              "type": "User"
-            },
-            {
-              "userId": "a3a8af6addc1",
-              "name": "Dan Abramov",
-              "username": "dan_abramov",
-              "createdAt": 1345044864387,
-              "lastPostCreatedAt": 1472648137942,
-              "imageId": "1*4ETgx0WkR3WjYU2eC0p3Ew.jpeg",
-              "backgroundImageId": "1*WqkSfqv8cJBVspX36Fb95w.jpeg",
-              "bio": "Making hot reloading mainstream. Created React Hot Loader, Redux, React DnD.",
-              "twitterScreenName": "dan_abramov",
-              "facebookAccountId": "",
-              "allowNotes": 1,
-              "type": "User"
-            }
-          ],
-          "latestPublishedAtAbbreviated": "Jul 16, 2015",
-          "firstPublishedAtAbbreviated": "Jul 16, 2015",
-          "emailSnippet": "The short answer is that React.js is very performant out of the box, even before you start tweaking.\n\nNote that performance is always a tradeoff and one needs to be careful to optimize real use cases (e.g. time to render moderately complex screen) instead of artificial benchmarks (reorder 1000 items).\n\nEven so, React.js has a great performance story. Its component model lets you easily optimize performance bottlenecks without changing the components\u2019 interface.",
-          "recommends": 62,
-          "isBookmarked": false,
-          "tags": [
-            {
-              "slug": "reactjs",
-              "name": "Reactjs",
-              "postCount": 411,
-              "virtuals": {
-                "isFollowing": true
-              },
-              "metadata": {
-                "followerCount": 2020,
-                "postCount": 411,
-                "coverImage": {
-                  "id": "1*etHZ0vk2nDMbSi2AhtmQhA.png",
-                  "originalWidth": 849,
-                  "originalHeight": 507
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "javascript",
-              "name": "JavaScript",
-              "postCount": 14789,
-              "virtuals": {
-                "isFollowing": true
-              },
-              "metadata": {
-                "followerCount": 16498,
-                "postCount": 14789,
-                "coverImage": {
-                  "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-                  "originalWidth": 5100,
-                  "originalHeight": 2264
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "react",
-              "name": "React",
-              "postCount": 2887,
-              "virtuals": {
-                "isFollowing": true
-              },
-              "metadata": {
-                "followerCount": 5726,
-                "postCount": 2887,
-                "coverImage": {
-                  "id": "1*H2YBp63v8UkVpHCWRMkMsw.png",
-                  "originalWidth": 4093,
-                  "originalHeight": 3239
-                }
-              },
-              "type": "Tag"
-            }
-          ],
-          "socialRecommendsCount": 2,
-          "responsesCreatedCount": 3,
-          "links": {
-            "entries": [
-
-            ],
-            "version": "0.3",
-            "generatedAt": 1471932478486
-          },
-          "isLockedPreviewOnly": false
-        },
-        "coverless": true,
-        "slug": "is-react-js-fast-faster-than-framework-or-are-there-more-relevant-questions-to-be-asking",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "is-react-js-fast-faster-than-framework-or-are-there-more-relevant-questions-to-be-asking-bcf40211f89b",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
-              {
-                "name": "3ea4",
-                "type": 4,
-                "text": "",
-                "layout": 10,
-                "metadata": {
-                  "id": "1*Qmhtum3UG8KqFTnr6EsuDw.jpeg",
-                  "originalWidth": 3008,
-                  "originalHeight": 2000
-                }
-              },
-              {
-                "name": "a020",
-                "type": 3,
-                "text": "Is React.js fast? Faster than {framework}?\n\u2026 or are there more relevant questions to be asking?",
-                "markups": [
-
-                ],
-                "alignment": 1
-              }
-            ],
-            "sections": [
-              {
-                "startIndex": 0
-              }
-            ]
-          },
-          "isFullContent": false
-        },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "955bdba6e52f",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": false,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "type": "Post"
+  "posts": [{
+    "id": "69e7feb69e",
+    "versionId": "4999b7576f17",
+    "creatorId": "4203600aacc7",
+    "homeCollectionId": "955bdba6e52f",
+    "title": "Never `import React from ‘react’` again, thanks to Webpack’s ProvidePlugin",
+    "detectedLanguage": "en",
+    "latestVersion": "4999b7576f17",
+    "latestPublishedVersion": "4999b7576f17",
+    "hasUnpublishedEdits": false,
+    "latestRev": 620,
+    "createdAt": 1450977298525,
+    "updatedAt": 1473539216691,
+    "acceptedAt": 0,
+    "firstPublishedAt": 1451068706660,
+    "latestPublishedAt": 1451068706660,
+    "vote": true,
+    "experimentalCss": "",
+    "displayAuthor": "",
+    "virtuals": {
+      "statusForCollection": "APPROVED",
+      "createdAtRelative": "9 months ago",
+      "updatedAtRelative": "5 hours ago",
+      "acceptedAtRelative": "",
+      "createdAtEnglish": "December 24, 2015",
+      "updatedAtEnglish": "September 10, 2016",
+      "acceptedAtEnglish": "",
+      "firstPublishedAtEnglish": "December 25, 2015",
+      "latestPublishedAtEnglish": "December 25, 2015",
+      "allowNotes": true,
+      "snippet": "How many times a day do you write this import statement?",
+      "previewImage": {
+        "imageId": "",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 0,
+        "originalHeight": 0,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
       },
-      {
-        "id": "e17e8bcc6453",
-        "versionId": "896a9d631811",
-        "creatorId": "f21a05e7ec5b",
-        "homeCollectionId": "955bdba6e52f",
-        "title": "Code Chunking with Webpack \u2014 A pragmatic approach",
-        "detectedLanguage": "en",
-        "latestVersion": "896a9d631811",
-        "latestPublishedVersion": "896a9d631811",
-        "hasUnpublishedEdits": false,
-        "latestRev": 873,
-        "createdAt": 1472921517429,
-        "updatedAt": 1473186105525,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1472940615060,
-        "latestPublishedAt": 1473186105525,
-        "vote": true,
-        "experimentalCss": "",
-        "displayAuthor": "",
-        "virtuals": {
-          "statusForCollection": "APPROVED",
-          "createdAtRelative": "3 days ago",
-          "updatedAtRelative": "an hour ago",
-          "acceptedAtRelative": "",
-          "createdAtEnglish": "September 3, 2016",
-          "updatedAtEnglish": "September 6, 2016",
-          "acceptedAtEnglish": "",
-          "firstPublishedAtEnglish": "September 3, 2016",
-          "latestPublishedAtEnglish": "September 6, 2016",
-          "allowNotes": true,
-          "snippet": "Ever since the inception of client side JS taking control of the web, we have observed a hefty amount of JS being written or included in\u2026",
-          "previewImage": {
-            "imageId": "1*s7zJmbewKLwHfGnyxQleCw.jpeg",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 852,
-            "originalHeight": 563,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "wordCount": 1313,
-          "imageCount": 8,
-          "readingTime": 6.0880503144654,
-          "subtitle": "Ever since the inception of client side JS taking control of the web, we have observed a hefty amount of JS being written or included in\u2026",
-          "userPostRelation": {
-            "userId": "bcc0b1e6ca00",
-            "postId": "e17e8bcc6453",
-            "readAt": 1473108840907,
-            "readLaterAddedAt": 0,
-            "votedAt": 1473124207603,
-            "collaboratorAddedAt": 0,
-            "notesAddedAt": 0,
-            "subscribedAt": 0,
-            "lastReadSectionName": "ed0c",
-            "lastReadVersionId": "4cbb24313cf",
-            "lastReadAt": 1473108832350,
-            "lastReadParagraphName": "7c07",
-            "lastReadPercentage": 0.56,
-            "viewedAt": 1473108825308,
-            "presentedCountInResponseManagement": 0
-          },
-          "publishedInCount": 1,
-          "usersBySocialRecommends": [
-
-          ],
-          "latestPublishedAtAbbreviated": "Sep 6",
-          "firstPublishedAtAbbreviated": "Sep 3",
-          "emailSnippet": "our web apps. Gone are the times when our servers used to render the html for our web apps (although they\u2019re used for initial server side rendering). Today we need more out of our web apps like lazy loading of data through Ajax, cool animations, app state management, routing, infinite scrolling and many more.\n\nAll of these things mentioned require a decent amount of work on JavaScript by a front-end developer.",
-          "recommends": 16,
-          "isBookmarked": false,
-          "tags": [
-            {
-              "slug": "javascript",
-              "name": "JavaScript",
-              "postCount": 14789,
-              "virtuals": {
-                "isFollowing": true
-              },
-              "metadata": {
-                "followerCount": 16498,
-                "postCount": 14789,
-                "coverImage": {
-                  "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-                  "originalWidth": 5100,
-                  "originalHeight": 2264
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "react",
-              "name": "React",
-              "postCount": 2887,
-              "virtuals": {
-                "isFollowing": true
-              },
-              "metadata": {
-                "followerCount": 5726,
-                "postCount": 2887,
-                "coverImage": {
-                  "id": "1*H2YBp63v8UkVpHCWRMkMsw.png",
-                  "originalWidth": 4093,
-                  "originalHeight": 3239
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "webpack",
-              "name": "Webpack",
-              "postCount": 318,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 559,
-                "postCount": 318,
-                "coverImage": {
-                  "id": "1*s7zJmbewKLwHfGnyxQleCw.jpeg",
-                  "originalWidth": 852,
-                  "originalHeight": 563
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "chunking",
-              "name": "Chunking",
-              "postCount": 6,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 0,
-                "postCount": 6,
-                "coverImage": {
-                  "id": "1*s7zJmbewKLwHfGnyxQleCw.jpeg",
-                  "originalWidth": 852,
-                  "originalHeight": 563
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "code",
-              "name": "Code",
-              "postCount": 1344,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 543,
-                "postCount": 1344,
-                "coverImage": {
-                  "id": "1*ZjR44NK7DEIMlcfDcU6Lwg.jpeg",
-                  "originalWidth": 525,
-                  "originalHeight": 350
-                }
-              },
-              "type": "Tag"
-            }
-          ],
-          "socialRecommendsCount": 0,
-          "responsesCreatedCount": 0,
-          "links": {
-            "entries": [
-
-            ],
-            "version": "0.3",
-            "generatedAt": 1473186107179
-          },
-          "isLockedPreviewOnly": false
-        },
-        "coverless": true,
-        "slug": "code-chunking-with-webpack-a-pragmatic-approach",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "code-chunking-with-webpack-a-pragmatic-approach-e17e8bcc6453",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
-              {
-                "name": "previewImage",
-                "type": 4,
-                "text": "",
-                "layout": 10,
-                "metadata": {
-                  "id": "1*s7zJmbewKLwHfGnyxQleCw.jpeg",
-                  "originalWidth": 852,
-                  "originalHeight": 563
-                }
-              },
-              {
-                "name": "previewTitle",
-                "type": 3,
-                "text": "Code Chunking with Webpack \u2014 A pragmatic approach",
-                "alignment": 1
-              },
-              {
-                "name": "previewSubtitle",
-                "type": 13,
-                "text": "Ever since the inception of client side JS taking\u2026",
-                "alignment": 1
-              }
-            ],
-            "sections": [
-              {
-                "startIndex": 0
-              }
-            ]
-          },
-          "isFullContent": false
-        },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "955bdba6e52f",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": true,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "type": "Post"
+      "wordCount": 179,
+      "imageCount": 0,
+      "readingTime": 0.6754716981132075,
+      "subtitle": "How many times a day do you write this import statement?",
+      "userPostRelation": {
+        "userId": "bcc0b1e6ca00",
+        "postId": "69e7feb69e",
+        "readAt": 1473539215529,
+        "readLaterAddedAt": 0,
+        "votedAt": 1473539226952,
+        "collaboratorAddedAt": 0,
+        "notesAddedAt": 0,
+        "subscribedAt": 0,
+        "lastReadSectionName": "94ec",
+        "lastReadVersionId": "4999b7576f17",
+        "lastReadAt": 1473539222545,
+        "lastReadParagraphName": "ac28",
+        "lastReadPercentage": 0.36,
+        "viewedAt": 1473539215525,
+        "presentedCountInResponseManagement": 0
       },
-      {
-        "id": "dc04e3f08543",
-        "versionId": "b8991f60d243",
-        "creatorId": "bcc0b1e6ca00",
-        "homeCollectionId": "955bdba6e52f",
-        "title": "Embracing Immutable Architecture",
-        "detectedLanguage": "en",
-        "latestVersion": "b8991f60d243",
-        "latestPublishedVersion": "b8991f60d243",
-        "hasUnpublishedEdits": false,
-        "latestRev": 708,
-        "createdAt": 1472837938612,
-        "updatedAt": 1473026018431,
-        "acceptedAt": 0,
-        "firstPublishedAt": 1472840701889,
-        "latestPublishedAt": 1472998018739,
-        "vote": true,
-        "experimentalCss": "",
-        "displayAuthor": "",
+      "publishedInCount": 1,
+      "usersBySocialRecommends": [{
+        "userId": "db72389e89d8",
+        "name": "Kent C. Dodds",
+        "username": "kentcdodds",
+        "createdAt": 1405196275178,
+        "lastPostCreatedAt": 1472830110725,
+        "imageId": "1*9ZtET_L1852yXaDZJUo9CQ.png",
+        "backgroundImageId": "1*hdH7rcHHJNGyaTinPNyaOQ.jpeg",
+        "bio": "Mormon, Husband, Father, Speaker, Trainer, Google Developer Expert (GDE) • #JavaScript #NodeJS #ReactJS @PayPalEng @eggheadio @JavaScriptAir",
+        "twitterScreenName": "kentcdodds",
+        "facebookAccountId": "",
+        "allowNotes": 1,
+        "type": "User"
+      }, {
+        "userId": "fd8bc37755d8",
+        "name": "Oliver Cameron",
+        "username": "olivercameron",
+        "createdAt": 1348174315686,
+        "lastPostCreatedAt": 1473466399120,
+        "imageId": "1*zvOx6djvbEwXn2hChmSVeA.png",
+        "backgroundImageId": "0*pwmz5LduQHV6wAn-.jpeg",
+        "bio": "VP, Engineering & Product at @Udacity. oliver@udacity.com",
+        "twitterScreenName": "olivercameron",
+        "facebookAccountId": "523727341118558",
+        "allowNotes": 1,
+        "type": "User"
+      }],
+      "latestPublishedAtAbbreviated": "Dec 25, 2015",
+      "firstPublishedAtAbbreviated": "Dec 25, 2015",
+      "emailSnippet": "Or this guy?\n\nA few weeks ago, a colleague at Udacity showed me a trick that eliminates the need for repetitive import statements in your code. The magic starts on line 18, with Webpack’s ProvidePlugin:\n\nWhen Webpack builds your JavaScript, it will load the ‘react’ module whenever the identifier ‘React’ is declared in your code. So now you can use:\n\n…without having to import ‘react’ explicitly at the top of your component file.",
+      "recommends": 225,
+      "isBookmarked": false,
+      "tags": [{
+        "slug": "javascript",
+        "name": "JavaScript",
+        "postCount": 15050,
         "virtuals": {
-          "statusForCollection": "APPROVED",
-          "createdAtRelative": "4 days ago",
-          "updatedAtRelative": "2 days ago",
-          "acceptedAtRelative": "",
-          "createdAtEnglish": "September 2, 2016",
-          "updatedAtEnglish": "September 4, 2016",
-          "acceptedAtEnglish": "",
-          "firstPublishedAtEnglish": "September 2, 2016",
-          "latestPublishedAtEnglish": "September 4, 2016",
-          "allowNotes": true,
-          "snippet": "I believe as a community, many of us JavaScript engineers have embraced Immutable Architecture. Whether we realize it or not, a new way of\u2026",
-          "previewImage": {
-            "imageId": "1*De-cn--751z3cHRlMiXJDw.png",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 934,
-            "originalHeight": 531,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "wordCount": 1144,
-          "imageCount": 1,
-          "readingTime": 4.5169811320755,
-          "subtitle": "I believe as a community, many of us JavaScript engineers have embraced Immutable Architecture. Whether we realize it or not, a new way of\u2026",
-          "userPostRelation": {
-            "userId": "bcc0b1e6ca00",
-            "postId": "dc04e3f08543",
-            "readAt": 1473004245428,
-            "readLaterAddedAt": 0,
-            "votedAt": 1472895834011,
-            "collaboratorAddedAt": 0,
-            "notesAddedAt": 0,
-            "subscribedAt": 0,
-            "lastReadSectionName": "03ed",
-            "lastReadVersionId": "b8991f60d243",
-            "lastReadAt": 1473157257337,
-            "lastReadParagraphName": "5353",
-            "lastReadPercentage": 0.98,
-            "viewedAt": 1473175384073,
-            "presentedCountInResponseManagement": 0
-          },
-          "publishedInCount": 1,
-          "usersBySocialRecommends": [
-            {
-              "userId": "8f95ee1a7c46",
-              "name": "Gabriele Cimato",
-              "username": "gabriele.cimato",
-              "createdAt": 1455220102222,
-              "lastPostCreatedAt": 1471837044536,
-              "imageId": "0*Z-Q502YtRJo-g2A7.jpg",
-              "backgroundImageId": "",
-              "bio": "",
-              "twitterScreenName": "",
-              "facebookAccountId": "",
-              "allowNotes": 1,
-              "type": "User"
-            },
-            {
-              "userId": "756fa112f0f9",
-              "name": "Mikael M",
-              "username": "mikaelm1013",
-              "createdAt": 1471634800405,
-              "lastPostCreatedAt": 1471634931673,
-              "imageId": "0*oMcR6WWTkscPo4pr.png",
-              "backgroundImageId": "",
-              "bio": "",
-              "twitterScreenName": "mm3981",
-              "facebookAccountId": "",
-              "allowNotes": 1,
-              "type": "User"
-            }
-          ],
-          "latestPublishedAtAbbreviated": "Sep 4",
-          "firstPublishedAtAbbreviated": "Sep 2",
-          "emailSnippet": "building apps has crept into the mainstream JavaScript ecosystem and it is here to stay.\n\nWhat is Immutable Architecture, anyways?\n\nTo understand immutable architecture, we need to first understand state. State, an evil source of complexity in any software, is the characteristic of a value. According to Miriam Webster, state is defined as \u201cthe particular condition that someone or something is in at a specific time.\u201d",
-          "recommends": 24,
-          "isBookmarked": false,
-          "tags": [
-            {
-              "slug": "javascript",
-              "name": "JavaScript",
-              "postCount": 14789,
-              "virtuals": {
-                "isFollowing": true
-              },
-              "metadata": {
-                "followerCount": 16498,
-                "postCount": 14789,
-                "coverImage": {
-                  "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-                  "originalWidth": 5100,
-                  "originalHeight": 2264
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "react",
-              "name": "React",
-              "postCount": 2887,
-              "virtuals": {
-                "isFollowing": true
-              },
-              "metadata": {
-                "followerCount": 5726,
-                "postCount": 2887,
-                "coverImage": {
-                  "id": "1*H2YBp63v8UkVpHCWRMkMsw.png",
-                  "originalWidth": 4093,
-                  "originalHeight": 3239
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "immutable-infrastructure",
-              "name": "Immutable Infrastructure",
-              "postCount": 4,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 2,
-                "postCount": 4,
-                "coverImage": {
-                  "id": "1*De-cn--751z3cHRlMiXJDw.png",
-                  "originalWidth": 934,
-                  "originalHeight": 531
-                }
-              },
-              "type": "Tag"
-            },
-            {
-              "slug": "functional-programming",
-              "name": "Functional Programming",
-              "postCount": 971,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 2547,
-                "postCount": 971,
-                "coverImage": {
-                  "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-                  "originalWidth": 5100,
-                  "originalHeight": 2264
-                }
-              },
-              "type": "Tag"
-            }
-          ],
-          "socialRecommendsCount": 2,
-          "responsesCreatedCount": 0,
-          "links": {
-            "entries": [
-              {
-                "url": "https:\/\/vimeo.com\/166790294",
-                "alts": [
-                  {
-                    "type": 3,
-                    "url": "vimeo:\/\/app.vimeo.com\/videos\/166790294"
-                  },
-                  {
-                    "type": 2,
-                    "url": "vimeo:\/\/app.vimeo.com\/videos\/166790294"
-                  }
-                ]
-              },
-              {
-                "url": "https:\/\/medium.com\/@housecor\/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc#.wsv7amxfq",
-                "alts": [
-                  {
-                    "type": 2,
-                    "url": "medium:\/\/p\/997b0d933dbc"
-                  },
-                  {
-                    "type": 3,
-                    "url": "medium:\/\/p\/997b0d933dbc"
-                  }
-                ]
-              },
-              {
-                "url": "https:\/\/medium.com\/search?q=immutable%20architecture",
-                "alts": [
-                  {
-                    "type": 2,
-                    "url": "medium:\/\/search"
-                  },
-                  {
-                    "type": 3,
-                    "url": "medium:\/\/search"
-                  }
-                ]
-              },
-              {
-                "url": "https:\/\/medium.com\/search?q=functional%20javascript",
-                "alts": [
-                  {
-                    "type": 2,
-                    "url": "medium:\/\/search"
-                  },
-                  {
-                    "type": 3,
-                    "url": "medium:\/\/search"
-                  }
-                ]
-              }
-            ],
-            "version": "0.3",
-            "generatedAt": 1472998022044
-          },
-          "isLockedPreviewOnly": false
+          "isFollowing": true
         },
-        "coverless": true,
-        "slug": "embracing-immutable-architecture",
-        "translationSourcePostId": "",
-        "translationSourceCreatorId": "",
-        "isApprovedTranslation": false,
-        "inResponseToPostId": "",
-        "inResponseToRemovedAt": 0,
-        "isTitleSynthesized": true,
-        "allowResponses": true,
-        "importedUrl": "",
-        "importedPublishedAt": 0,
-        "visibility": 0,
-        "uniqueSlug": "embracing-immutable-architecture-dc04e3f08543",
-        "previewContent": {
-          "bodyModel": {
-            "paragraphs": [
-              {
-                "name": "3d3b",
-                "type": 4,
-                "text": "",
-                "markups": [
-
-                ],
-                "layout": 9,
-                "metadata": {
-                  "id": "1*De-cn--751z3cHRlMiXJDw.png",
-                  "originalWidth": 934,
-                  "originalHeight": 531
-                }
-              },
-              {
-                "name": "a993",
-                "type": 3,
-                "text": "Embracing Immutable Architecture",
-                "markups": [
-
-                ],
-                "alignment": 1
-              },
-              {
-                "name": "bd57",
-                "type": 1,
-                "text": "I believe as a community, many of us JavaScript engineers have embraced Immutable Architecture\u2026",
-                "markups": [
-
-                ],
-                "alignment": 1
-              }
-            ],
-            "sections": [
-              {
-                "startIndex": 0
-              }
-            ]
-          },
-          "isFullContent": false
+        "metadata": {
+          "followerCount": 16742,
+          "postCount": 15050,
+          "coverImage": {
+            "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+            "originalWidth": 5100,
+            "originalHeight": 2264
+          }
         },
-        "license": 0,
-        "inResponseToMediaResourceId": "",
-        "canonicalUrl": "",
-        "approvedHomeCollectionId": "955bdba6e52f",
-        "newsletterId": "",
-        "webCanonicalUrl": "",
-        "mediumUrl": "",
-        "migrationId": "",
-        "notifyFollowers": true,
-        "notifyTwitter": true,
-        "isSponsored": false,
-        "isRequestToPubDisabled": false,
-        "notifyFacebook": false,
-        "type": "Post"
-      }
-    ],
-    "writerNames": [
-      "gabriele.cimato",
-      "jeffbski",
-      "paramsingh_66174"
-    ],
-    "tagName": {},
-    "references": {
-      "User": {
-        "bcc0b1e6ca00": {
-          "userId": "bcc0b1e6ca00",
-          "name": "Ryan Collins",
-          "username": "ryancollinsio",
-          "createdAt": 1457157779447,
-          "lastPostCreatedAt": 1472938713957,
-          "imageId": "0*YnFnlAO5FsAdP7LI.jpg",
-          "backgroundImageId": "",
-          "bio": "Hi, I'm Ryan. I\u2019m a software engineer working on the web and mobile platforms. I am a geek for React. http:\/\/www.ryancollins.io\/#\/portfolio",
-          "twitterScreenName": "ryancollinsio",
-          "facebookAccountId": "",
-          "allowNotes": 1,
-          "type": "User"
+        "type": "Tag"
+      }, {
+        "slug": "react",
+        "name": "React",
+        "postCount": 2930,
+        "virtuals": {
+          "isFollowing": true
         },
-        "b062baa1709d": {
-          "userId": "b062baa1709d",
-          "name": "Jeff Barczewski",
-          "username": "jeffbski",
-          "createdAt": 1395675753140,
-          "lastPostCreatedAt": 1469825798406,
-          "imageId": "0*VTTZCnfLcxFvgQQR.JPG",
-          "backgroundImageId": "",
-          "bio": "Fullstack Web Developer, Node.js, Javascript, HTML5, Trainer, Publisher, Entrepreneur, Husband, Father, Genesis Ministry, Catholic Renewal, Skier, Conservative",
-          "twitterScreenName": "jeffbski",
-          "facebookAccountId": "",
-          "allowNotes": 1,
-          "type": "User"
+        "metadata": {
+          "followerCount": 5843,
+          "postCount": 2930,
+          "coverImage": {
+            "id": "1*Pc1PEUdlE22tyBR-s2ziSQ.png",
+            "originalWidth": 1974,
+            "originalHeight": 1700
+          }
         },
-        "f21a05e7ec5b": {
-          "userId": "f21a05e7ec5b",
-          "name": "Param Singh",
-          "username": "paramsingh_66174",
-          "createdAt": 1443366277806,
-          "lastPostCreatedAt": 1472971777322,
-          "imageId": "0*d3ML_mBrORTXjhUK.jpg",
-          "backgroundImageId": "",
-          "bio": "",
-          "twitterScreenName": "psvalent88",
-          "facebookAccountId": "1149140838447897",
-          "allowNotes": 1,
-          "type": "User"
-        }
+        "type": "Tag"
+      }, {
+        "slug": "webpack",
+        "name": "Webpack",
+        "postCount": 327,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 587,
+          "postCount": 327,
+          "coverImage": {
+            "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
+            "originalWidth": 5101,
+            "originalHeight": 3239
+          }
+        },
+        "type": "Tag"
+      }],
+      "socialRecommendsCount": 2,
+      "responsesCreatedCount": 16,
+      "links": {
+        "entries": [],
+        "version": "0.3",
+        "generatedAt": 1471965381802
       },
-      "Collection": {
-        "955bdba6e52f": {
-          "id": "955bdba6e52f",
-          "name": "React Weekly",
-          "slug": "react-weekly",
-          "tags": [
-            "REACT",
-            "FRONT END DEVELOPMENT"
-          ],
-          "creatorId": "bcc0b1e6ca00",
-          "description": "A curation of the best React JS related content",
-          "shortDescription": "A curation of the best React JS related content",
-          "image": {
-            "imageId": "1*P_eK-3UjU-DKaoRSWyrYXg.png",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 706,
-            "originalHeight": 706,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
+      "isLockedPreviewOnly": false
+    },
+    "coverless": true,
+    "slug": "never-import-react-from-react-again-thanks-to-webpack-s-provideplugin",
+    "translationSourcePostId": "",
+    "translationSourceCreatorId": "",
+    "isApprovedTranslation": false,
+    "inResponseToPostId": "",
+    "inResponseToRemovedAt": 0,
+    "isTitleSynthesized": true,
+    "allowResponses": true,
+    "importedUrl": "",
+    "importedPublishedAt": 0,
+    "visibility": 0,
+    "uniqueSlug": "never-import-react-from-react-again-thanks-to-webpack-s-provideplugin-69e7feb69e",
+    "previewContent": {
+      "bodyModel": {
+        "paragraphs": [{
+          "name": "c728",
+          "type": 3,
+          "text": "Never `import React from ‘react’` again, thanks to Webpack’s ProvidePlugin",
+          "markups": [],
+          "alignment": 1
+        }, {
+          "name": "9f44",
+          "type": 1,
+          "text": "How many times a day do you write this import statement?",
+          "markups": [],
+          "alignment": 1
+        }, {
+          "name": "1cbc",
+          "type": 8,
+          "text": "import React from ‘react’",
+          "markups": [],
+          "alignment": 1
+        }, {
+          "name": "52e8",
+          "type": 1,
+          "text": "Or this guy?",
+          "markups": [],
+          "alignment": 1
+        }, {
+          "name": "0233",
+          "type": 8,
+          "text": "import ReactDOM from ‘react…",
+          "markups": [],
+          "alignment": 1
+        }],
+        "sections": [{
+          "startIndex": 0
+        }]
+      },
+      "isFullContent": false
+    },
+    "license": 0,
+    "inResponseToMediaResourceId": "",
+    "canonicalUrl": "",
+    "approvedHomeCollectionId": "955bdba6e52f",
+    "newsletterId": "",
+    "webCanonicalUrl": "",
+    "mediumUrl": "",
+    "migrationId": "",
+    "notifyFollowers": true,
+    "notifyTwitter": false,
+    "isSponsored": false,
+    "isRequestToPubDisabled": false,
+    "notifyFacebook": false,
+    "responseHiddenOnParentPostAt": 0,
+    "type": "Post"
+  }, {
+    "id": "ec0b3e3c8786",
+    "versionId": "4bc9f3e6c8db",
+    "creatorId": "4dc5a695cbc3",
+    "homeCollectionId": "955bdba6e52f",
+    "title": "Building a React & MobX application with MVVM",
+    "detectedLanguage": "en",
+    "latestVersion": "4bc9f3e6c8db",
+    "latestPublishedVersion": "4bc9f3e6c8db",
+    "hasUnpublishedEdits": false,
+    "latestRev": 1209,
+    "createdAt": 1471897014245,
+    "updatedAt": 1473536310050,
+    "acceptedAt": 0,
+    "firstPublishedAt": 1472311630067,
+    "latestPublishedAt": 1472490458449,
+    "vote": true,
+    "experimentalCss": "",
+    "displayAuthor": "",
+    "virtuals": {
+      "statusForCollection": "APPROVED",
+      "createdAtRelative": "19 days ago",
+      "updatedAtRelative": "6 hours ago",
+      "acceptedAtRelative": "",
+      "createdAtEnglish": "August 22, 2016",
+      "updatedAtEnglish": "September 10, 2016",
+      "acceptedAtEnglish": "",
+      "firstPublishedAtEnglish": "August 27, 2016",
+      "latestPublishedAtEnglish": "August 29, 2016",
+      "allowNotes": true,
+      "snippet": "Today, we’ll deep dive into building a full TodoEditor with MobX and React, starting from the basics and ending with some considerations.",
+      "previewImage": {
+        "imageId": "1*gDZgHB7KYr44WG442p5BBw.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 823,
+        "originalHeight": 386,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "wordCount": 1095,
+      "imageCount": 2,
+      "readingTime": 4.515408805031447,
+      "subtitle": "Today, we’ll deep dive into building a full TodoEditor with MobX and React, starting from the basics and ending with some considerations.",
+      "userPostRelation": {
+        "userId": "bcc0b1e6ca00",
+        "postId": "ec0b3e3c8786",
+        "readAt": 1473536305612,
+        "readLaterAddedAt": 0,
+        "votedAt": 1473532552726,
+        "collaboratorAddedAt": 0,
+        "notesAddedAt": 0,
+        "subscribedAt": 0,
+        "lastReadSectionName": "657f",
+        "lastReadVersionId": "4bc9f3e6c8db",
+        "lastReadAt": 1473536308146,
+        "lastReadParagraphName": "553d",
+        "lastReadPercentage": 0.91,
+        "viewedAt": 1473536641791,
+        "presentedCountInResponseManagement": 0
+      },
+      "publishedInCount": 1,
+      "usersBySocialRecommends": [],
+      "latestPublishedAtAbbreviated": "Aug 29",
+      "firstPublishedAtAbbreviated": "Aug 27",
+      "emailSnippet": "Here you’ll find the entire code repo! \nhttps://github.com/mattiamanzati/react-mobx-todo-editor\n\nFinding a JavaScript editor\n\nFirst of all, you will obviously need any text editor to edit your JavaScript code. I recommend using VSCode, an OpenSource JavaScript editor supported by Microsoft. Give it a shoot, it’s great!\n\nSetting up the build environment\n\nSetting up the full stack build environment for a React application could be tedious, but fortunately facebook published a create-react-app…",
+      "recommends": 11,
+      "isBookmarked": false,
+      "tags": [{
+        "slug": "webpack",
+        "name": "Webpack",
+        "postCount": 327,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 587,
+          "postCount": 327,
+          "coverImage": {
+            "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
+            "originalWidth": 5101,
+            "originalHeight": 3239
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "javascript",
+        "name": "JavaScript",
+        "postCount": 15050,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 16742,
+          "postCount": 15050,
+          "coverImage": {
+            "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+            "originalWidth": 5100,
+            "originalHeight": 2264
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "mobx",
+        "name": "Mobx",
+        "postCount": 21,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 44,
+          "postCount": 21,
+          "coverImage": {
+            "id": "1*aeQ1HHwsHUCynkS_Emir8A.png",
+            "originalWidth": 400,
+            "originalHeight": 711
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "babeljs",
+        "name": "Babeljs",
+        "postCount": 64,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 152,
+          "postCount": 64,
+          "coverImage": {
+            "id": "1*5rhtsSpxx8iL1Gm8FnG0YA.jpeg",
+            "originalWidth": 2133,
+            "originalHeight": 1600
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "react",
+        "name": "React",
+        "postCount": 2930,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 5843,
+          "postCount": 2930,
+          "coverImage": {
+            "id": "1*Pc1PEUdlE22tyBR-s2ziSQ.png",
+            "originalWidth": 1974,
+            "originalHeight": 1700
+          }
+        },
+        "type": "Tag"
+      }],
+      "socialRecommendsCount": 0,
+      "responsesCreatedCount": 2,
+      "links": {
+        "entries": [],
+        "version": "0.3",
+        "generatedAt": 1472490459073
+      },
+      "isLockedPreviewOnly": false
+    },
+    "coverless": true,
+    "slug": "building-a-react-mobx-application-with-mvvm",
+    "translationSourcePostId": "",
+    "translationSourceCreatorId": "",
+    "isApprovedTranslation": false,
+    "inResponseToPostId": "",
+    "inResponseToRemovedAt": 0,
+    "isTitleSynthesized": true,
+    "allowResponses": true,
+    "importedUrl": "",
+    "importedPublishedAt": 0,
+    "visibility": 0,
+    "uniqueSlug": "building-a-react-mobx-application-with-mvvm-ec0b3e3c8786",
+    "previewContent": {
+      "bodyModel": {
+        "paragraphs": [{
+          "name": "a548",
+          "type": 4,
+          "text": "",
+          "markups": [],
+          "layout": 9,
           "metadata": {
-            "followerCount": 12,
-            "postCount": 0,
-            "activeAt": 1473122145775
-          },
-          "virtuals": {
-            "permissions": {
-              "canPublish": true,
-              "canPublishAll": true,
-              "canRepublish": true,
-              "canRemove": true,
-              "canManageAll": true,
-              "canSubmit": true,
-              "canEditPosts": true,
-              "canAddWriters": true,
-              "canViewStats": true,
-              "canSendNewsletter": true,
-              "canViewLockedPosts": true,
-              "canViewCloaked": true,
-              "canEditOwnPosts": true,
-              "canBeAssignedAuthor": true
-            },
-            "isSubscribed": true,
-            "isNewsletterSubscribed": false,
-            "memberOfMembershipPlanId": ""
-          },
-          "logo": {
-            "imageId": "1*rIX850fVMZJpjtsIiPu_LQ.png",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 2564,
-            "originalHeight": 706,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "twitterUsername": "react_weekly",
-          "sections": [
-            {
-              "type": 2,
-              "collectionHeaderMetadata": {
-                "title": "React Weekly",
-                "description": "The best React resources and news",
-                "backgroundImage": {
-                  "id": "1*VJitwTnFqxgb55QCf8PjJw.png",
-                  "originalWidth": 3600,
-                  "originalHeight": 2000,
-                  "focusPercentX": 50.357142857143,
-                  "focusPercentY": 48.076923076923
-                },
-                "logoImage": {
-
-                },
-                "alignment": 2,
-                "layout": 6
-              }
-            },
-            {
-              "type": 1,
-              "postListMetadata": {
-                "source": 1,
-                "layout": 6,
-                "number": 10,
-                "postIds": [
-
-                ]
-              }
-            },
-            {
-              "type": 1,
-              "postListMetadata": {
-                "source": 2,
-                "layout": 4,
-                "number": 3,
-                "postIds": [
-
-                ]
-              }
-            }
-          ],
-          "favicon": {
-            "imageId": "",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 0,
-            "originalHeight": 0,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "colorPalette": {
-            "defaultBackgroundSpectrum": {
-              "colorPoints": [
-                {
-                  "color": "#FF02B875",
-                  "point": 0
-                },
-                {
-                  "color": "#FF00AB6B",
-                  "point": 0.1
-                },
-                {
-                  "color": "#FF1C9963",
-                  "point": 0.2
-                },
-                {
-                  "color": "#FF092E20",
-                  "point": 1
-                }
-              ],
-              "backgroundColor": "#FFFFFFFF"
-            },
-            "highlightSpectrum": {
-              "colorPoints": [
-                {
-                  "color": "#FFFFFFFF",
-                  "point": 0
-                },
-                {
-                  "color": "#FFE9FDF0",
-                  "point": 0.1
-                },
-                {
-                  "color": "#FFE2FAEE",
-                  "point": 0.2
-                },
-                {
-                  "color": "#FFADFFCF",
-                  "point": 0.6
-                },
-                {
-                  "color": "#FF7DFFB3",
-                  "point": 1
-                }
-              ],
-              "backgroundColor": "#FFFFFFFF"
-            }
-          },
-          "navItems": [
-
-          ],
-          "fullTextRssFeed": 0,
-          "colorBehavior": 1,
-          "instantArticlesState": 0,
-          "acceleratedMobilePagesState": 0,
-          "ampLogo": {
-            "imageId": "",
-            "filter": "",
-            "backgroundSize": "",
-            "originalWidth": 0,
-            "originalHeight": 0,
-            "strategy": "resample",
-            "height": 0,
-            "width": 0
-          },
-          "type": "Collection"
-        }
-      }
-    }
+            "id": "1*gDZgHB7KYr44WG442p5BBw.png",
+            "originalWidth": 823,
+            "originalHeight": 386
+          }
+        }, {
+          "name": "ea29",
+          "type": 3,
+          "text": "Building a React & MobX application with MVVM",
+          "markups": [],
+          "alignment": 1
+        }, {
+          "name": "5094",
+          "type": 1,
+          "text": "Today, we’ll deep dive into building a full TodoEditor with MobX and React…",
+          "markups": [],
+          "alignment": 1
+        }],
+        "sections": [{
+          "startIndex": 0
+        }]
+      },
+      "isFullContent": false
+    },
+    "license": 0,
+    "inResponseToMediaResourceId": "",
+    "canonicalUrl": "",
+    "approvedHomeCollectionId": "955bdba6e52f",
+    "newsletterId": "",
+    "webCanonicalUrl": "",
+    "mediumUrl": "",
+    "migrationId": "",
+    "notifyFollowers": true,
+    "notifyTwitter": true,
+    "isSponsored": false,
+    "isRequestToPubDisabled": false,
+    "notifyFacebook": false,
+    "responseHiddenOnParentPostAt": 0,
+    "type": "Post"
+  }, {
+    "id": "bcf40211f89b",
+    "versionId": "8caf81b8db6c",
+    "creatorId": "b062baa1709d",
+    "homeCollectionId": "955bdba6e52f",
+    "title": "Is React.js fast?\nFaster than {framework}?\n… or are there more relevant questions to be asking?",
+    "detectedLanguage": "en",
+    "latestVersion": "8caf81b8db6c",
+    "latestPublishedVersion": "8caf81b8db6c",
+    "hasUnpublishedEdits": false,
+    "latestRev": 489,
+    "createdAt": 1436649586177,
+    "updatedAt": 1473122145774,
+    "acceptedAt": 0,
+    "firstPublishedAt": 1437068783914,
+    "latestPublishedAt": 1437070399023,
+    "vote": true,
+    "experimentalCss": "",
+    "displayAuthor": "",
+    "virtuals": {
+      "statusForCollection": "APPROVED",
+      "createdAtRelative": "a year ago",
+      "updatedAtRelative": "5 days ago",
+      "acceptedAtRelative": "",
+      "createdAtEnglish": "July 11, 2015",
+      "updatedAtEnglish": "September 5, 2016",
+      "acceptedAtEnglish": "",
+      "firstPublishedAtEnglish": "July 16, 2015",
+      "latestPublishedAtEnglish": "July 16, 2015",
+      "allowNotes": true,
+      "snippet": "I give training in React.js via CodeWinds, and one of the questions I’m often asked is whether it is faster than X?",
+      "previewImage": {
+        "imageId": "1*Qmhtum3UG8KqFTnr6EsuDw.jpeg",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 3008,
+        "originalHeight": 2000,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "wordCount": 833,
+      "imageCount": 1,
+      "readingTime": 3.3433962264150945,
+      "subtitle": "I give training in React.js via CodeWinds, and one of the questions I’m often asked is whether it is faster than X?",
+      "userPostRelation": {
+        "userId": "bcc0b1e6ca00",
+        "postId": "bcf40211f89b",
+        "readAt": 1473201335463,
+        "readLaterAddedAt": 0,
+        "votedAt": 1473206328972,
+        "collaboratorAddedAt": 0,
+        "notesAddedAt": 0,
+        "subscribedAt": 0,
+        "lastReadSectionName": "2567",
+        "lastReadVersionId": "8caf81b8db6c",
+        "lastReadAt": 1473200850189,
+        "lastReadParagraphName": "97f8",
+        "lastReadPercentage": 0.77,
+        "viewedAt": 1473201341726,
+        "presentedCountInResponseManagement": 0
+      },
+      "publishedInCount": 1,
+      "usersBySocialRecommends": [{
+        "userId": "25004747627f",
+        "name": "Jed Watson",
+        "username": "jedwatson",
+        "createdAt": 1352525309076,
+        "lastPostCreatedAt": 1463747859094,
+        "imageId": "1*KnY1bXiee6HiHO9ssQGi9Q.png",
+        "backgroundImageId": "",
+        "bio": "Partner at @thethinkmill, Javascript / node.js developer, creator of @KeystoneJS and @TouchstoneJS",
+        "twitterScreenName": "JedWatson",
+        "facebookAccountId": "10152684928250856",
+        "allowNotes": 1,
+        "type": "User"
+      }, {
+        "userId": "a3a8af6addc1",
+        "name": "Dan Abramov",
+        "username": "dan_abramov",
+        "createdAt": 1345044864387,
+        "lastPostCreatedAt": 1472648137942,
+        "imageId": "1*4ETgx0WkR3WjYU2eC0p3Ew.jpeg",
+        "backgroundImageId": "1*WqkSfqv8cJBVspX36Fb95w.jpeg",
+        "bio": "Making hot reloading mainstream. Created React Hot Loader, Redux, React DnD.",
+        "twitterScreenName": "dan_abramov",
+        "facebookAccountId": "",
+        "allowNotes": 1,
+        "type": "User"
+      }],
+      "latestPublishedAtAbbreviated": "Jul 16, 2015",
+      "firstPublishedAtAbbreviated": "Jul 16, 2015",
+      "emailSnippet": "The short answer is that React.js is very performant out of the box, even before you start tweaking.\n\nNote that performance is always a tradeoff and one needs to be careful to optimize real use cases (e.g. time to render moderately complex screen) instead of artificial benchmarks (reorder 1000 items).\n\nEven so, React.js has a great performance story. Its component model lets you easily optimize performance bottlenecks without changing the components’ interface.",
+      "recommends": 62,
+      "isBookmarked": false,
+      "tags": [{
+        "slug": "reactjs",
+        "name": "Reactjs",
+        "postCount": 418,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 2042,
+          "postCount": 418,
+          "coverImage": {
+            "id": "1*OYcJ71B1k09WNha98xRGCA.jpeg",
+            "originalWidth": 1920,
+            "originalHeight": 1280,
+            "isFeatured": true
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "javascript",
+        "name": "JavaScript",
+        "postCount": 15050,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 16742,
+          "postCount": 15050,
+          "coverImage": {
+            "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+            "originalWidth": 5100,
+            "originalHeight": 2264
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "react",
+        "name": "React",
+        "postCount": 2930,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 5843,
+          "postCount": 2930,
+          "coverImage": {
+            "id": "1*Pc1PEUdlE22tyBR-s2ziSQ.png",
+            "originalWidth": 1974,
+            "originalHeight": 1700
+          }
+        },
+        "type": "Tag"
+      }],
+      "socialRecommendsCount": 2,
+      "responsesCreatedCount": 3,
+      "links": {
+        "entries": [],
+        "version": "0.3",
+        "generatedAt": 1471932478486
+      },
+      "isLockedPreviewOnly": false
+    },
+    "coverless": true,
+    "slug": "is-react-js-fast-faster-than-framework-or-are-there-more-relevant-questions-to-be-asking",
+    "translationSourcePostId": "",
+    "translationSourceCreatorId": "",
+    "isApprovedTranslation": false,
+    "inResponseToPostId": "",
+    "inResponseToRemovedAt": 0,
+    "isTitleSynthesized": true,
+    "allowResponses": true,
+    "importedUrl": "",
+    "importedPublishedAt": 0,
+    "visibility": 0,
+    "uniqueSlug": "is-react-js-fast-faster-than-framework-or-are-there-more-relevant-questions-to-be-asking-bcf40211f89b",
+    "previewContent": {
+      "bodyModel": {
+        "paragraphs": [{
+          "name": "3ea4",
+          "type": 4,
+          "text": "",
+          "layout": 10,
+          "metadata": {
+            "id": "1*Qmhtum3UG8KqFTnr6EsuDw.jpeg",
+            "originalWidth": 3008,
+            "originalHeight": 2000
+          }
+        }, {
+          "name": "a020",
+          "type": 3,
+          "text": "Is React.js fast? Faster than {framework}?\n… or are there more relevant questions to be asking?",
+          "markups": [],
+          "alignment": 1
+        }],
+        "sections": [{
+          "startIndex": 0
+        }]
+      },
+      "isFullContent": false
+    },
+    "license": 0,
+    "inResponseToMediaResourceId": "",
+    "canonicalUrl": "",
+    "approvedHomeCollectionId": "955bdba6e52f",
+    "newsletterId": "",
+    "webCanonicalUrl": "",
+    "mediumUrl": "",
+    "migrationId": "",
+    "notifyFollowers": true,
+    "notifyTwitter": false,
+    "isSponsored": false,
+    "isRequestToPubDisabled": false,
+    "notifyFacebook": false,
+    "responseHiddenOnParentPostAt": 0,
+    "type": "Post"
+  }, {
+    "id": "e17e8bcc6453",
+    "versionId": "896a9d631811",
+    "creatorId": "f21a05e7ec5b",
+    "homeCollectionId": "955bdba6e52f",
+    "title": "Code Chunking with Webpack — A pragmatic approach",
+    "detectedLanguage": "en",
+    "latestVersion": "896a9d631811",
+    "latestPublishedVersion": "896a9d631811",
+    "hasUnpublishedEdits": false,
+    "latestRev": 873,
+    "createdAt": 1472921517429,
+    "updatedAt": 1473186105525,
+    "acceptedAt": 0,
+    "firstPublishedAt": 1472940615060,
+    "latestPublishedAt": 1473186105525,
+    "vote": true,
+    "experimentalCss": "",
+    "displayAuthor": "",
+    "virtuals": {
+      "statusForCollection": "APPROVED",
+      "createdAtRelative": "7 days ago",
+      "updatedAtRelative": "4 days ago",
+      "acceptedAtRelative": "",
+      "createdAtEnglish": "September 3, 2016",
+      "updatedAtEnglish": "September 6, 2016",
+      "acceptedAtEnglish": "",
+      "firstPublishedAtEnglish": "September 3, 2016",
+      "latestPublishedAtEnglish": "September 6, 2016",
+      "allowNotes": true,
+      "snippet": "Ever since the inception of client side JS taking control of the web, we have observed a hefty amount of JS being written or included in…",
+      "previewImage": {
+        "imageId": "1*s7zJmbewKLwHfGnyxQleCw.jpeg",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 852,
+        "originalHeight": 563,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "wordCount": 1313,
+      "imageCount": 8,
+      "readingTime": 6.088050314465409,
+      "subtitle": "Ever since the inception of client side JS taking control of the web, we have observed a hefty amount of JS being written or included in…",
+      "userPostRelation": {
+        "userId": "bcc0b1e6ca00",
+        "postId": "e17e8bcc6453",
+        "readAt": 1473108840907,
+        "readLaterAddedAt": 0,
+        "votedAt": 1473124207603,
+        "collaboratorAddedAt": 0,
+        "notesAddedAt": 0,
+        "subscribedAt": 0,
+        "lastReadSectionName": "ed0c",
+        "lastReadVersionId": "4cbb24313cf",
+        "lastReadAt": 1473108832350,
+        "lastReadParagraphName": "7c07",
+        "lastReadPercentage": 0.56,
+        "viewedAt": 1473108825308,
+        "presentedCountInResponseManagement": 0
+      },
+      "publishedInCount": 1,
+      "usersBySocialRecommends": [],
+      "latestPublishedAtAbbreviated": "Sep 6",
+      "firstPublishedAtAbbreviated": "Sep 3",
+      "emailSnippet": "our web apps. Gone are the times when our servers used to render the html for our web apps (although they’re used for initial server side rendering). Today we need more out of our web apps like lazy loading of data through Ajax, cool animations, app state management, routing, infinite scrolling and many more.\n\nAll of these things mentioned require a decent amount of work on JavaScript by a front-end developer.",
+      "recommends": 19,
+      "isBookmarked": false,
+      "tags": [{
+        "slug": "javascript",
+        "name": "JavaScript",
+        "postCount": 15050,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 16742,
+          "postCount": 15050,
+          "coverImage": {
+            "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+            "originalWidth": 5100,
+            "originalHeight": 2264
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "react",
+        "name": "React",
+        "postCount": 2930,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 5843,
+          "postCount": 2930,
+          "coverImage": {
+            "id": "1*Pc1PEUdlE22tyBR-s2ziSQ.png",
+            "originalWidth": 1974,
+            "originalHeight": 1700
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "webpack",
+        "name": "Webpack",
+        "postCount": 327,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 587,
+          "postCount": 327,
+          "coverImage": {
+            "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
+            "originalWidth": 5101,
+            "originalHeight": 3239
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "chunking",
+        "name": "Chunking",
+        "postCount": 6,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 0,
+          "postCount": 6,
+          "coverImage": {
+            "id": "1*s7zJmbewKLwHfGnyxQleCw.jpeg",
+            "originalWidth": 852,
+            "originalHeight": 563
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "code",
+        "name": "Code",
+        "postCount": 1358,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 552,
+          "postCount": 1358,
+          "coverImage": {
+            "id": "1*jbeYLiJhW35J_glQCXmHhQ.jpeg",
+            "originalWidth": 1680,
+            "originalHeight": 1050
+          }
+        },
+        "type": "Tag"
+      }],
+      "socialRecommendsCount": 0,
+      "responsesCreatedCount": 0,
+      "links": {
+        "entries": [],
+        "version": "0.3",
+        "generatedAt": 1473186107179
+      },
+      "isLockedPreviewOnly": false
+    },
+    "coverless": true,
+    "slug": "code-chunking-with-webpack-a-pragmatic-approach",
+    "translationSourcePostId": "",
+    "translationSourceCreatorId": "",
+    "isApprovedTranslation": false,
+    "inResponseToPostId": "",
+    "inResponseToRemovedAt": 0,
+    "isTitleSynthesized": true,
+    "allowResponses": true,
+    "importedUrl": "",
+    "importedPublishedAt": 0,
+    "visibility": 0,
+    "uniqueSlug": "code-chunking-with-webpack-a-pragmatic-approach-e17e8bcc6453",
+    "previewContent": {
+      "bodyModel": {
+        "paragraphs": [{
+          "name": "previewImage",
+          "type": 4,
+          "text": "",
+          "layout": 10,
+          "metadata": {
+            "id": "1*s7zJmbewKLwHfGnyxQleCw.jpeg",
+            "originalWidth": 852,
+            "originalHeight": 563
+          }
+        }, {
+          "name": "previewTitle",
+          "type": 3,
+          "text": "Code Chunking with Webpack — A pragmatic approach",
+          "alignment": 1
+        }, {
+          "name": "previewSubtitle",
+          "type": 13,
+          "text": "Ever since the inception of client side JS taking…",
+          "alignment": 1
+        }],
+        "sections": [{
+          "startIndex": 0
+        }]
+      },
+      "isFullContent": false
+    },
+    "license": 0,
+    "inResponseToMediaResourceId": "",
+    "canonicalUrl": "",
+    "approvedHomeCollectionId": "955bdba6e52f",
+    "newsletterId": "",
+    "webCanonicalUrl": "",
+    "mediumUrl": "",
+    "migrationId": "",
+    "notifyFollowers": true,
+    "notifyTwitter": true,
+    "isSponsored": false,
+    "isRequestToPubDisabled": false,
+    "notifyFacebook": false,
+    "responseHiddenOnParentPostAt": 0,
+    "type": "Post"
+  }, {
+    "id": "dc04e3f08543",
+    "versionId": "c2ba9367743f",
+    "creatorId": "bcc0b1e6ca00",
+    "homeCollectionId": "955bdba6e52f",
+    "title": "Embracing Immutable Architecture",
+    "detectedLanguage": "en",
+    "latestVersion": "c2ba9367743f",
+    "latestPublishedVersion": "c2ba9367743f",
+    "hasUnpublishedEdits": false,
+    "latestRev": 722,
+    "createdAt": 1472837938612,
+    "updatedAt": 1473453642998,
+    "acceptedAt": 0,
+    "firstPublishedAt": 1472840701889,
+    "latestPublishedAt": 1473453642998,
+    "vote": true,
+    "experimentalCss": "",
+    "displayAuthor": "",
+    "virtuals": {
+      "statusForCollection": "APPROVED",
+      "createdAtRelative": "8 days ago",
+      "updatedAtRelative": "a day ago",
+      "acceptedAtRelative": "",
+      "createdAtEnglish": "September 2, 2016",
+      "updatedAtEnglish": "September 9, 2016",
+      "acceptedAtEnglish": "",
+      "firstPublishedAtEnglish": "September 2, 2016",
+      "latestPublishedAtEnglish": "September 9, 2016",
+      "allowNotes": true,
+      "snippet": "I believe as a community, many of us JavaScript engineers have embraced Immutable Architecture. Whether we realize it or not, a new way of…",
+      "previewImage": {
+        "imageId": "1*De-cn--751z3cHRlMiXJDw.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 934,
+        "originalHeight": 531,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "wordCount": 1141,
+      "imageCount": 1,
+      "readingTime": 4.505660377358491,
+      "subtitle": "I believe as a community, many of us JavaScript engineers have embraced Immutable Architecture. Whether we realize it or not, a new way of…",
+      "userPostRelation": {
+        "userId": "bcc0b1e6ca00",
+        "postId": "dc04e3f08543",
+        "readAt": 1473453643446,
+        "readLaterAddedAt": 0,
+        "votedAt": 1472895834011,
+        "collaboratorAddedAt": 0,
+        "notesAddedAt": 0,
+        "subscribedAt": 0,
+        "lastReadSectionName": "03ed",
+        "lastReadVersionId": "c2ba9367743f",
+        "lastReadAt": 1473464412978,
+        "lastReadParagraphName": "c5fe",
+        "lastReadPercentage": 0.36,
+        "viewedAt": 1473464409358,
+        "presentedCountInResponseManagement": 0
+      },
+      "publishedInCount": 1,
+      "usersBySocialRecommends": [{
+        "userId": "3d9fdda27252",
+        "name": "Drew Tipson",
+        "username": "dtipson",
+        "createdAt": 1374088657468,
+        "lastPostCreatedAt": 1473467902188,
+        "imageId": "0*fXlsEHuKuFem15wu.jpeg",
+        "backgroundImageId": "1*0decWnXk3x3Nkrw9DBVz6w.gif",
+        "bio": "Primarily Javascript, potentially personal, possibly pointless. I welcome and am fascinated by your many marvelous opinions.",
+        "twitterScreenName": "dtipson",
+        "facebookAccountId": "596511901",
+        "allowNotes": 1,
+        "type": "User"
+      }, {
+        "userId": "8f95ee1a7c46",
+        "name": "Gabriele Cimato",
+        "username": "gabriele.cimato",
+        "createdAt": 1455220102222,
+        "lastPostCreatedAt": 1471837044536,
+        "imageId": "0*Z-Q502YtRJo-g2A7.jpg",
+        "backgroundImageId": "",
+        "bio": "",
+        "twitterScreenName": "",
+        "facebookAccountId": "",
+        "allowNotes": 1,
+        "type": "User"
+      }, {
+        "userId": "756fa112f0f9",
+        "name": "Mikael M",
+        "username": "mikaelm1013",
+        "createdAt": 1471634800405,
+        "lastPostCreatedAt": 1471634931673,
+        "imageId": "0*oMcR6WWTkscPo4pr.png",
+        "backgroundImageId": "",
+        "bio": "",
+        "twitterScreenName": "mm3981",
+        "facebookAccountId": "",
+        "allowNotes": 1,
+        "type": "User"
+      }],
+      "latestPublishedAtAbbreviated": "Sep 9",
+      "firstPublishedAtAbbreviated": "Sep 2",
+      "emailSnippet": "building apps has crept into the mainstream JavaScript ecosystem and it is here to stay.\n\nWhat is Immutable Architecture, anyways?\n\nTo understand immutable architecture, we need to first understand state. State, an evil source of complexity in any software, is the characteristic of a value. According to Miriam Webster, state is defined as “the particular condition that someone or something is in at a specific time.”",
+      "recommends": 28,
+      "isBookmarked": false,
+      "tags": [{
+        "slug": "javascript",
+        "name": "JavaScript",
+        "postCount": 15050,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 16742,
+          "postCount": 15050,
+          "coverImage": {
+            "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+            "originalWidth": 5100,
+            "originalHeight": 2264
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "react",
+        "name": "React",
+        "postCount": 2930,
+        "virtuals": {
+          "isFollowing": true
+        },
+        "metadata": {
+          "followerCount": 5843,
+          "postCount": 2930,
+          "coverImage": {
+            "id": "1*Pc1PEUdlE22tyBR-s2ziSQ.png",
+            "originalWidth": 1974,
+            "originalHeight": 1700
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "immutable-infrastructure",
+        "name": "Immutable Infrastructure",
+        "postCount": 5,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 3,
+          "postCount": 5,
+          "coverImage": {
+            "id": "1*De-cn--751z3cHRlMiXJDw.png",
+            "originalWidth": 934,
+            "originalHeight": 531
+          }
+        },
+        "type": "Tag"
+      }, {
+        "slug": "functional-programming",
+        "name": "Functional Programming",
+        "postCount": 997,
+        "virtuals": {
+          "isFollowing": false
+        },
+        "metadata": {
+          "followerCount": 2623,
+          "postCount": 997,
+          "coverImage": {
+            "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+            "originalWidth": 5100,
+            "originalHeight": 2264
+          }
+        },
+        "type": "Tag"
+      }],
+      "socialRecommendsCount": 3,
+      "responsesCreatedCount": 0,
+      "links": {
+        "entries": [{
+          "url": "https://vimeo.com/166790294",
+          "alts": [{
+            "type": 2,
+            "url": "vimeo://app.vimeo.com/videos/166790294"
+          }, {
+            "type": 3,
+            "url": "vimeo://app.vimeo.com/videos/166790294"
+          }]
+        }, {
+          "url": "https://medium.com/@housecor/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc#.wsv7amxfq",
+          "alts": [{
+            "type": 2,
+            "url": "medium://p/997b0d933dbc"
+          }, {
+            "type": 3,
+            "url": "medium://p/997b0d933dbc"
+          }]
+        }, {
+          "url": "https://medium.com/search?q=functional%20javascript",
+          "alts": [{
+            "type": 2,
+            "url": "medium://search"
+          }, {
+            "type": 3,
+            "url": "medium://search"
+          }]
+        }, {
+          "url": "https://medium.com/search?q=immutable%20architecture",
+          "alts": [{
+            "type": 2,
+            "url": "medium://search"
+          }, {
+            "type": 3,
+            "url": "medium://search"
+          }]
+        }],
+        "version": "0.3",
+        "generatedAt": 1473453645442
+      },
+      "isLockedPreviewOnly": false
+    },
+    "coverless": true,
+    "slug": "embracing-immutable-architecture",
+    "translationSourcePostId": "",
+    "translationSourceCreatorId": "",
+    "isApprovedTranslation": false,
+    "inResponseToPostId": "",
+    "inResponseToRemovedAt": 0,
+    "isTitleSynthesized": true,
+    "allowResponses": true,
+    "importedUrl": "",
+    "importedPublishedAt": 0,
+    "visibility": 0,
+    "uniqueSlug": "embracing-immutable-architecture-dc04e3f08543",
+    "previewContent": {
+      "bodyModel": {
+        "paragraphs": [{
+          "name": "3d3b",
+          "type": 4,
+          "text": "",
+          "markups": [],
+          "layout": 9,
+          "metadata": {
+            "id": "1*De-cn--751z3cHRlMiXJDw.png",
+            "originalWidth": 934,
+            "originalHeight": 531
+          }
+        }, {
+          "name": "a993",
+          "type": 3,
+          "text": "Embracing Immutable Architecture",
+          "markups": [],
+          "alignment": 1
+        }, {
+          "name": "bd57",
+          "type": 1,
+          "text": "I believe as a community, many of us JavaScript engineers have embraced Immutable Architecture…",
+          "markups": [],
+          "alignment": 1
+        }],
+        "sections": [{
+          "startIndex": 0
+        }]
+      },
+      "isFullContent": false
+    },
+    "license": 0,
+    "inResponseToMediaResourceId": "",
+    "canonicalUrl": "",
+    "approvedHomeCollectionId": "955bdba6e52f",
+    "newsletterId": "",
+    "webCanonicalUrl": "",
+    "mediumUrl": "",
+    "migrationId": "",
+    "notifyFollowers": true,
+    "notifyTwitter": true,
+    "isSponsored": false,
+    "isRequestToPubDisabled": false,
+    "notifyFacebook": false,
+    "responseHiddenOnParentPostAt": 0,
+    "type": "Post"
+  }]
 }

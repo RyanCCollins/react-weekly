@@ -31,7 +31,7 @@ const SubscribeForm = ({
           {...emailInput}
         />
       </FormField>
-      <Button primary onClick={(e) => e}>
+      <Button primary onClick={(e) => e} className={styles.button}>
         Submit
       </Button>
     </Box>

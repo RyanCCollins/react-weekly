@@ -15,3 +15,10 @@
     margin-bottom: 20px;
   }
 }
+
+.button {
+  @media screen and (max-width: 720px) {
+    align-self: center;
+    margin-top: 20px;
+  }
+}

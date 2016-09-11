@@ -3,9 +3,11 @@ import {
   LOAD_CONTENT_SUCCESS,
   LOAD_CONTENT_FAILURE,
 } from './constants';
-import fetch from 'isomorphic-fetch';
 
 const feedUrl = 'https://medium.com/react-weekly/latest?format=json';
+
+const parsePosts = (data) =>
+  JSON.parse(data.substring(data.indexOf(';') + 5));
 
 const headers = new Headers({
   'content-type': 'application/json',
@@ -14,7 +16,7 @@ const headers = new Headers({
 const options = {
   method: 'GET',
   headers,
-  mode: 'cors',
+  mode: 'no-cors',
 };
 
 const loadContentInitiation = () => ({
@@ -36,8 +38,11 @@ export const loadPostContent = () =>
     dispatch(
       loadContentInitiation()
     );
-    fetch('http://localhost:3000/posts')
-      .then(res => res.json())
+    fetch(feedUrl, options)
+      .then(res => res.text())
+      .then(res => parsePosts(res))
+      .then(res => res.payload)
+      .then(payload => payload.posts)
       .then(posts => {
         dispatch(
           loadContentSuccess(posts)
