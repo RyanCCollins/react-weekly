@@ -1,8 +1,11 @@
 /* eslint-disable */
+import path from 'path';
+import express from 'express';
+import { graphql } from 'graphql';
+import { introspectionQuery } from 'graphql/utilities';
+import graphqlHTTP from 'express-graphql';
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 1337 : process.env.PORT;
-const path = require('path');
-const express = require('express');
 const app = express();
 
 app.use(express.static(__dirname + '/public'));
@@ -11,8 +14,20 @@ app.get('*', (req, res) => {
 });
 
 app.post('/contact', (req, res, next) => {
-  
+
 });
+
+(async () => {
+  try {
+    app.use('/api', graphqlHTTP({
+      schema,
+      pretty: true,
+      graphiql: true
+    }));
+  } catch (err) {
+    console.warn(err);
+  }
+})();
 
 app.listen(port, '0.0.0.0', (err) => {
   if (err) {

@@ -18,7 +18,7 @@ const PostTeaser = ({
     <Card className={styles.card}>
       <Box
         colorIndex="light-1"
-        pad={{ vertical: 'medium', horizontal: 'large'}}
+        pad={{ vertical: 'medium', horizontal: 'large' }}
         className={styles.post}
       >
         <Box align="center" justify="center">
