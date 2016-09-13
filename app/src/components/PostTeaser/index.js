@@ -10,6 +10,7 @@ import Card from 'grommet/components/Card';
 import Box from 'grommet/components/Box';
 import Tags from 'grommet/components/Tags';
 import Tag from 'grommet/components/Tag';
+import { PlaceholderImage } from 'components';
 
 const PostTeaser = ({
   post,
@@ -22,11 +23,15 @@ const PostTeaser = ({
         className={styles.post}
       >
         <Box align="center" justify="center">
-          <Image
-            className={styles.postImage}
-            responsive
-            src={`https://cdn-images-1.medium.com/fit/t/1100/480/${post.virtuals.previewImage.imageId}`}
-          />
+          {post.virtuals.previewImage.imageId ?
+            <Image
+              className={styles.postImage}
+              responsive
+              src={`https://cdn-images-1.medium.com/fit/t/1100/480/${post.virtuals.previewImage.imageId}`}
+            />
+          :
+            <PlaceholderImage size={{ width: 1100, height: 480 }} />
+          }
         </Box>
         <Box className={styles.postHeading}>
           <Heading tag="h2">
