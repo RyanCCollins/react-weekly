@@ -44,6 +44,10 @@ const parseTags = (tags) => {
   return newTags;
 };
 
+const parsePosts = (posts) => {
+  console.log(posts);
+};
+
 const TagType = new GraphQLObjectType({
   name: 'Tag',
   fields: () => ({
@@ -62,30 +66,22 @@ const RecommendationType = new GraphQLObjectType({
 const PostType = new GraphQLObjectType({
   name: 'Post',
   fields: () => ({
+    id: { type: GraphQLString },
     title: { type: GraphQLString },
     snippet: { type: GraphQLString },
     recommendations: { type: new GraphQLList(RecommendationType) },
     tags: { type: new GraphQLList(TagType) },
     uniqueSlug: { type: GraphQLString },
-  }),
-});
-
-const StoreType = new GraphQLObjectType({
-  name: 'Store',
-  fields: () => ({
-    posts: {
-      type: new GraphQLList(PostType),
-      resolve: () => loadPosts().then(posts => posts),
-    },
+    image: { type: GraphQLString },
   }),
 });
 
 const QueryType = new GraphQLObjectType({
   name: 'Query',
   fields: () => ({
-    store: {
-      type: StoreType,
-      resolve: () => store,
+    posts: {
+      type: new GraphQLList(PostType),
+      resolve: () => loadPosts().then(posts => parsePosts(posts)),
     },
   }),
 });

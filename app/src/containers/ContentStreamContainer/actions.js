@@ -6,6 +6,8 @@ import {
 
 const feedUrl = 'https://medium.com/react-weekly/latest?format=json';
 
+const postsUrl = 'http://0.0.0.0:1337/posts';
+
 const parsePosts = (data) =>
   JSON.parse(data.substring(data.indexOf(';') + 5));
 
@@ -38,19 +40,37 @@ export const loadPostContent = () =>
     dispatch(
       loadContentInitiation()
     );
-    fetch(feedUrl, options)
-      .then(res => res.text())
-      .then(res => parsePosts(res))
-      .then(res => res.payload)
-      .then(payload => payload.posts)
+    fetch(postsUrl)
+      .then(res => res.json())
       .then(posts => {
         dispatch(
           loadContentSuccess(posts)
         );
-      })
-      .catch(err => {
+      }).catch(err => {
         dispatch(
           loadContentFailure(err)
         );
       });
   };
+
+// export const loadPostContent = () =>
+//   (dispatch) => {
+//     dispatch(
+//       loadContentInitiation()
+//     );
+//     fetch(feedUrl, options)
+//       .then(res => res.text())
+//       .then(res => parsePosts(res))
+//       .then(res => res.payload)
+//       .then(payload => payload.posts)
+//       .then(posts => {
+//         dispatch(
+//           loadContentSuccess(posts)
+//         );
+//       })
+//       .catch(err => {
+//         dispatch(
+//           loadContentFailure(err)
+//         );
+//       });
+//   };

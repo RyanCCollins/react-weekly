@@ -51,13 +51,6 @@ class ContentStream extends Component {
                   <PostTeaser post={post} />
                 )}
               </Box>
-              {/* {posts && posts.length > 0 &&
-                <div>
-                  <pre>
-                    {JSON.stringify(posts, null, 2)}
-                  </pre>
-                </div>
-              } */}
             </Section>
           </div>
         }
