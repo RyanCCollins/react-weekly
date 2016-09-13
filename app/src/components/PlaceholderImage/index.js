@@ -11,7 +11,10 @@ const PlaceholderImage = ({
 );
 
 PlaceholderImage.propTypes = {
-  size: PropTypes.object.isRequired,
+  size: PropTypes.shape({
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired,
+  }),
   styles: PropTypes.object.isRequired,
 };
 
