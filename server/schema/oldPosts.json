@@ -20,9 +20,9 @@
         "width": 0
       },
       "metadata": {
-        "followerCount": 31,
+        "followerCount": 36,
         "postCount": 0,
-        "activeAt": 1473710428105
+        "activeAt": 1473921977600
       },
       "virtuals": {
         "permissions": {
@@ -154,6 +154,473 @@
       "type": "Collection"
     },
     "posts": [{
+      "id": "aafb57589995",
+      "versionId": "f8ccc1f8b6b4",
+      "creatorId": "a158ea836ddb",
+      "homeCollectionId": "955bdba6e52f",
+      "title": "Angular to React: tips on a smooth migration",
+      "detectedLanguage": "en",
+      "latestVersion": "f8ccc1f8b6b4",
+      "latestPublishedVersion": "f8ccc1f8b6b4",
+      "hasUnpublishedEdits": false,
+      "latestRev": 234,
+      "createdAt": 1473872762112,
+      "updatedAt": 1473921977600,
+      "acceptedAt": 0,
+      "firstPublishedAt": 1473873054900,
+      "latestPublishedAt": 1473873078354,
+      "vote": true,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "virtuals": {
+        "statusForCollection": "APPROVED",
+        "createdAtRelative": "a day ago",
+        "updatedAtRelative": "10 hours ago",
+        "acceptedAtRelative": "",
+        "createdAtEnglish": "September 14, 2016",
+        "updatedAtEnglish": "September 15, 2016",
+        "acceptedAtEnglish": "",
+        "firstPublishedAtEnglish": "September 14, 2016",
+        "latestPublishedAtEnglish": "September 14, 2016",
+        "allowNotes": true,
+        "snippet": "AngularJS is a pretty cool framework by Google — it provides many great features, like routing and two-way data binding. We used it to…",
+        "previewImage": {
+          "imageId": "0*wS3gahM1NfLJpTof.jpg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 700,
+          "originalHeight": 500,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 1117,
+        "imageCount": 8,
+        "readingTime": 5.3484276729559745,
+        "subtitle": "AngularJS is a pretty cool framework by Google — it provides many great features, like routing and two-way data binding. We used it to…",
+        "userPostRelation": {
+          "userId": "bcc0b1e6ca00",
+          "postId": "aafb57589995",
+          "readAt": 1473921978394,
+          "readLaterAddedAt": 0,
+          "votedAt": 1473899526556,
+          "collaboratorAddedAt": 0,
+          "notesAddedAt": 0,
+          "subscribedAt": 0,
+          "lastReadSectionName": "1998",
+          "lastReadVersionId": "f8ccc1f8b6b4",
+          "lastReadAt": 1473921989392,
+          "lastReadParagraphName": "38e4",
+          "lastReadPercentage": 0.01,
+          "viewedAt": 1473921968170,
+          "presentedCountInResponseManagement": 0
+        },
+        "publishedInCount": 1,
+        "usersBySocialRecommends": [],
+        "latestPublishedAtAbbreviated": "Sep 14",
+        "firstPublishedAtAbbreviated": "Sep 14",
+        "emailSnippet": "create the first version of our platform, but today, we see its limits and want to migrate our platform to ReactJS.\n\nAngular helps creating single page applications and renders the content on the client-side, but is utterly bad in terms of SEO referencing. We want to have something that renders our content on the server-side at the first load, but provides the experience of the SPA applications after that: an isomorphic app.",
+        "recommends": 2,
+        "isBookmarked": false,
+        "tags": [{
+          "slug": "react",
+          "name": "React",
+          "postCount": 2996,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 5955,
+            "postCount": 2996,
+            "coverImage": {
+              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
+              "originalWidth": 638,
+              "originalHeight": 1077
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "javascript",
+          "name": "JavaScript",
+          "postCount": 15383,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 17033,
+            "postCount": 15383,
+            "coverImage": {
+              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
+              "originalWidth": 1352,
+              "originalHeight": 656
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "web-development",
+          "name": "Web Development",
+          "postCount": 19931,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 18726,
+            "postCount": 19931,
+            "coverImage": {
+              "id": "1*0nJYGbjwV7Ifj8hYQp43Qw.jpeg",
+              "originalWidth": 1920,
+              "originalHeight": 675
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "coding",
+          "name": "Coding",
+          "postCount": 4715,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 6522,
+            "postCount": 4715,
+            "coverImage": {
+              "id": "1*zVTfzYbzaptZwLBpzQjzkA.jpeg",
+              "originalWidth": 1280,
+              "originalHeight": 720
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "angular",
+          "name": "Angular",
+          "postCount": 87,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 180,
+            "postCount": 87,
+            "coverImage": {
+              "id": "1*1mnuBFkslw57jIZVDU2j1A.png",
+              "originalWidth": 1920,
+              "originalHeight": 1080
+            }
+          },
+          "type": "Tag"
+        }],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [{
+            "url": "https://medium.com/@RecastAI/datasets-the-gold-of-machine-learning-17bea3a70ef1#.oewlpuws7",
+            "alts": [{
+              "type": 2,
+              "url": "medium://p/17bea3a70ef1"
+            }, {
+              "type": 3,
+              "url": "medium://p/17bea3a70ef1"
+            }]
+          }],
+          "version": "0.3",
+          "generatedAt": 1473873078722
+        },
+        "isLockedPreviewOnly": false
+      },
+      "coverless": true,
+      "slug": "angular-to-react-tips-on-a-smooth-migration",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": true,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "angular-to-react-tips-on-a-smooth-migration-aafb57589995",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [{
+            "name": "5ede",
+            "type": 3,
+            "text": "Angular to React: tips on a smooth migration",
+            "markups": [],
+            "alignment": 1
+          }, {
+            "name": "38e4",
+            "type": 4,
+            "text": "",
+            "markups": [],
+            "layout": 9,
+            "metadata": {
+              "id": "0*wS3gahM1NfLJpTof.jpg",
+              "originalWidth": 700,
+              "originalHeight": 500
+            }
+          }, {
+            "name": "3b4e",
+            "type": 1,
+            "text": "AngularJS is a pretty cool framework by Google — it provides many great features…",
+            "markups": [{
+              "type": 3,
+              "start": 0,
+              "end": 9,
+              "href": "https://angularjs.org/",
+              "title": "",
+              "rel": "",
+              "anchorType": 0
+            }],
+            "alignment": 1
+          }],
+          "sections": [{
+            "startIndex": 0
+          }]
+        },
+        "isFullContent": false
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "955bdba6e52f",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": false,
+      "isSponsored": false,
+      "isRequestToPubDisabled": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "type": "Post"
+    }, {
+      "id": "dad7acf39e1b",
+      "versionId": "746ccbe7684",
+      "creatorId": "bcc0b1e6ca00",
+      "homeCollectionId": "955bdba6e52f",
+      "title": "Implementing GraphQL in your Redux App",
+      "detectedLanguage": "en",
+      "latestVersion": "746ccbe7684",
+      "latestPublishedVersion": "746ccbe7684",
+      "hasUnpublishedEdits": false,
+      "latestRev": 1359,
+      "createdAt": 1473900006719,
+      "updatedAt": 1473914934772,
+      "acceptedAt": 0,
+      "firstPublishedAt": 1473906478193,
+      "latestPublishedAt": 1473914934772,
+      "vote": true,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "virtuals": {
+        "statusForCollection": "APPROVED",
+        "createdAtRelative": "16 hours ago",
+        "updatedAtRelative": "11 hours ago",
+        "acceptedAtRelative": "",
+        "createdAtEnglish": "September 14, 2016",
+        "updatedAtEnglish": "September 15, 2016",
+        "acceptedAtEnglish": "",
+        "firstPublishedAtEnglish": "September 14, 2016",
+        "latestPublishedAtEnglish": "September 15, 2016",
+        "allowNotes": true,
+        "snippet": "This post aims to be a guide for implementing GraphQL into a Redux App.",
+        "previewImage": {
+          "imageId": "1*XotLYM6yuwS0Mqju7N9DSw.png",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 800,
+          "originalHeight": 261,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 2976,
+        "imageCount": 3,
+        "readingTime": 11.780188679245283,
+        "subtitle": "This post aims to be a guide for implementing GraphQL into a Redux App. It goes over some of the realizations I made throughout the process…",
+        "userPostRelation": {
+          "userId": "bcc0b1e6ca00",
+          "postId": "dad7acf39e1b",
+          "readAt": 1473914935257,
+          "readLaterAddedAt": 0,
+          "votedAt": 1473907352107,
+          "collaboratorAddedAt": 0,
+          "notesAddedAt": 0,
+          "subscribedAt": 0,
+          "lastReadSectionName": "8960",
+          "lastReadVersionId": "746ccbe7684",
+          "lastReadAt": 1473955158092,
+          "lastReadParagraphName": "768a",
+          "lastReadPercentage": 0.96,
+          "viewedAt": 1473955419411,
+          "presentedCountInResponseManagement": 0
+        },
+        "publishedInCount": 1,
+        "usersBySocialRecommends": [{
+          "userId": "b4ec1abd5f66",
+          "name": "Rusty Calder",
+          "username": "rustycalder",
+          "createdAt": 1346768923608,
+          "lastPostCreatedAt": 1467308333326,
+          "imageId": "1*OEj23S73fdmQZk5veZXEQA.jpeg",
+          "backgroundImageId": "1*pfkpRImZxjpYFDKZUFiivQ.jpeg",
+          "bio": "( Design + Development + Product ) * Cross Platform",
+          "twitterScreenName": "CalderRusty",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "type": "User"
+        }, {
+          "userId": "756fa112f0f9",
+          "name": "Mikael M",
+          "username": "mikaelm1013",
+          "createdAt": 1471634800405,
+          "lastPostCreatedAt": 1473818166569,
+          "imageId": "0*oMcR6WWTkscPo4pr.png",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "mm3981",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "type": "User"
+        }],
+        "latestPublishedAtAbbreviated": "Sep 15",
+        "firstPublishedAtAbbreviated": "Sep 14",
+        "emailSnippet": "of integrating it into my workflow. I expect that you have some amount of familiarity with the setup involved in React / Redux projects and will link to resources as I go.\n\nWhile Redux at it’s core is a State management library, often times your action creators take care of loading data from your API. The method that I have used mostly is to implement thunks, along with having several actions / action creators to communicate between the store and UI during the data-loading process.",
+        "recommends": 3,
+        "isBookmarked": false,
+        "tags": [{
+          "slug": "javascript",
+          "name": "JavaScript",
+          "postCount": 15383,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 17033,
+            "postCount": 15383,
+            "coverImage": {
+              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
+              "originalWidth": 1352,
+              "originalHeight": 656
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "react",
+          "name": "React",
+          "postCount": 2996,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 5955,
+            "postCount": 2996,
+            "coverImage": {
+              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
+              "originalWidth": 638,
+              "originalHeight": 1077
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "graphql",
+          "name": "Graphql",
+          "postCount": 164,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 552,
+            "postCount": 164,
+            "coverImage": {
+              "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
+              "originalWidth": 936,
+              "originalHeight": 765,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        }],
+        "socialRecommendsCount": 2,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [{
+            "url": "https://medium.com/apollo-stack/the-concepts-of-graphql-bc68bd819be3#.94scr3agl",
+            "alts": [{
+              "type": 2,
+              "url": "medium://p/bc68bd819be3"
+            }, {
+              "type": 3,
+              "url": "medium://p/bc68bd819be3"
+            }]
+          }],
+          "version": "0.3",
+          "generatedAt": 1473914935300
+        },
+        "isLockedPreviewOnly": false
+      },
+      "coverless": true,
+      "slug": "implementing-graphql-in-your-redux-app",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": true,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "implementing-graphql-in-your-redux-app-dad7acf39e1b",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [{
+            "name": "210d",
+            "type": 3,
+            "text": "Implementing GraphQL in your Redux App",
+            "markups": [],
+            "alignment": 1
+          }, {
+            "name": "96c6",
+            "type": 4,
+            "text": "",
+            "markups": [],
+            "layout": 9,
+            "metadata": {
+              "id": "1*XotLYM6yuwS0Mqju7N9DSw.png",
+              "originalWidth": 800,
+              "originalHeight": 261
+            }
+          }, {
+            "name": "950f",
+            "type": 1,
+            "text": "This post aims to be a guide for implementing GraphQL into a Redux App. It goes over some of…",
+            "markups": [],
+            "alignment": 1
+          }],
+          "sections": [{
+            "startIndex": 0
+          }]
+        },
+        "isFullContent": false
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "955bdba6e52f",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": true,
+      "isSponsored": false,
+      "isRequestToPubDisabled": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "type": "Post"
+    }, {
       "id": "8b4af2057152",
       "versionId": "96fe55b73e19",
       "creatorId": "9700b6e5238e",
@@ -175,7 +642,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "a year ago",
-        "updatedAtRelative": "a day ago",
+        "updatedAtRelative": "3 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 25, 2015",
         "updatedAtEnglish": "September 12, 2016",
@@ -212,7 +679,7 @@
           "lastReadAt": 1473710448888,
           "lastReadParagraphName": "b77a",
           "lastReadPercentage": 0.93,
-          "viewedAt": 1473710449789,
+          "viewedAt": 1473909066120,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -225,17 +692,17 @@
         "tags": [{
           "slug": "rails",
           "name": "Rails",
-          "postCount": 807,
+          "postCount": 810,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 543,
-            "postCount": 807,
+            "followerCount": 546,
+            "postCount": 810,
             "coverImage": {
-              "id": "1*w5Rbsf5AmUbQxM8YCGFQPQ.jpeg",
-              "originalWidth": 649,
-              "originalHeight": 210
+              "id": "1*FJhxgyS9qTT1LKan_6RviA.png",
+              "originalWidth": 548,
+              "originalHeight": 331
             }
           },
           "type": "Tag"
@@ -259,13 +726,13 @@
         }, {
           "slug": "graphql",
           "name": "Graphql",
-          "postCount": 163,
+          "postCount": 164,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 550,
-            "postCount": 163,
+            "followerCount": 552,
+            "postCount": 164,
             "coverImage": {
               "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
               "originalWidth": 936,
@@ -379,7 +846,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "9 months ago",
-        "updatedAtRelative": "3 days ago",
+        "updatedAtRelative": "5 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "December 24, 2015",
         "updatedAtEnglish": "September 10, 2016",
@@ -463,57 +930,56 @@
         "latestPublishedAtAbbreviated": "Dec 25, 2015",
         "firstPublishedAtAbbreviated": "Dec 25, 2015",
         "emailSnippet": "Or this guy?\n\nA few weeks ago, a colleague at Udacity showed me a trick that eliminates the need for repetitive import statements in your code. The magic starts on line 18, with Webpack’s ProvidePlugin:\n\nWhen Webpack builds your JavaScript, it will load the ‘react’ module whenever the identifier ‘React’ is declared in your code. So now you can use:\n\n…without having to import ‘react’ explicitly at the top of your component file.",
-        "recommends": 227,
+        "recommends": 228,
         "isBookmarked": false,
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15242,
+          "postCount": 15383,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 16923,
-            "postCount": 15242,
+            "followerCount": 17033,
+            "postCount": 15383,
             "coverImage": {
-              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-              "originalWidth": 5100,
-              "originalHeight": 2264
+              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
+              "originalWidth": 1352,
+              "originalHeight": 656
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2972,
+          "postCount": 2996,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5914,
-            "postCount": 2972,
+            "followerCount": 5955,
+            "postCount": 2996,
             "coverImage": {
-              "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
-              "originalWidth": 936,
-              "originalHeight": 765,
-              "isFeatured": true
+              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
+              "originalWidth": 638,
+              "originalHeight": 1077
             }
           },
           "type": "Tag"
         }, {
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 330,
+          "postCount": 333,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 604,
-            "postCount": 330,
+            "followerCount": 610,
+            "postCount": 333,
             "coverImage": {
-              "id": "1*zA-2-y8NzGLPB2VKillRqQ.png",
-              "originalWidth": 500,
-              "originalHeight": 500
+              "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
+              "originalWidth": 5101,
+              "originalHeight": 3239
             }
           },
           "type": "Tag"
@@ -615,8 +1081,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "22 days ago",
-        "updatedAtRelative": "3 days ago",
+        "createdAtRelative": "24 days ago",
+        "updatedAtRelative": "5 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "August 22, 2016",
         "updatedAtEnglish": "September 10, 2016",
@@ -666,47 +1132,47 @@
         "tags": [{
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 330,
+          "postCount": 333,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 604,
-            "postCount": 330,
+            "followerCount": 610,
+            "postCount": 333,
             "coverImage": {
-              "id": "1*zA-2-y8NzGLPB2VKillRqQ.png",
-              "originalWidth": 500,
-              "originalHeight": 500
+              "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
+              "originalWidth": 5101,
+              "originalHeight": 3239
             }
           },
           "type": "Tag"
         }, {
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15242,
+          "postCount": 15383,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 16923,
-            "postCount": 15242,
+            "followerCount": 17033,
+            "postCount": 15383,
             "coverImage": {
-              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-              "originalWidth": 5100,
-              "originalHeight": 2264
+              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
+              "originalWidth": 1352,
+              "originalHeight": 656
             }
           },
           "type": "Tag"
         }, {
           "slug": "mobx",
           "name": "Mobx",
-          "postCount": 22,
+          "postCount": 23,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 46,
-            "postCount": 22,
+            "followerCount": 48,
+            "postCount": 23,
             "coverImage": {
               "id": "1*gDZgHB7KYr44WG442p5BBw.png",
               "originalWidth": 823,
@@ -722,7 +1188,7 @@
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 154,
+            "followerCount": 155,
             "postCount": 66,
             "coverImage": {
               "id": "1*5rhtsSpxx8iL1Gm8FnG0YA.jpeg",
@@ -734,18 +1200,17 @@
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2972,
+          "postCount": 2996,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5914,
-            "postCount": 2972,
+            "followerCount": 5955,
+            "postCount": 2996,
             "coverImage": {
-              "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
-              "originalWidth": 936,
-              "originalHeight": 765,
-              "isFeatured": true
+              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
+              "originalWidth": 638,
+              "originalHeight": 1077
             }
           },
           "type": "Tag"
@@ -841,7 +1306,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "a year ago",
-        "updatedAtRelative": "8 days ago",
+        "updatedAtRelative": "10 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "July 11, 2015",
         "updatedAtEnglish": "September 5, 2016",
@@ -900,7 +1365,7 @@
           "name": "Dan Abramov",
           "username": "dan_abramov",
           "createdAt": 1345044864387,
-          "lastPostCreatedAt": 1472648137942,
+          "lastPostCreatedAt": 1473888780880,
           "imageId": "1*4ETgx0WkR3WjYU2eC0p3Ew.jpeg",
           "backgroundImageId": "1*WqkSfqv8cJBVspX36Fb95w.jpeg",
           "bio": "Making hot reloading mainstream. Created React Hot Loader, Redux, React DnD.",
@@ -917,52 +1382,51 @@
         "tags": [{
           "slug": "reactjs",
           "name": "Reactjs",
-          "postCount": 420,
+          "postCount": 423,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 2055,
-            "postCount": 420,
+            "followerCount": 2066,
+            "postCount": 423,
             "coverImage": {
-              "id": "1*W7JKn48kJARmaWgeGTk5UA.png",
-              "originalWidth": 1842,
-              "originalHeight": 578
+              "id": "1*nIof-zUK6DpNvinE_g57iw.png",
+              "originalWidth": 787,
+              "originalHeight": 343
             }
           },
           "type": "Tag"
         }, {
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15242,
+          "postCount": 15383,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 16923,
-            "postCount": 15242,
+            "followerCount": 17033,
+            "postCount": 15383,
             "coverImage": {
-              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-              "originalWidth": 5100,
-              "originalHeight": 2264
+              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
+              "originalWidth": 1352,
+              "originalHeight": 656
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2972,
+          "postCount": 2996,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5914,
-            "postCount": 2972,
+            "followerCount": 5955,
+            "postCount": 2996,
             "coverImage": {
-              "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
-              "originalWidth": 936,
-              "originalHeight": 765,
-              "isFeatured": true
+              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
+              "originalWidth": 638,
+              "originalHeight": 1077
             }
           },
           "type": "Tag"
@@ -1050,8 +1514,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "10 days ago",
-        "updatedAtRelative": "7 days ago",
+        "createdAtRelative": "12 days ago",
+        "updatedAtRelative": "9 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 3, 2016",
         "updatedAtEnglish": "September 6, 2016",
@@ -1101,52 +1565,51 @@
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15242,
+          "postCount": 15383,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 16923,
-            "postCount": 15242,
+            "followerCount": 17033,
+            "postCount": 15383,
             "coverImage": {
-              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-              "originalWidth": 5100,
-              "originalHeight": 2264
+              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
+              "originalWidth": 1352,
+              "originalHeight": 656
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2972,
+          "postCount": 2996,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5914,
-            "postCount": 2972,
+            "followerCount": 5955,
+            "postCount": 2996,
             "coverImage": {
-              "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
-              "originalWidth": 936,
-              "originalHeight": 765,
-              "isFeatured": true
+              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
+              "originalWidth": 638,
+              "originalHeight": 1077
             }
           },
           "type": "Tag"
         }, {
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 330,
+          "postCount": 333,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 604,
-            "postCount": 330,
+            "followerCount": 610,
+            "postCount": 333,
             "coverImage": {
-              "id": "1*zA-2-y8NzGLPB2VKillRqQ.png",
-              "originalWidth": 500,
-              "originalHeight": 500
+              "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
+              "originalWidth": 5101,
+              "originalHeight": 3239
             }
           },
           "type": "Tag"
@@ -1170,13 +1633,13 @@
         }, {
           "slug": "code",
           "name": "Code",
-          "postCount": 1374,
+          "postCount": 1382,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 560,
-            "postCount": 1374,
+            "followerCount": 568,
+            "postCount": 1382,
             "coverImage": {
               "id": "1*jbeYLiJhW35J_glQCXmHhQ.jpeg",
               "originalWidth": 1680,
@@ -1272,8 +1735,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "11 days ago",
-        "updatedAtRelative": "2 days ago",
+        "createdAtRelative": "13 days ago",
+        "updatedAtRelative": "4 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 2, 2016",
         "updatedAtEnglish": "September 11, 2016",
@@ -1345,7 +1808,7 @@
           "name": "Mikael M",
           "username": "mikaelm1013",
           "createdAt": 1471634800405,
-          "lastPostCreatedAt": 1471634931673,
+          "lastPostCreatedAt": 1473818166569,
           "imageId": "0*oMcR6WWTkscPo4pr.png",
           "backgroundImageId": "",
           "bio": "",
@@ -1357,40 +1820,39 @@
         "latestPublishedAtAbbreviated": "Sep 11",
         "firstPublishedAtAbbreviated": "Sep 2",
         "emailSnippet": "building apps has crept into the mainstream JavaScript ecosystem and it is here to stay.\n\nWhat is Immutable Architecture, anyways?\n\nTo understand immutable architecture, we need to first understand state. State, an evil source of complexity in any software, is the characteristic of a value. According to Miriam Webster, state is defined as “the particular condition that someone or something is in at a specific time.”",
-        "recommends": 29,
+        "recommends": 30,
         "isBookmarked": false,
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15242,
+          "postCount": 15383,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 16923,
-            "postCount": 15242,
+            "followerCount": 17033,
+            "postCount": 15383,
             "coverImage": {
-              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
-              "originalWidth": 5100,
-              "originalHeight": 2264
+              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
+              "originalWidth": 1352,
+              "originalHeight": 656
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2972,
+          "postCount": 2996,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5914,
-            "postCount": 2972,
+            "followerCount": 5955,
+            "postCount": 2996,
             "coverImage": {
-              "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
-              "originalWidth": 936,
-              "originalHeight": 765,
-              "isFeatured": true
+              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
+              "originalWidth": 638,
+              "originalHeight": 1077
             }
           },
           "type": "Tag"
@@ -1414,13 +1876,13 @@
         }, {
           "slug": "functional-programming",
           "name": "Functional Programming",
-          "postCount": 1009,
+          "postCount": 1023,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 2674,
-            "postCount": 1009,
+            "followerCount": 2698,
+            "postCount": 1023,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -1536,7 +1998,7 @@
       "type": "Post"
     }],
     "writerNames": ["thejenniekim", "MattiaManzati", "gabriele.cimato", "khor",
-      "jeffbski", "paramsingh_66174"
+      "RecastAI", "jeffbski", "paramsingh_66174"
     ],
     "tagName": null,
     "references": {
@@ -1546,11 +2008,25 @@
           "name": "Ryan C. Collins",
           "username": "ryancollinsio",
           "createdAt": 1457157779447,
-          "lastPostCreatedAt": 1473613994075,
+          "lastPostCreatedAt": 1473900006719,
           "imageId": "0*YnFnlAO5FsAdP7LI.jpg",
           "backgroundImageId": "",
           "bio": "Hi, I'm Ryan. I’m a software engineer working on the web and mobile platforms. I am a geek for React. http://www.ryancollins.io/#/portfolio",
           "twitterScreenName": "ryancollinsio",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "type": "User"
+        },
+        "a158ea836ddb": {
+          "userId": "a158ea836ddb",
+          "name": "RecastAI",
+          "username": "RecastAI",
+          "createdAt": 1447409162128,
+          "lastPostCreatedAt": 1473872762112,
+          "imageId": "0*GTAKEPG8Kb_MiU_K.png",
+          "backgroundImageId": "",
+          "bio": "Collaborative Bot Platform - build your own conversational bot! #AI #NLP #NLU #MachineLearning #Startup #Tech",
+          "twitterScreenName": "RecastAI",
           "facebookAccountId": "",
           "allowNotes": 1,
           "type": "User"
@@ -1560,7 +2036,7 @@
           "name": "Soon Hin Khor",
           "username": "khor",
           "createdAt": 1436145799627,
-          "lastPostCreatedAt": 1473648105574,
+          "lastPostCreatedAt": 1473928320972,
           "imageId": "1*DcVPSE7CSzxd-PCWL0y6PA.jpeg",
           "backgroundImageId": "",
           "bio": "Use tech to make the world more caring, and responsible. Nat. Univ. Singapore, Carnegie Mellon Univ, Univ. of Tokyo. IBM, 500Startups & Y-Combinator companies",
@@ -1646,9 +2122,9 @@
             "width": 0
           },
           "metadata": {
-            "followerCount": 31,
+            "followerCount": 36,
             "postCount": 0,
-            "activeAt": 1473710428105
+            "activeAt": 1473921977600
           },
           "virtuals": {
             "permissions": {
@@ -1784,7 +2260,7 @@
     "paging": {
       "previous": {
         "limit": 10,
-        "from": "1473710428101"
+        "from": "1473921977593"
       },
       "next": {
         "limit": 10,
@@ -1793,5 +2269,5 @@
     }
   },
   "v": 3,
-  "b": "25001-fe4443c"
+  "b": "25028-536d17a"
 }
