@@ -6,8 +6,7 @@ import {
 
 const feedUrl = 'https://medium.com/react-weekly/latest?format=json';
 
-const postsUrl = process.env.NODE_ENV === 'production' ?
-  'https://react-weekly.herokuapp.com/posts' : 'http://0.0.0.0:1337/posts';
+const postsUrl = 'https://react-weekly.herokuapp.com/posts';
 
 const parsePosts = (data) =>
   JSON.parse(data.substring(data.indexOf(';') + 5));
