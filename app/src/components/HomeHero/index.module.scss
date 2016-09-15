@@ -1,13 +1,17 @@
 .homeHero {
   background-color: #3b3b3b;
   height: 50vh;
-  min-height: 550px;
+  min-height: 600px;
   color: white;
 }
 
 .mainLogo {
   height: 300px;
   width: 300px !important;
+  @media screen and (max-width: 768px) {
+    height: 200px;
+    width: 200px !important;
+  }
 }
 
 .noPad {
