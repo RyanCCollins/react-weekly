@@ -17,7 +17,7 @@ const HomeHero = ({
       align="center"
       pad={{ vertical: 'large' }}
     >
-      <LogoImage size="small" style={{ marginBottom: 10 }} />
+      <LogoImage isSpinning size="small" style={{ marginBottom: 10 }} />
       <Heading tag="h1" strong align="center">
         React Weekly
       </Heading>

@@ -1,18 +1,26 @@
-import React from 'react';
+import React, { PropTypes, Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actionCreators from './actions';
 import { Navbar } from 'components';
 
-const Main = (props) => (
-  <div>
-    <Navbar />
-    {React.cloneElement(props.children, props)}
-  </div>
-);
+class Main extends React.Component {
+  render() {
+    const {
+      location,
+    } = this.props;
+    return (
+      <main>
+        <Navbar pathname={location.pathname} />
+        {React.cloneElement(this.props.children, this.props)}
+      </main>
+    );
+  }
+}
 
 Main.propTypes = {
-  children: React.children,
+  children: PropTypes.node.isRequired,
+  location: PropTypes.object.isRequired,
 };
 
 // Map the global state to global props here.

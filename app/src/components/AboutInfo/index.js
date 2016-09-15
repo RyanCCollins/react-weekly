@@ -15,7 +15,7 @@ import Tile from 'grommet/components/Tile';
 import Markdown from 'grommet/components/Markdown';
 import Anchor from 'grommet/components/Anchor';
 import Card from 'grommet/components/Card';
-import { Editor } from 'components';
+import { Editor, LogoImage } from 'components';
 
 const AboutInfo = ({
   editors,
@@ -24,10 +24,19 @@ const AboutInfo = ({
     <Hero
       backgroundType="image"
       justify="center"
+      className={styles.hero}
     >
-      <Heading tag="h1" align="center" style={styles.paddedHeader}>
-        React Weekly
-      </Heading>
+      <Box
+        align="center"
+        alignContent="center"
+        focusable="false"
+        justify="center"
+      >
+        <LogoImage isSpinning size="small" style={{ maxWidth: 100, height: 100 }} />
+        <Heading tag="h1" align="center" style={styles.paddedHeader}>
+          React Weekly
+        </Heading>
+      </Box>
     </Hero>
     <Section pad={{ vertical: 'large', horizontal: 'large' }}>
       <Heading align="center" tag="h1">

@@ -1,12 +1,22 @@
 // Included if you are using grommet.  Otherwise, just erase this next line.
 @import "./grommet.scss"; // <- This line to be exact.
 
-// Add globally used utility styles here.
-// Or import scss libraries that are to be used without CSS modules.
-/*
-.my-style {
-  max-width: 20px;
-  color: goldenrod;
+.spin-image {
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
-<div className="my-style" />
-*/
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(-360deg);}
+}

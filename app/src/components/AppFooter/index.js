@@ -20,6 +20,7 @@ const AppFooter = () => (
       <Anchor href="https://medium.com/react-weekly">
         <LogoImage
           size="small"
+          isSpinning
           style={{ marginBottom: 20, height: 'auto', maxWidth: 48 }}
         />
       </Anchor>

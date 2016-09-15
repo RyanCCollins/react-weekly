@@ -9,7 +9,9 @@ import LogoPNG from './react-weekly-horizontal.png';
 import styles from './index.module.scss';
 import cssModules from 'react-css-modules';
 
-const Navbar = () => (
+const Navbar = ({
+  pathname,
+}) => (
   <div className={styles.navbar}>
     <Header justify="between">
       <Title className={styles.title}>
@@ -18,10 +20,10 @@ const Navbar = () => (
         </Anchor>
       </Title>
       <Menu direction="row" align="center" responsive={false}>
-        <Anchor href="#" className="active">
+        <Anchor href="/" className={pathname === 'home' ? 'active' : ''}>
           Home
         </Anchor>
-        <Anchor href="/about">
+        <Anchor href="/about" className={pathname === 'about' ? 'active' : ''}>
           About
         </Anchor>
         <Anchor href="https://medium.com/react-weekly">
