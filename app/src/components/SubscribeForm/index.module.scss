@@ -3,6 +3,7 @@
 }
 
 .formField {
+  overflow: hidden !important;
   margin-right: 20px;
   input {
     max-width: 350px;
