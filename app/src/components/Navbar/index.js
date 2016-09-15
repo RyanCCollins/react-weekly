@@ -20,10 +20,10 @@ const Navbar = ({
         </Anchor>
       </Title>
       <Menu direction="row" align="center" responsive={false}>
-        <Anchor href="/" className={pathname === 'home' ? 'active' : ''}>
+        <Anchor href="/" className={pathname === '/' ? 'active' : ''}>
           Home
         </Anchor>
-        <Anchor href="/about" className={pathname === 'about' ? 'active' : ''}>
+        <Anchor href="/about" className={pathname === '/about' ? 'active' : ''}>
           About
         </Anchor>
         <Anchor href="https://medium.com/react-weekly">

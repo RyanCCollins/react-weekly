@@ -2,18 +2,19 @@ import React, { PropTypes, Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actionCreators from './actions';
+import App from 'grommet/components/App';
 import { Navbar } from 'components';
 
-class Main extends React.Component {
+class Main extends Component {
   render() {
     const {
       location,
     } = this.props;
     return (
-      <main>
+      <App centered>
         <Navbar pathname={location.pathname} />
         {React.cloneElement(this.props.children, this.props)}
-      </main>
+      </App>
     );
   }
 }
@@ -43,9 +44,9 @@ const mapDispatchToProps = (dispatch) => ({
 
 // Use connect both here and in your components.
 // See: https://egghead.io/lessons/javascript-redux-generating-containers-with-connect-from-react-redux-visibletodolist
-const App = connect(
+const ConnectedApp = connect(
   mapStateToProps,
   mapDispatchToProps
 )(Main);
 
-export default App;
+export default ConnectedApp;
