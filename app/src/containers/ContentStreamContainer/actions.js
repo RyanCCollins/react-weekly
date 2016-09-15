@@ -4,22 +4,7 @@ import {
   LOAD_CONTENT_FAILURE,
 } from './constants';
 
-const feedUrl = 'https://medium.com/react-weekly/latest?format=json';
-
 const postsUrl = 'https://react-weekly.herokuapp.com/posts';
-
-const parsePosts = (data) =>
-  JSON.parse(data.substring(data.indexOf(';') + 5));
-
-const headers = new Headers({
-  'content-type': 'application/json',
-});
-
-const options = {
-  method: 'GET',
-  headers,
-  mode: 'no-cors',
-};
 
 const loadContentInitiation = () => ({
   type: LOAD_CONTENT_INITIATION,
@@ -52,25 +37,3 @@ export const loadPostContent = () =>
         );
       });
   };
-
-// export const loadPostContent = () =>
-//   (dispatch) => {
-//     dispatch(
-//       loadContentInitiation()
-//     );
-//     fetch(feedUrl, options)
-//       .then(res => res.text())
-//       .then(res => parsePosts(res))
-//       .then(res => res.payload)
-//       .then(payload => payload.posts)
-//       .then(posts => {
-//         dispatch(
-//           loadContentSuccess(posts)
-//         );
-//       })
-//       .catch(err => {
-//         dispatch(
-//           loadContentFailure(err)
-//         );
-//       });
-//   };
