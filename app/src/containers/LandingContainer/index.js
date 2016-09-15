@@ -16,17 +16,49 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
   constructor() {
     super();
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleCloseError = this.handleCloseError.bind(this);
   }
   handleSubmit() {
-
+    const {
+      actions,
+      fields,
+    } = this.props;
+    if (fields.emailInput.valid) {
+      actions.submitEmail({ email: fields.emailInput.value });
+    }
+  }
+  handleModalClose() {
+    const {
+      closeModal,
+    } = this.props.actions;
+    closeModal();
+  }
+  handleCloseError() {
+    const {
+      closeError,
+    } = this.props.actions;
+    closeError();
   }
   render() {
     const {
       fields,
+      isShowingModal,
+      isSubmitting,
+      error,
+      message,
     } = this.props;
     return (
       <HomeHero>
-        <SubscribeForm {...fields} onSubmit={this.handleSubmit} />
+        <SubscribeForm
+          {...fields}
+          onCloseError={this.handleCloseError}
+          isSubmitting={isSubmitting}
+          message={message}
+          error={error}
+          onSubmit={this.handleSubmit}
+          isShowingModal={isShowingModal}
+          onCloseModal={this.handleModalClose}
+        />
       </HomeHero>
     );
   }
@@ -34,11 +66,19 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
 
 Landing.propTypes = {
   fields: PropTypes.object.isRequired,
+  isShowingModal: PropTypes.bool.isRequired,
+  actions: PropTypes.object.isRequired,
+  isSubmitting: PropTypes.bool.isRequired,
+  error: PropTypes.object,
+  message: PropTypes.string,
 };
 
 // mapStateToProps :: {State} -> {Props}
 const mapStateToProps = (state) => ({
-  //
+  isShowingModal: state.landing.isShowingModal,
+  isSubmitting: state.landing.isSubmitting,
+  error: state.landing.error,
+  message: state.landing.message,
 });
 
 // mapDispatchToProps :: Dispatch -> {Action}

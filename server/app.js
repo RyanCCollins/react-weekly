@@ -28,7 +28,8 @@ if (isDeveloping || needsCors) {
 app.use(express.static(__dirname + '/public'));
 
 app.post('/contact', (req, res, next) => {
-  
+  console.log(req);
+  res.send(200);
 });
 
 graphql(schema, query).then((result) => {

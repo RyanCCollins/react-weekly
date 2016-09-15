@@ -2,10 +2,12 @@ import {
   SUBMIT_EMAIL_INITIATION,
   SUBMIT_EMAIL_SUCCESS,
   SUBMIT_EMAIL_FAILURE,
+  CLOSE_LANDING_MODAL,
+  CLOSE_LANDING_ERROR,
 } from './constants';
 
-const baseUrl = "https://react-weekly.com/api/v1/";
-const submitEmailUrl = `${baseUrl}/contact/create`;
+const baseUrl = 'http://www.reactweekly.co/';
+const submitEmailUrl = `${baseUrl}contact/`;
 const postHeaders = {
   'Accept': 'application/json, text/plain, */*',
   'Content-Type': 'x-www-form-urlencoded',
@@ -21,9 +23,17 @@ const submitEmailSuccess = (message) => ({
   message,
 });
 
-const submitEmailFailure = (email) => ({
+const submitEmailFailure = (error) => ({
   type: SUBMIT_EMAIL_FAILURE,
-  email,
+  error,
+});
+
+export const closeModal = () => ({
+  type: CLOSE_LANDING_MODAL,
+});
+
+export const closeError = () => ({
+  type: CLOSE_LANDING_ERROR,
 });
 
 export const submitEmail = (params) =>
@@ -39,7 +49,10 @@ export const submitEmail = (params) =>
     .then(res => res.json())
     .then(() => {
       dispatch(
-        submitEmailSuccess('Thanks for subscribing!')
+        submitEmailSuccess(
+          `Thank you so much for subscribing!
+            We will get the first email out to you shortly!`
+        )
       );
     })
     .catch(err => {

@@ -8,6 +8,7 @@ import rootReducer from './reducers';
 
 const initialState = {
   landing: {
+    isShowingModal: false,
     isSubmitting: false,
     didSubmit: false,
     error: null,
