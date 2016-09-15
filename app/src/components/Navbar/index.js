@@ -24,7 +24,7 @@ const Navbar = () => (
         <Anchor href="/about">
           About
         </Anchor>
-        <Anchor href="/contact">
+        <Anchor href="mailto:help@reactweekly.co">
           Contact Us
         </Anchor>
         <Search dropAlign={{ right: 'right' }} />
