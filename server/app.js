@@ -13,8 +13,9 @@ const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 1337 : process.env.PORT;
 const app = express();
 const query = 'query { posts { id, title, image, tags: { slug, name }, snippet, uniqueSlug }}';
+const needsCors = true;
 
-if (isDeveloping) {
+if (isDeveloping || needsCors) {
   app.all('*', (req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET, POST');
@@ -27,7 +28,7 @@ if (isDeveloping) {
 app.use(express.static(__dirname + '/public'));
 
 app.post('/contact', (req, res, next) => {
-
+  
 });
 
 graphql(schema, query).then((result) => {
