@@ -1,4 +1,6 @@
 /* Assemble all components for export */
+export Editor from './Editor';
+export AboutInfo from './AboutInfo';
 export PlaceholderImage from './PlaceholderImage';
 export PostTeaser from './PostTeaser';
 export AppFooter from './AppFooter';

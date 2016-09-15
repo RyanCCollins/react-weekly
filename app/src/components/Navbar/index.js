@@ -24,6 +24,9 @@ const Navbar = () => (
         <Anchor href="/about">
           About
         </Anchor>
+        <Anchor href="https://medium.com/react-weekly">
+          Medium
+        </Anchor>
         <Anchor href="mailto:help@reactweekly.co">
           Contact Us
         </Anchor>

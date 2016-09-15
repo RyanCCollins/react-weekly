@@ -44,7 +44,7 @@ const PostTeaser = ({
         </Box>
         <Box className={styles.paragraphContainer}>
           <Paragraph>
-            {post.virtuals.snippet}
+            {post.virtuals.snippet} {post.virtuals.emailSnippet}{'...'}
           </Paragraph>
         </Box>
         <div className={styles.readMore}>

@@ -12,7 +12,8 @@ const routes = (
     <Router history={history}>
       <Route path="/" component={App}>
         <IndexRoute component={Pages.LandingPage} />
-        <Route path="*" component={Pages.NotFoundPage} />
+        <Route path="/about" component={Pages.AboutPage} />
+          <Route path="*" component={Pages.NotFoundPage} />
       </Route>
     </Router>
   </Provider>
