@@ -2,9 +2,11 @@ import React from 'react';
 import styles from './index.module.scss';
 import cssModules from 'react-css-modules';
 import Footer from 'grommet/components/Footer';
+import { LogoImage } from 'components';
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
 import SocialShare from 'grommet/components/SocialShare';
+import Anchor from 'grommet/components/Anchor';
 
 const AppFooter = () => (
   <Footer className={styles.appFooter}>
@@ -15,6 +17,12 @@ const AppFooter = () => (
       responsive
       className={styles.flexOne}
     >
+      <Anchor href="https://medium.com/react-weekly">
+        <LogoImage
+          size="small"
+          style={{ marginBottom: 20, height: 'auto', maxWidth: 48 }}
+        />
+      </Anchor>
       <Heading tag="h3">
         React Weekly
       </Heading>

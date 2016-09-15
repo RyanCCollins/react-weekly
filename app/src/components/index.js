@@ -1,4 +1,5 @@
 /* Assemble all components for export */
+export LogoImage from './LogoImage';
 export Editor from './Editor';
 export AboutInfo from './AboutInfo';
 export PlaceholderImage from './PlaceholderImage';
