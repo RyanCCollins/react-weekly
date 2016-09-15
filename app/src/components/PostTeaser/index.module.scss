@@ -28,7 +28,7 @@
   color: rgba(0,0,0,.44);
   white-space: normal;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .recommendations {
@@ -55,6 +55,10 @@
 .paragraphContainer {
   padding-left: 60px !important;
   padding-right: 60px !important;
+  @media screen and (max-width: 768px) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 }
 
 .postImage {
@@ -63,11 +67,23 @@
 
 .postHeading {
   text-align: center;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  @media screen and (max-width: 768px) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 }
 
 .tagsList {
   align-items: center;
   justify-content: center;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+  @media screen and (max-width: 768px) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 }

@@ -23,6 +23,7 @@ const PostTeaser = ({
         className={styles.post}
       >
         <Box align="center" justify="center">
+          <Anchor href={`https://medium.com/react-weekly/${post.uniqueSlug}`}>
           {post.virtuals.previewImage.imageId ?
             <Image
               className={styles.postImage}
@@ -30,23 +31,26 @@ const PostTeaser = ({
               src={`https://cdn-images-1.medium.com/fit/t/1100/480/${post.virtuals.previewImage.imageId}`}
             />
           :
-            <PlaceholderImage size={{ width: 1100, height: 480 }} />
+            <PlaceholderImage size={{ width: 576, height: 251 }} />
           }
+          </Anchor>
         </Box>
         <Box className={styles.postHeading}>
-          <Heading tag="h2">
-            {post.title}
-          </Heading>
+          <Anchor href={`https://medium.com/react-weekly/${post.uniqueSlug}`}>
+            <Heading tag="h2">
+              {post.title}
+            </Heading>
+          </Anchor>
         </Box>
         <Box className={styles.paragraphContainer}>
           <Paragraph>
-            {post.virtuals.snippet} {post.virtuals.emailSnippet}{'...'}
+            {post.virtuals.snippet}
           </Paragraph>
         </Box>
         <div className={styles.readMore}>
-          <a href={`https://medium.com/react-weekly/${post.uniqueSlug}`} className={styles.readMoreButton}>
+          <Anchor href={`https://medium.com/react-weekly/${post.uniqueSlug}`} className={styles.readMoreButton}>
             Read more...
-          </a>
+          </Anchor>
         </div>
         {post.virtuals.usersBySocialRecommends.length > 0 &&
           <div className={styles.recommendations}>
