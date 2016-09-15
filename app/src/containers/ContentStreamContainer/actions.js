@@ -3,6 +3,7 @@ import {
   LOAD_CONTENT_SUCCESS,
   LOAD_CONTENT_FAILURE,
 } from './constants';
+import 'whatwg-fetch';
 
 const postsUrl = 'https://react-weekly.herokuapp.com/posts';
 

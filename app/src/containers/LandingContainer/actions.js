@@ -6,6 +6,7 @@ import {
   CLOSE_LANDING_ERROR,
 } from './constants';
 
+import 'whatwg-fetch';
 const baseUrl = 'http://www.reactweekly.co/';
 const submitEmailUrl = `${baseUrl}contact/`;
 const postHeaders = {

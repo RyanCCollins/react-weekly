@@ -101,7 +101,8 @@
     "style-loader": "^0.13.0",
     "svg-react-loader": "^0.3.6",
     "utils": "^0.3.1",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta4",
