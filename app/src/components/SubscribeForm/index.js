@@ -25,12 +25,12 @@ const SubscribeForm = ({
 }) => (
   <Form className={styles.subscribeForm} onSubmit={onSubmit}>
     <Layer align="center" closer hidden={!isShowingModal} onClose={onCloseModal}>
-      <Section>
+      <Section align="center" justify="center">
         <Box
           align="center"
           size="medium"
           style={{ minHeight: 100 }}
-          pad={{ horizontal: 'large', vertical: 'medium' }}
+          pad={{ horizontal: 'large', vertical: 'large' }}
         >
           <Heading align="center" tag="h2">
             Thanks!
@@ -38,7 +38,11 @@ const SubscribeForm = ({
           <Heading align="center" tag="h5">
             {message}
           </Heading>
-          <Footer align="center" pad={{ vertical: 'medium' }}>
+          <Footer
+            align="center"
+            justify="center"
+            pad={{ vertical: 'large' }}
+          >
             <Button onClick={(e) => e}>{/* eslint-disable react/jsx-no-bind */}
               <Anchor href="mailto:admin@ryancollins.io">
                 Contact Us

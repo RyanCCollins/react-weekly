@@ -17,6 +17,7 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
     super();
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleCloseError = this.handleCloseError.bind(this);
+    this.handleModalClose = this.handleModalClose.bind(this);
   }
   handleSubmit() {
     const {
