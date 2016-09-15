@@ -25,9 +25,9 @@ const Editor = ({
       alignContent="center"
       focusable="false"
       justify="center"
-      pad={{ vertical: 'large', horizontal: 'large' }}
+      pad={{ vertical: 'large', horizontal: 'small' }}
       colorIndex="light-1"
-      style={{ maxWidth: 500 }}
+      style={{ maxWidth: 400 }}
     >
       <Heading tag="h2" align="center">
         {person.name}
