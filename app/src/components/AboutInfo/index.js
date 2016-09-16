@@ -160,36 +160,44 @@ const AboutInfo = ({
           <span style={{ marginBottom: 80 }} />
           <Tiles justify="center" full="horizontal">
             <Tile align="center">
-              <Image
-                alt="React Logo"
-                size="small"
-                style={{ maxHeight: 192, maxWidth: 192 }}
-                src="http://coenraets.org/present/react/img/react.png"
-              />
+              <Anchor href="https://facebook.github.io/react/">
+                <Image
+                  alt="React Logo"
+                  size="small"
+                  style={{ maxHeight: 192, maxWidth: 192 }}
+                  src="http://coenraets.org/present/react/img/react.png"
+                />
+              </Anchor>
             </Tile>
             <Tile align="center">
-              <Image
-                alt="Redux Logo"
-                size="small"
-                style={{ maxHeight: 192, maxWidth: 192 }}
-                src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png"
-              />
+              <Anchor href="http://redux.js.org/docs/introduction/">
+                <Image
+                  alt="Redux Logo"
+                  size="small"
+                  style={{ maxHeight: 192, maxWidth: 192 }}
+                  src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png"
+                />
+              </Anchor>
             </Tile>
             <Tile align="center">
-              <Image
-                alt="Grommet Logo"
-                size="small"
-                style={{ maxHeight: 192, maxWidth: 192 }}
-                src="https://camo.githubusercontent.com/17515422f0b959746bb2dcaf02533e7e00bac225/68747470733a2f2f67726f6d6d65742e6769746875622e696f2f696d672f67726f6d6d65742e737667"
-              />
+              <Anchor href="https://grommet.github.io/">
+                <Image
+                  alt="Grommet Logo"
+                  size="small"
+                  style={{ maxHeight: 192, maxWidth: 192 }}
+                  src="https://camo.githubusercontent.com/17515422f0b959746bb2dcaf02533e7e00bac225/68747470733a2f2f67726f6d6d65742e6769746875622e696f2f696d672f67726f6d6d65742e737667"
+                />
+              </Anchor>
             </Tile>
             <Tile align="center">
-              <Image
-                alt="Scalable React Boilerplate"
-                size="small"
-                style={{ maxHeight: 192, maxWidth: 192 }}
-                src="https://github.com/RyanCCollins/cdn/blob/master/restaurant-reviewer/scalable-react-boilerplate.png?raw=true"
-              />
+              <Anchor href="https://github.com/RyanCCollins/scalable-react-boilerplate">
+                <Image
+                  alt="Scalable React Boilerplate"
+                  size="small"
+                  style={{ maxHeight: 192, maxWidth: 192 }}
+                  src="https://github.com/RyanCCollins/cdn/blob/master/restaurant-reviewer/scalable-react-boilerplate.png?raw=true"
+                />
+              </Anchor>
             </Tile>
           </Tiles>
         </Section>

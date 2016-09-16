@@ -79,7 +79,7 @@ module.exports = {
   output: {
     path: process.env.NODE_ENV === 'production' ?
       path.resolve(ROOT_PATH, 'server/public')
-    : 
+    :
       path.resolve(ROOT_PATH, 'app/build'),
     publicPath: '/',
     filename: 'bundle.js',
@@ -95,14 +95,24 @@ module.exports = {
     host: HOST,
     port: PORT
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new NpmInstallPlugin(),
-    new HtmlwebpackPlugin({
-      title: 'Scalable React Boilerplate',
-      template: process.env.NODE_ENV === 'production' ?
-        path.resolve(ROOT_PATH, 'server/public/index.html') : 'index.html'
-    }),
-    new Visualizer()
-  ]
+  plugins: process.env.NODE_ENV === 'production' ?
+    [
+      new webpack.optimize.OccurrenceOrderPlugin(true),
+      new webpack.optimize.DedupePlugin(),
+      new webpack.optimize.UglifyJsPlugin({
+        compress: {
+          warnings: false,
+        },
+      }),
+    ]
+  :
+    [
+      new webpack.HotModuleReplacementPlugin(),
+      new NpmInstallPlugin(),
+      new HtmlwebpackPlugin({
+        title: 'React Weekly',
+        template: 'index.html'
+      }),
+      new Visualizer()
+    ]
 };
