@@ -1,3 +1,4 @@
+
 // needed for regenerator-runtime
 // (ES7 generator support is required by redux-saga)
 import 'babel-polyfill';
@@ -15,6 +16,6 @@ chai.use(chaiJsx);
 const context = require.context(
   '../../app/src',
   true,
-  /([^\a]+).test\.js$/
+  /([^]+).test\.js$/
 );
 context.keys().forEach(context);
