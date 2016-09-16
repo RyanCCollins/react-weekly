@@ -15,33 +15,40 @@ const postHeaders = {
   'Content-Type': 'x-www-form-urlencoded',
 };
 
-const submitEmailInitiation = (params) => ({
+// submitEmailInitiation :: JSON -> {Action}
+export const submitEmailInitiation = (params) => ({
   type: SUBMIT_EMAIL_INITIATION,
   params,
 });
 
-const submitEmailSuccess = (message) => ({
+// submitEmailSuccess :: String -> {Action}
+export const submitEmailSuccess = (message) => ({
   type: SUBMIT_EMAIL_SUCCESS,
   message,
 });
 
-const submitEmailFailure = (error) => ({
+// submitEmailFailure :: Error -> {Action}
+export const submitEmailFailure = (error) => ({
   type: SUBMIT_EMAIL_FAILURE,
   error,
 });
 
+// closeModal :: None -> {Action}
 export const closeModal = () => ({
   type: CLOSE_LANDING_MODAL,
 });
 
+// closeError :: None -> {Action}
 export const closeError = () => ({
   type: CLOSE_LANDING_ERROR,
 });
 
+// setIsLoaded :: None -> {Action}
 export const setIsLoaded = () => ({
   type: LANDING_IS_LOADED,
 });
 
+// submitEmail :: JSON -> Thunk -> Side Effects
 export const submitEmail = (params) =>
   (dispatch) => {
     dispatch(
