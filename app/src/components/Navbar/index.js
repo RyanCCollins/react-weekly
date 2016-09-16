@@ -18,7 +18,7 @@ const Navbar = ({
           <img src={LogoPNG} className={styles.logo} alt="React Weekly Logo" />
         </Anchor>
       </Title>
-      <Menu direction="row" align="center" responsive>
+      <Menu direction="row" align="center" responsive className={styles.right}>
         <Anchor href="/" className={pathname === '/' ? 'active' : ''}>
           Home
         </Anchor>
