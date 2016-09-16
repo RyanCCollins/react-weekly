@@ -77,7 +77,10 @@ module.exports = {
     },
   },
   output: {
-    path: process.env.NODE_ENV === 'production' ? path.resolve(ROOT_PATH, 'server/public') : path.resolve(ROOT_PATH, 'app/build'),
+    path: process.env.NODE_ENV === 'production' ?
+      path.resolve(ROOT_PATH, 'server/public')
+    : 
+      path.resolve(ROOT_PATH, 'app/build'),
     publicPath: '/',
     filename: 'bundle.js',
   },
@@ -97,7 +100,8 @@ module.exports = {
     new NpmInstallPlugin(),
     new HtmlwebpackPlugin({
       title: 'Scalable React Boilerplate',
-      template: process.env.NODE_ENV === 'production' ? path.resolve(ROOT_PATH, 'server/public/index.html') : 'index.html'
+      template: process.env.NODE_ENV === 'production' ?
+        path.resolve(ROOT_PATH, 'server/public/index.html') : 'index.html'
     }),
     new Visualizer()
   ]
