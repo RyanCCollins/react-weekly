@@ -4,6 +4,7 @@ import {
   SUBMIT_EMAIL_FAILURE,
   CLOSE_LANDING_MODAL,
   CLOSE_LANDING_ERROR,
+  LANDING_IS_LOADED,
 } from './constants';
 
 import 'whatwg-fetch';
@@ -35,6 +36,10 @@ export const closeModal = () => ({
 
 export const closeError = () => ({
   type: CLOSE_LANDING_ERROR,
+});
+
+export const setIsLoaded = () => ({
+  type: LANDING_IS_LOADED,
 });
 
 export const submitEmail = (params) =>

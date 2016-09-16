@@ -4,6 +4,7 @@ import {
   SUBMIT_EMAIL_FAILURE,
   CLOSE_LANDING_MODAL,
   CLOSE_LANDING_ERROR,
+  LANDING_IS_LOADED,
 } from './constants';
 
 const initialState = {
@@ -13,6 +14,7 @@ const initialState = {
   message: null,
   isShowingModal: false,
   modalMessage: '',
+  isLoaded: false,
 };
 
 const landingReducer =
@@ -46,6 +48,10 @@ const landingReducer =
       case CLOSE_LANDING_ERROR:
         return Object.assign({}, state, {
           error: null,
+        });
+      case LANDING_IS_LOADED:
+        return Object.assign({}, state, {
+          isLoaded: true,
         });
       default:
         return state;

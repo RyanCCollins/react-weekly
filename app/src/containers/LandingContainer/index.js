@@ -18,6 +18,19 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleCloseError = this.handleCloseError.bind(this);
     this.handleModalClose = this.handleModalClose.bind(this);
+    this.handleLoad = this.handleLoad.bind(this);
+  }
+  componentDidMount() {
+    window.addEventListener('DOMContentLoaded', this.handleLoad);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('DOMContentLoaded', this.handleLoad);
+  }
+  handleLoad() {
+    const {
+      setIsLoaded,
+    } = this.props.actions;
+    setIsLoaded();
   }
   handleSubmit() {
     const {
@@ -47,9 +60,10 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
       isSubmitting,
       error,
       message,
+      isLoaded,
     } = this.props;
     return (
-      <HomeHero>
+      <HomeHero isLoaded={isLoaded}>
         <SubscribeForm
           {...fields}
           onCloseError={this.handleCloseError}
@@ -72,6 +86,7 @@ Landing.propTypes = {
   isSubmitting: PropTypes.bool.isRequired,
   error: PropTypes.object,
   message: PropTypes.string,
+  isLoaded: PropTypes.bool.isRequired,
 };
 
 // mapStateToProps :: {State} -> {Props}
@@ -80,6 +95,7 @@ const mapStateToProps = (state) => ({
   isSubmitting: state.landing.isSubmitting,
   error: state.landing.error,
   message: state.landing.message,
+  isLoaded: state.landing.isLoaded,
 });
 
 // mapDispatchToProps :: Dispatch -> {Action}

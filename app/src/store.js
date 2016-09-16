@@ -13,6 +13,7 @@ const initialState = {
     didSubmit: false,
     error: null,
     message: null,
+    isLoaded: false,
   },
   contentStream: {
     isLoading: false,
