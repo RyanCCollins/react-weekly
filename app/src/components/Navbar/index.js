@@ -3,7 +3,6 @@ import Header from 'grommet/components/Header';
 import Title from 'grommet/components/Title';
 import Menu from 'grommet/components/Menu';
 import Anchor from 'grommet/components/Anchor';
-import Search from 'grommet/components/Search';
 import LogoPNG from './react-weekly-horizontal.png';
 
 import styles from './index.module.scss';
@@ -32,7 +31,6 @@ const Navbar = ({
         <Anchor href="mailto:help@reactweekly.co">
           Contact Us
         </Anchor>
-        <Search dropAlign={{ right: 'right' }} />
       </Menu>
     </Header>
   </div>
