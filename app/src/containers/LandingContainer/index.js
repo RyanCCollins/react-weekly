@@ -7,6 +7,7 @@ import styles from './index.module.scss';
 import { HomeHero, SubscribeForm } from 'components';
 import { reduxForm } from 'redux-form';
 import validation from './validation';
+import domReady from 'utils/domReady';
 
 export const subscribeFields = [
   'emailInput',
@@ -22,6 +23,9 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
   }
   componentDidMount() {
     window.addEventListener('DOMContentLoaded', this.handleLoad);
+    setTimeout(() => { // Load anyways after 20 seconds
+      this.handleLoad();
+    }, 20000);
   }
   componentWillUnmount() {
     window.removeEventListener('DOMContentLoaded', this.handleLoad);

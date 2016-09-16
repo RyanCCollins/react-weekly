@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 import styles from './index.module.scss';
 import cssModules from 'react-css-modules';
-import { Link } from 'react-router';
 import Hero from 'grommet/components/hero';
 import Heading from 'grommet/components/heading';
 import Box from 'grommet/components/Box';
@@ -100,7 +99,7 @@ const AboutInfo = ({
     </Section>
     <Section pad={{ vertical: 'large', horizontal: 'large' }}>
       <Heading align="center" tag="h1">
-        {`Who's Behind All This?`}
+        {'Who\'s Behind All This?'}
       </Heading>
       <Box
         align="center"
@@ -210,14 +209,14 @@ const AboutInfo = ({
             style={{ minHeight: 200 }}
             full="horizontal"
           >
-            <Link to="/">
+            <Anchor href="/">
               <Button
                 onClick={(a) => a} // eslint-disable-line react/jsx-no-bind
                 a11yTitle="Go Home"
               >
                 Take me home
               </Button>
-            </Link>
+            </Anchor>
           </Box>
         </Footer>
       </Article>

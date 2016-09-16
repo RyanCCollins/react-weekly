@@ -12,9 +12,6 @@ const routes = (
     <Router
       onUpdate={() => { // eslint-disable-line
         window.scrollTo(0, 0);
-        const DOMLoaded = document.createEvent('Event');
-        DOMLoaded.initEvent('DOMContentLoaded');
-        window.document.dispatchEvent(DOMLoaded);
       }}
       history={history}
     >
