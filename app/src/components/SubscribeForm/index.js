@@ -55,6 +55,7 @@ const SubscribeForm = ({
     <Box
       direction="row"
       justify="between"
+      className={styles.formFieldBox}
     >
       <FormField
         size="small"

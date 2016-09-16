@@ -20,7 +20,7 @@ const HomeHero = ({
       pad={{ vertical: 'large' }}
     >
       <Animate
-        enter={{ animation: 'slide-up', duration: 1500 }}
+        enter={{ animation: 'slide-up', duration: 2500 }}
         visible={isLoaded}
         keep
       >
@@ -33,7 +33,7 @@ const HomeHero = ({
         </div>
       </Animate>
       <Animate
-        enter={{ animation: 'slide-up', duration: 1500 }}
+        enter={{ animation: 'slide-up', duration: 2500 }}
         visible={isLoaded}
         keep
       >
