@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import styles from './index.module.scss';
 import cssModules from 'react-css-modules';
 import { Link } from 'react-router';
@@ -15,10 +15,12 @@ import Tile from 'grommet/components/Tile';
 import Markdown from 'grommet/components/Markdown';
 import Anchor from 'grommet/components/Anchor';
 import Card from 'grommet/components/Card';
+import Animate from 'grommet/components/Animate';
 import { Editor, LogoImage } from 'components';
 
 const AboutInfo = ({
   editors,
+  isLoaded,
 }) => (
   <div className={styles.aboutInfo}>
     <Hero
@@ -32,10 +34,22 @@ const AboutInfo = ({
         focusable="false"
         justify="center"
       >
-        <LogoImage isSpinning size="small" style={{ maxWidth: 100, height: 100 }} />
-        <Heading tag="h1" align="center" style={styles.paddedHeader}>
-          React Weekly
-        </Heading>
+        <Animate
+          enter={{ animation: 'slide-down', duration: 2500 }}
+          visible={isLoaded}
+          keep
+        >
+          <LogoImage isSpinning size="small" style={{ maxWidth: 100, height: 100 }} />
+        </Animate>
+        <Animate
+          enter={{ animation: 'slide-up', duration: 2500 }}
+          visible={isLoaded}
+          keep
+        >
+          <Heading tag="h1" align="center" style={styles.paddedHeader}>
+            React Weekly
+          </Heading>
+        </Animate>
       </Box>
     </Hero>
     <Section pad={{ vertical: 'large', horizontal: 'large' }}>
@@ -202,5 +216,13 @@ const AboutInfo = ({
     </Section>
   </div>
 );
+
+AboutInfo.propTypes = {
+  isLoaded: PropTypes.bool.isRequired,
+};
+
+AboutInfo.defaultProps = {
+  isLoaded: false,
+};
 
 export default cssModules(AboutInfo, styles);

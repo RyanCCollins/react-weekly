@@ -30,7 +30,9 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
     const {
       setIsLoaded,
     } = this.props.actions;
-    setIsLoaded();
+    window.requestAnimationFrame(() => {
+      setIsLoaded();
+    });
   }
   handleSubmit() {
     const {
