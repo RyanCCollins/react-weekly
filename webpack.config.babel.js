@@ -97,7 +97,7 @@ module.exports = {
     new NpmInstallPlugin(),
     new HtmlwebpackPlugin({
       title: 'Scalable React Boilerplate',
-      template: 'index.html'
+      template: process.env.NODE_ENV === 'production' ? path.resolve(ROOT_PATH, 'server/public/index.html') : 'index.html'
     }),
     new Visualizer()
   ]
