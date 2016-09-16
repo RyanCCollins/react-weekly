@@ -1,5 +1,8 @@
-.logo{
+.logo {
   max-height: 45px;
+  @media screen and (max-width: 330px) {
+    width: 150px;
+  }
 }
 
 .title {

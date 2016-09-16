@@ -1,6 +1,10 @@
 // Included if you are using grommet.  Otherwise, just erase this next line.
 @import "./grommet.scss"; // <- This line to be exact.
 
+body {
+  overflow-x: hidden;
+}
+
 .spin-image {
   animation-name: spin;
   animation-duration: 10000ms;
