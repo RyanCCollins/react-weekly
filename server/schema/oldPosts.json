@@ -5,10 +5,10 @@
       "id": "955bdba6e52f",
       "name": "React Weekly",
       "slug": "react-weekly",
-      "tags": ["REACT", "FRONT END DEVELOPMENT"],
+      "tags": ["REACT", "FRONT END DEVELOPMENT", "GRAPHQL", "REDUX"],
       "creatorId": "bcc0b1e6ca00",
-      "description": "A curation of the best React JS related content",
-      "shortDescription": "A curation of the best React JS related content",
+      "description": "A curation of the best React JS related content — http://www.reactweekly.co",
+      "shortDescription": "A curation of the best React JS related content — http:…",
       "image": {
         "imageId": "1*P_eK-3UjU-DKaoRSWyrYXg.png",
         "filter": "",
@@ -20,7 +20,7 @@
         "width": 0
       },
       "metadata": {
-        "followerCount": 36,
+        "followerCount": 43,
         "postCount": 0,
         "activeAt": 1473921977600
       },
@@ -174,8 +174,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "a day ago",
-        "updatedAtRelative": "10 hours ago",
+        "createdAtRelative": "2 days ago",
+        "updatedAtRelative": "a day ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 14, 2016",
         "updatedAtEnglish": "September 15, 2016",
@@ -212,60 +212,74 @@
           "lastReadAt": 1473921989392,
           "lastReadParagraphName": "38e4",
           "lastReadPercentage": 0.01,
-          "viewedAt": 1473921968170,
+          "viewedAt": 1473959552961,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
-        "usersBySocialRecommends": [],
+        "usersBySocialRecommends": [{
+          "userId": "756fa112f0f9",
+          "name": "Mikael M",
+          "username": "mikaelm1013",
+          "createdAt": 1471634800405,
+          "lastPostCreatedAt": 1473818166569,
+          "imageId": "1*0xvOsnS40xUIV-Ka87f66g.jpeg",
+          "backgroundImageId": "",
+          "bio": "A CS student with an interest in iOS development and machine learning.",
+          "twitterScreenName": "mm3981",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "type": "User"
+        }],
         "latestPublishedAtAbbreviated": "Sep 14",
         "firstPublishedAtAbbreviated": "Sep 14",
         "emailSnippet": "create the first version of our platform, but today, we see its limits and want to migrate our platform to ReactJS.\n\nAngular helps creating single page applications and renders the content on the client-side, but is utterly bad in terms of SEO referencing. We want to have something that renders our content on the server-side at the first load, but provides the experience of the SPA applications after that: an isomorphic app.",
-        "recommends": 2,
+        "recommends": 4,
         "isBookmarked": false,
         "tags": [{
           "slug": "react",
           "name": "React",
-          "postCount": 2996,
+          "postCount": 3013,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5955,
-            "postCount": 2996,
+            "followerCount": 5991,
+            "postCount": 3013,
             "coverImage": {
-              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
-              "originalWidth": 638,
-              "originalHeight": 1077
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
+              "isFeatured": true
             }
           },
           "type": "Tag"
         }, {
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15383,
+          "postCount": 15475,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17033,
-            "postCount": 15383,
+            "followerCount": 17100,
+            "postCount": 15475,
             "coverImage": {
-              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
-              "originalWidth": 1352,
-              "originalHeight": 656
+              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+              "originalWidth": 5100,
+              "originalHeight": 2264
             }
           },
           "type": "Tag"
         }, {
           "slug": "web-development",
           "name": "Web Development",
-          "postCount": 19931,
+          "postCount": 20036,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 18726,
-            "postCount": 19931,
+            "followerCount": 18810,
+            "postCount": 20036,
             "coverImage": {
               "id": "1*0nJYGbjwV7Ifj8hYQp43Qw.jpeg",
               "originalWidth": 1920,
@@ -276,13 +290,13 @@
         }, {
           "slug": "coding",
           "name": "Coding",
-          "postCount": 4715,
+          "postCount": 4739,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 6522,
-            "postCount": 4715,
+            "followerCount": 6554,
+            "postCount": 4739,
             "coverImage": {
               "id": "1*zVTfzYbzaptZwLBpzQjzkA.jpeg",
               "originalWidth": 1280,
@@ -298,7 +312,7 @@
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 180,
+            "followerCount": 181,
             "postCount": 87,
             "coverImage": {
               "id": "1*1mnuBFkslw57jIZVDU2j1A.png",
@@ -308,7 +322,7 @@
           },
           "type": "Tag"
         }],
-        "socialRecommendsCount": 0,
+        "socialRecommendsCount": 1,
         "responsesCreatedCount": 0,
         "links": {
           "entries": [{
@@ -415,8 +429,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "16 hours ago",
-        "updatedAtRelative": "11 hours ago",
+        "createdAtRelative": "2 days ago",
+        "updatedAtRelative": "a day ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 14, 2016",
         "updatedAtEnglish": "September 15, 2016",
@@ -443,17 +457,17 @@
           "userId": "bcc0b1e6ca00",
           "postId": "dad7acf39e1b",
           "readAt": 1473914935257,
-          "readLaterAddedAt": 0,
+          "readLaterAddedAt": 1473975372361,
           "votedAt": 1473907352107,
           "collaboratorAddedAt": 0,
           "notesAddedAt": 0,
           "subscribedAt": 0,
           "lastReadSectionName": "8960",
           "lastReadVersionId": "746ccbe7684",
-          "lastReadAt": 1473955158092,
-          "lastReadParagraphName": "768a",
-          "lastReadPercentage": 0.96,
-          "viewedAt": 1473955419411,
+          "lastReadAt": 1474005884201,
+          "lastReadParagraphName": "e8e9",
+          "lastReadPercentage": 0.49,
+          "viewedAt": 1474007358849,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -476,9 +490,9 @@
           "username": "mikaelm1013",
           "createdAt": 1471634800405,
           "lastPostCreatedAt": 1473818166569,
-          "imageId": "0*oMcR6WWTkscPo4pr.png",
+          "imageId": "1*0xvOsnS40xUIV-Ka87f66g.jpeg",
           "backgroundImageId": "",
-          "bio": "",
+          "bio": "A CS student with an interest in iOS development and machine learning.",
           "twitterScreenName": "mm3981",
           "facebookAccountId": "",
           "allowNotes": 1,
@@ -487,56 +501,57 @@
         "latestPublishedAtAbbreviated": "Sep 15",
         "firstPublishedAtAbbreviated": "Sep 14",
         "emailSnippet": "of integrating it into my workflow. I expect that you have some amount of familiarity with the setup involved in React / Redux projects and will link to resources as I go.\n\nWhile Redux at it’s core is a State management library, often times your action creators take care of loading data from your API. The method that I have used mostly is to implement thunks, along with having several actions / action creators to communicate between the store and UI during the data-loading process.",
-        "recommends": 3,
-        "isBookmarked": false,
+        "recommends": 8,
+        "isBookmarked": true,
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15383,
+          "postCount": 15475,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17033,
-            "postCount": 15383,
+            "followerCount": 17100,
+            "postCount": 15475,
             "coverImage": {
-              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
-              "originalWidth": 1352,
-              "originalHeight": 656
+              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+              "originalWidth": 5100,
+              "originalHeight": 2264
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2996,
+          "postCount": 3013,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5955,
-            "postCount": 2996,
+            "followerCount": 5991,
+            "postCount": 3013,
             "coverImage": {
-              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
-              "originalWidth": 638,
-              "originalHeight": 1077
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
+              "isFeatured": true
             }
           },
           "type": "Tag"
         }, {
           "slug": "graphql",
           "name": "Graphql",
-          "postCount": 164,
+          "postCount": 167,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 552,
-            "postCount": 164,
+            "followerCount": 556,
+            "postCount": 167,
             "coverImage": {
-              "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
-              "originalWidth": 936,
-              "originalHeight": 765,
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
               "isFeatured": true
             }
           },
@@ -642,7 +657,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "a year ago",
-        "updatedAtRelative": "3 days ago",
+        "updatedAtRelative": "4 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 25, 2015",
         "updatedAtEnglish": "September 12, 2016",
@@ -679,7 +694,7 @@
           "lastReadAt": 1473710448888,
           "lastReadParagraphName": "b77a",
           "lastReadPercentage": 0.93,
-          "viewedAt": 1473909066120,
+          "viewedAt": 1473960955660,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -692,13 +707,13 @@
         "tags": [{
           "slug": "rails",
           "name": "Rails",
-          "postCount": 810,
+          "postCount": 814,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 546,
-            "postCount": 810,
+            "followerCount": 548,
+            "postCount": 814,
             "coverImage": {
               "id": "1*FJhxgyS9qTT1LKan_6RviA.png",
               "originalWidth": 548,
@@ -726,17 +741,17 @@
         }, {
           "slug": "graphql",
           "name": "Graphql",
-          "postCount": 164,
+          "postCount": 167,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 552,
-            "postCount": 164,
+            "followerCount": 556,
+            "postCount": 167,
             "coverImage": {
-              "id": "1*aBp8M-GPgIiRXVVL6fkyjA.png",
-              "originalWidth": 936,
-              "originalHeight": 765,
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
               "isFeatured": true
             }
           },
@@ -846,7 +861,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "9 months ago",
-        "updatedAtRelative": "5 days ago",
+        "updatedAtRelative": "6 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "December 24, 2015",
         "updatedAtEnglish": "September 10, 2016",
@@ -883,7 +898,7 @@
           "lastReadAt": 1473539222545,
           "lastReadParagraphName": "ac28",
           "lastReadPercentage": 0.36,
-          "viewedAt": 1473710413791,
+          "viewedAt": 1473975364278,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -935,51 +950,52 @@
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15383,
+          "postCount": 15475,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17033,
-            "postCount": 15383,
+            "followerCount": 17100,
+            "postCount": 15475,
             "coverImage": {
-              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
-              "originalWidth": 1352,
-              "originalHeight": 656
+              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+              "originalWidth": 5100,
+              "originalHeight": 2264
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2996,
+          "postCount": 3013,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5955,
-            "postCount": 2996,
+            "followerCount": 5991,
+            "postCount": 3013,
             "coverImage": {
-              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
-              "originalWidth": 638,
-              "originalHeight": 1077
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
+              "isFeatured": true
             }
           },
           "type": "Tag"
         }, {
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 333,
+          "postCount": 337,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 610,
-            "postCount": 333,
+            "followerCount": 619,
+            "postCount": 337,
             "coverImage": {
-              "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
-              "originalWidth": 5101,
-              "originalHeight": 3239
+              "id": "1*CDASmWXZsdGhJyiVq9AS6g.jpeg",
+              "originalWidth": 3264,
+              "originalHeight": 4912
             }
           },
           "type": "Tag"
@@ -1081,8 +1097,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "24 days ago",
-        "updatedAtRelative": "5 days ago",
+        "createdAtRelative": "25 days ago",
+        "updatedAtRelative": "6 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "August 22, 2016",
         "updatedAtEnglish": "September 10, 2016",
@@ -1108,7 +1124,7 @@
         "userPostRelation": {
           "userId": "bcc0b1e6ca00",
           "postId": "ec0b3e3c8786",
-          "readAt": 1473536305612,
+          "readAt": 1473981262381,
           "readLaterAddedAt": 0,
           "votedAt": 1473532552726,
           "collaboratorAddedAt": 0,
@@ -1116,10 +1132,10 @@
           "subscribedAt": 0,
           "lastReadSectionName": "657f",
           "lastReadVersionId": "4bc9f3e6c8db",
-          "lastReadAt": 1473536308146,
-          "lastReadParagraphName": "553d",
-          "lastReadPercentage": 0.91,
-          "viewedAt": 1473536641791,
+          "lastReadAt": 1473981265279,
+          "lastReadParagraphName": "ec90",
+          "lastReadPercentage": 1,
+          "viewedAt": 1473981254055,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -1132,34 +1148,34 @@
         "tags": [{
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 333,
+          "postCount": 337,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 610,
-            "postCount": 333,
+            "followerCount": 619,
+            "postCount": 337,
             "coverImage": {
-              "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
-              "originalWidth": 5101,
-              "originalHeight": 3239
+              "id": "1*CDASmWXZsdGhJyiVq9AS6g.jpeg",
+              "originalWidth": 3264,
+              "originalHeight": 4912
             }
           },
           "type": "Tag"
         }, {
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15383,
+          "postCount": 15475,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17033,
-            "postCount": 15383,
+            "followerCount": 17100,
+            "postCount": 15475,
             "coverImage": {
-              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
-              "originalWidth": 1352,
-              "originalHeight": 656
+              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+              "originalWidth": 5100,
+              "originalHeight": 2264
             }
           },
           "type": "Tag"
@@ -1171,7 +1187,7 @@
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 48,
+            "followerCount": 49,
             "postCount": 23,
             "coverImage": {
               "id": "1*gDZgHB7KYr44WG442p5BBw.png",
@@ -1183,13 +1199,13 @@
         }, {
           "slug": "babeljs",
           "name": "Babeljs",
-          "postCount": 66,
+          "postCount": 67,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 155,
-            "postCount": 66,
+            "followerCount": 156,
+            "postCount": 67,
             "coverImage": {
               "id": "1*5rhtsSpxx8iL1Gm8FnG0YA.jpeg",
               "originalWidth": 2133,
@@ -1200,17 +1216,18 @@
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2996,
+          "postCount": 3013,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5955,
-            "postCount": 2996,
+            "followerCount": 5991,
+            "postCount": 3013,
             "coverImage": {
-              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
-              "originalWidth": 638,
-              "originalHeight": 1077
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
+              "isFeatured": true
             }
           },
           "type": "Tag"
@@ -1306,7 +1323,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "a year ago",
-        "updatedAtRelative": "10 days ago",
+        "updatedAtRelative": "11 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "July 11, 2015",
         "updatedAtEnglish": "September 5, 2016",
@@ -1382,13 +1399,13 @@
         "tags": [{
           "slug": "reactjs",
           "name": "Reactjs",
-          "postCount": 423,
+          "postCount": 424,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 2066,
-            "postCount": 423,
+            "followerCount": 2075,
+            "postCount": 424,
             "coverImage": {
               "id": "1*nIof-zUK6DpNvinE_g57iw.png",
               "originalWidth": 787,
@@ -1399,34 +1416,35 @@
         }, {
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15383,
+          "postCount": 15475,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17033,
-            "postCount": 15383,
+            "followerCount": 17100,
+            "postCount": 15475,
             "coverImage": {
-              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
-              "originalWidth": 1352,
-              "originalHeight": 656
+              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+              "originalWidth": 5100,
+              "originalHeight": 2264
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2996,
+          "postCount": 3013,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5955,
-            "postCount": 2996,
+            "followerCount": 5991,
+            "postCount": 3013,
             "coverImage": {
-              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
-              "originalWidth": 638,
-              "originalHeight": 1077
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
+              "isFeatured": true
             }
           },
           "type": "Tag"
@@ -1514,8 +1532,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "12 days ago",
-        "updatedAtRelative": "9 days ago",
+        "createdAtRelative": "13 days ago",
+        "updatedAtRelative": "10 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 3, 2016",
         "updatedAtEnglish": "September 6, 2016",
@@ -1560,56 +1578,57 @@
         "latestPublishedAtAbbreviated": "Sep 6",
         "firstPublishedAtAbbreviated": "Sep 3",
         "emailSnippet": "our web apps. Gone are the times when our servers used to render the html for our web apps (although they’re used for initial server side rendering). Today we need more out of our web apps like lazy loading of data through Ajax, cool animations, app state management, routing, infinite scrolling and many more.\n\nAll of these things mentioned require a decent amount of work on JavaScript by a front-end developer.",
-        "recommends": 21,
+        "recommends": 22,
         "isBookmarked": false,
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15383,
+          "postCount": 15475,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17033,
-            "postCount": 15383,
+            "followerCount": 17100,
+            "postCount": 15475,
             "coverImage": {
-              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
-              "originalWidth": 1352,
-              "originalHeight": 656
+              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+              "originalWidth": 5100,
+              "originalHeight": 2264
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2996,
+          "postCount": 3013,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5955,
-            "postCount": 2996,
+            "followerCount": 5991,
+            "postCount": 3013,
             "coverImage": {
-              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
-              "originalWidth": 638,
-              "originalHeight": 1077
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
+              "isFeatured": true
             }
           },
           "type": "Tag"
         }, {
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 333,
+          "postCount": 337,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 610,
-            "postCount": 333,
+            "followerCount": 619,
+            "postCount": 337,
             "coverImage": {
-              "id": "1*rKx8bGkeb7P9A7CLQdsu9g.jpeg",
-              "originalWidth": 5101,
-              "originalHeight": 3239
+              "id": "1*CDASmWXZsdGhJyiVq9AS6g.jpeg",
+              "originalWidth": 3264,
+              "originalHeight": 4912
             }
           },
           "type": "Tag"
@@ -1633,17 +1652,18 @@
         }, {
           "slug": "code",
           "name": "Code",
-          "postCount": 1382,
+          "postCount": 1384,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 568,
-            "postCount": 1382,
+            "followerCount": 571,
+            "postCount": 1384,
             "coverImage": {
-              "id": "1*jbeYLiJhW35J_glQCXmHhQ.jpeg",
-              "originalWidth": 1680,
-              "originalHeight": 1050
+              "id": "1*SpeorHJpfNnlAMS8Ph7inA.png",
+              "originalWidth": 2432,
+              "originalHeight": 811,
+              "isFeatured": true
             }
           },
           "type": "Tag"
@@ -1735,8 +1755,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "13 days ago",
-        "updatedAtRelative": "4 days ago",
+        "createdAtRelative": "14 days ago",
+        "updatedAtRelative": "5 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 2, 2016",
         "updatedAtEnglish": "September 11, 2016",
@@ -1773,7 +1793,7 @@
           "lastReadAt": 1473621112623,
           "lastReadParagraphName": "af8a",
           "lastReadPercentage": 0.94,
-          "viewedAt": 1473621072994,
+          "viewedAt": 1473980563852,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -1809,9 +1829,9 @@
           "username": "mikaelm1013",
           "createdAt": 1471634800405,
           "lastPostCreatedAt": 1473818166569,
-          "imageId": "0*oMcR6WWTkscPo4pr.png",
+          "imageId": "1*0xvOsnS40xUIV-Ka87f66g.jpeg",
           "backgroundImageId": "",
-          "bio": "",
+          "bio": "A CS student with an interest in iOS development and machine learning.",
           "twitterScreenName": "mm3981",
           "facebookAccountId": "",
           "allowNotes": 1,
@@ -1825,34 +1845,35 @@
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15383,
+          "postCount": 15475,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17033,
-            "postCount": 15383,
+            "followerCount": 17100,
+            "postCount": 15475,
             "coverImage": {
-              "id": "1*dT0K035G8ZPYB6qWv4Vy1Q.png",
-              "originalWidth": 1352,
-              "originalHeight": 656
+              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+              "originalWidth": 5100,
+              "originalHeight": 2264
             }
           },
           "type": "Tag"
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 2996,
+          "postCount": 3013,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5955,
-            "postCount": 2996,
+            "followerCount": 5991,
+            "postCount": 3013,
             "coverImage": {
-              "id": "1*jUaWL3lyqocJNrCkEoE1Tg.gif",
-              "originalWidth": 638,
-              "originalHeight": 1077
+              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
+              "originalWidth": 1592,
+              "originalHeight": 838,
+              "isFeatured": true
             }
           },
           "type": "Tag"
@@ -1876,13 +1897,13 @@
         }, {
           "slug": "functional-programming",
           "name": "Functional Programming",
-          "postCount": 1023,
+          "postCount": 1028,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 2698,
-            "postCount": 1023,
+            "followerCount": 2718,
+            "postCount": 1028,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -2107,10 +2128,10 @@
           "id": "955bdba6e52f",
           "name": "React Weekly",
           "slug": "react-weekly",
-          "tags": ["REACT", "FRONT END DEVELOPMENT"],
+          "tags": ["REACT", "FRONT END DEVELOPMENT", "GRAPHQL", "REDUX"],
           "creatorId": "bcc0b1e6ca00",
-          "description": "A curation of the best React JS related content",
-          "shortDescription": "A curation of the best React JS related content",
+          "description": "A curation of the best React JS related content — http://www.reactweekly.co",
+          "shortDescription": "A curation of the best React JS related content — http:…",
           "image": {
             "imageId": "1*P_eK-3UjU-DKaoRSWyrYXg.png",
             "filter": "",
@@ -2122,7 +2143,7 @@
             "width": 0
           },
           "metadata": {
-            "followerCount": 36,
+            "followerCount": 43,
             "postCount": 0,
             "activeAt": 1473921977600
           },

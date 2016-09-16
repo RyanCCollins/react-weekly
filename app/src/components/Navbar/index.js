@@ -15,7 +15,11 @@ const Navbar = ({
     <Header justify="between">
       <Title className={styles.title}>
         <Anchor href="/">
-          <img src={LogoPNG} className={styles.logo} alt="React Weekly Logo" />
+          <img
+            src="https://github.com/RyanCCollins/cdn/blob/master/react-weekly/react-weekly-horizontal0-min.png?raw=true"
+            className={styles.logo}
+            alt="React Weekly Logo"
+          />
         </Anchor>
       </Title>
       <Menu direction="row" align="center" responsive className={styles.right}>
