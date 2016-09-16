@@ -1,9 +1,5 @@
 import expect from 'expect';
-import landingReducer from '../reducer';
-
-const initialState = {
-  // Initial State goes here!
-};
+import landingReducer, { initialState } from '../reducer';
 
 describe('landingReducer', () => {
   it('returns the initial state', () => {

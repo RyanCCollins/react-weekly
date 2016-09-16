@@ -1,9 +1,5 @@
 import expect from 'expect';
-import contentStreamReducer from '../reducer';
-
-const initialState = {
-  // Initial State goes here!
-};
+import contentStreamReducer, { initialState } from '../reducer';
 
 describe('contentStreamReducer', () => {
   it('returns the initial state', () => {

@@ -4,7 +4,7 @@ import {
   LOAD_CONTENT_FAILURE,
 } from './constants';
 
-const initialState = {
+export const initialState = {
   posts: [],
   error: null,
   isLoading: false,

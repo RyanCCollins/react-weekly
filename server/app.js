@@ -9,6 +9,8 @@ import morgan from 'morgan';
 import cors from 'cors';
 import graphqlHTTP from 'express-graphql';
 import fs from 'fs';
+import bodyParser from 'bodyParser';
+
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 1337 : process.env.PORT;
 const app = express();
@@ -26,10 +28,17 @@ if (isDeveloping || needsCors) {
 }
 
 app.use(express.static(__dirname + '/public'));
+app.use(bodyParser.json())
 
 app.post('/contact', (req, res, next) => {
-  console.log(req);
-  res.send(200);
+  console.log(req.body);
+  if (!req.body) {
+    res.status(500).send({
+      error: 'Please submit an email address.'
+    });
+  } else {
+    res.status(200).send(req.body);
+  }
 });
 
 graphql(schema, query).then((result) => {

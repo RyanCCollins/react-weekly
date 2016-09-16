@@ -7,7 +7,7 @@ import {
   LANDING_IS_LOADED,
 } from './constants';
 
-const initialState = {
+export const initialState = {
   isSubmitting: false,
   didSubmit: false,
   error: null,

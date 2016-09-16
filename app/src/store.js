@@ -4,23 +4,17 @@ import thunk from 'redux-thunk';
 import { browserHistory } from 'react-router';
 import createLogger from 'redux-logger';
 import rootReducer from './reducers';
-const isDeveloping = process.env.NODE_ENV !== 'production';
+// Import and combine initial state here:
+import { initialState as contentStream } from './ContentStream/reducer';
+import { initialState as landing } from './LandingContainer/reducer';
 
 const initialState = {
-  landing: {
-    isShowingModal: false,
-    isSubmitting: false,
-    didSubmit: false,
-    error: null,
-    message: null,
-    isLoaded: false,
-  },
-  contentStream: {
-    isLoading: false,
-    posts: [],
-    error: null,
-  },
+  landing,
+  contentStream,
 };
+
+
+const isDeveloping = process.env.NODE_ENV !== 'production';
 
 /* Commonly used middlewares and enhancers */
 /* See: http://redux.js.org/docs/advanced/Middleware.html*/

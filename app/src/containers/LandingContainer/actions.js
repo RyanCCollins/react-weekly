@@ -51,8 +51,9 @@ export const setIsLoaded = () => ({
 // submitEmail :: JSON -> Thunk -> Side Effects
 export const submitEmail = (params) =>
   (dispatch) => {
+    const body = JSON.stringify(params);
     dispatch(
-      submitEmailInitiation(params)
+      submitEmailInitiation(body)
     );
     return fetch(submitEmailUrl, {
       method: 'post',
@@ -70,7 +71,7 @@ export const submitEmail = (params) =>
     })
     .catch(err => {
       dispatch(
-        submitEmailFailure(err)
+        submitEmailFailure(new Error(err))
       );
     });
   };
