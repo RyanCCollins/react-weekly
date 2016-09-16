@@ -1,6 +1,12 @@
 import expect from 'expect';
 import * as actions from '../actions';
 import * as types from '../constants';
+import configureMockStore from 'redux-mock-store';
+import thunk from 'redux-thunk';
+import nock from 'nock';
+
+const middlewares = [thunk];
+const mockStore = configureMockStore(middlewares);
 
 describe('LandingContainer actions', () => {
   it('should dispatch an action to initiate email submission', () => {
@@ -56,5 +62,38 @@ describe('LandingContainer actions', () => {
     expect(
       actions.setIsLoaded()
     ).toEqual(expected);
+  });
+  describe('LandingContainer Async Actions', () => {
+    afterEach(() => {
+      nock.cleanAll();
+    });
+
+    it('should handle success control flow logic', () => {
+      const body = { body: { email: 'admin@ryancollins.io' } };
+      nock('http://www.reactweekly.co')
+        .post('/contact', body)
+        .reply(200);
+      const expected = [
+        {
+          type: types.SUBMIT_EMAIL_INITIATION,
+          params: body,
+        },
+        {
+          type: types.SUBMIT_EMAIL_SUCCESS,
+          message: 'Thanks so much!',
+        },
+      ];
+      const store = mockStore({
+        message: '',
+        didSubmit: false,
+      });
+      return store
+        .dispatch(actions.submitEmail(body))
+        .then(() => {
+          expect(
+            store.getActions()
+          ).toEqual(expected);
+        });
+    });
   });
 });
