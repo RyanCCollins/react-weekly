@@ -9,7 +9,15 @@ import * as Pages from 'pages';
 
 const routes = (
   <Provider store={store}>
-    <Router history={history}>
+    <Router
+      onUpdate={() => { // eslint-disable-line
+        window.scrollTo(0, 0);
+        const DOMLoaded = document.createEvent('Event');
+        DOMLoaded.initEvent('DOMContentLoaded');
+        window.document.dispatchEvent(DOMLoaded);
+      }}
+      history={history}
+    >
       <Route path="/" component={App}>
         <IndexRoute component={Pages.LandingPage} />
         <Route path="/about" component={Pages.AboutPage} />
