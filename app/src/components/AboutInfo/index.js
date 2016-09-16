@@ -100,7 +100,7 @@ const AboutInfo = ({
     </Section>
     <Section pad={{ vertical: 'large', horizontal: 'large' }}>
       <Heading align="center" tag="h1">
-        Who's Behind All This?
+        {`Who's Behind All This?`}
       </Heading>
       <Box
         align="center"
