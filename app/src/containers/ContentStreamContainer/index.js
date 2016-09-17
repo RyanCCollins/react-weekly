@@ -49,8 +49,8 @@ class ContentStream extends Component {
             </Section>
             <Section>
               <Box justify="center" align="center">
-                {posts && posts.length > 0 && posts.map(post =>
-                  <PostTeaser post={post} />
+                {posts && posts.length > 0 && posts.map((post, i) =>
+                  <PostTeaser key={i} post={post} />
                 )}
               </Box>
             </Section>
