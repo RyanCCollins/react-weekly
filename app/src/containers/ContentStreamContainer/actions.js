@@ -7,20 +7,24 @@ import 'whatwg-fetch';
 
 const postsUrl = 'https://react-weekly.herokuapp.com/posts';
 
-const loadContentInitiation = () => ({
+// loadContentInitiation :: None -> {Action}
+export const loadContentInitiation = () => ({
   type: LOAD_CONTENT_INITIATION,
 });
 
-const loadContentSuccess = (posts) => ({
+// loadContentSuccess :: Array -> {Action}
+export const loadContentSuccess = (posts) => ({
   type: LOAD_CONTENT_SUCCESS,
   posts,
 });
 
-const loadContentFailure = (error) => ({
+// loadContentFailure :: Error -> {Action}
+export const loadContentFailure = (error) => ({
   type: LOAD_CONTENT_FAILURE,
   error,
 });
 
+// loadPostContent :: None -> Thunk
 export const loadPostContent = () =>
   (dispatch) => {
     dispatch(

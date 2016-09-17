@@ -83,7 +83,7 @@ const mapDispatchToProps = (dispatch) => ({
   ),
 });
 
-const Container = cssModules(ContentStream, styles);
+export const Container = cssModules(ContentStream, styles);
 
 export default connect(
   mapStateToProps,
