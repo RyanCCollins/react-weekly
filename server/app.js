@@ -9,7 +9,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import graphqlHTTP from 'express-graphql';
 import fs from 'fs';
-import bodyParser from 'bodyParser';
+import bodyParser from 'body-parser';
 
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 1337 : process.env.PORT;
