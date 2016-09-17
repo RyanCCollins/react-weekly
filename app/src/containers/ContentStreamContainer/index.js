@@ -9,7 +9,7 @@ import Section from 'grommet/components/Section';
 import Heading from 'grommet/components/Heading';
 import Box from 'grommet/components/Box';
 
-class ContentStream extends Component {
+export class ContentStream extends Component {
   constructor() {
     super();
     this.loadPosts = this.loadPosts.bind(this);
@@ -83,7 +83,7 @@ const mapDispatchToProps = (dispatch) => ({
   ),
 });
 
-export const Container = cssModules(ContentStream, styles);
+const Container = cssModules(ContentStream, styles);
 
 export default connect(
   mapStateToProps,
