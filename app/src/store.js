@@ -5,8 +5,8 @@ import { browserHistory } from 'react-router';
 import createLogger from 'redux-logger';
 import rootReducer from './reducers';
 // Import and combine initial state here:
-import { initialState as contentStream } from './ContentStream/reducer';
-import { initialState as landing } from './LandingContainer/reducer';
+import { initialState as contentStream } from './containers/ContentStreamContainer/reducer';
+import { initialState as landing } from './containers/LandingContainer/reducer';
 
 const initialState = {
   landing,

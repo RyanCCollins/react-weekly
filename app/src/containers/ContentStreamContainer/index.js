@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import * as ContentStreamActionCreators from './actions';
 import cssModules from 'react-css-modules';
 import styles from './index.module.scss';
-import { LoadingIndicator, PostTeaser } from 'components';
+import { LoadingIndicator, PostTeaser, Error } from 'components';
 import Section from 'grommet/components/Section';
 import Heading from 'grommet/components/Heading';
 import Box from 'grommet/components/Box';
@@ -40,9 +40,11 @@ class ContentStream extends Component {
             </Heading>
             <Section>
               {error &&
-                <div>
-                  <pre>{JSON.stringify(error, null, 2)}</pre>
-                </div>
+                <Error
+                  error={{
+                    message: `{An error as occured ${JSON.stringify(error)}}`,
+                  }}
+                />
               }
             </Section>
             <Section>

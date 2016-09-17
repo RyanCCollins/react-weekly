@@ -7,7 +7,6 @@ import styles from './index.module.scss';
 import { HomeHero, SubscribeForm } from 'components';
 import { reduxForm } from 'redux-form';
 import validation from './validation';
-import domReady from 'utils/domReady';
 
 export const subscribeFields = [
   'emailInput',

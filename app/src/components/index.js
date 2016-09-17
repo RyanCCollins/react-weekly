@@ -1,4 +1,5 @@
 /* Assemble all components for export */
+export Error from './Error';
 export LogoImage from './LogoImage';
 export Editor from './Editor';
 export AboutInfo from './AboutInfo';
