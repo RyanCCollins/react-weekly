@@ -6,7 +6,7 @@ import Notification from 'grommet/components/Notification';
 const Error = ({
   error,
 }) => (
-  <div className={styles.error}>
+  <div className={styles.error} id="error__notification">
     <Notification
       status={error.status}
       message={error.message}
