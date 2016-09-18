@@ -1,9 +1,9 @@
 import {
   GraphQLNonNull,
-  GraphQLBoolean
+  GraphQLBoolean,
 } from 'graphql';
 
-import subscriberType from '../../types/subscriber';
+import subscriberInputType from '../../types/subscriber-input';
 import SubscriberModel from '../../../models/subscriber';
 
 export default {
@@ -11,7 +11,7 @@ export default {
   args: {
     data: {
       name: 'data',
-      type: new GraphQLNonNull(subscriberType),
+      type: new GraphQLNonNull(subscriberInputType),
     },
   },
   async resolve(root, params, __) { // eslint-disable-line

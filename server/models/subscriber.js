@@ -1,9 +1,13 @@
-import mongoose from 'mongoose';
+import mongoose, { Schema, Types } from 'mongoose';
+const {
+  ObjectId,
+} = Types;
+const ObjectIdSchema = Schema.ObjectId;
 
 const SubscriberSchema = new mongoose.Schema({
-  id: {
-    type: mongoose.Schema.Types.ObjectId,
-    required: true,
+  _id: {
+    type: ObjectIdSchema,
+    default: new ObjectId(),
   },
   email: {
     type: String,

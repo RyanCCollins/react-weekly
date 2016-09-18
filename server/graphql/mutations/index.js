@@ -1,1 +1,4 @@
-export subscriber from './subscriber';
+import subscriber from './subscriber';
+export default {
+  ...subscriber,
+};

@@ -4,14 +4,15 @@ import path from 'path';
 import express from 'express';
 import { graphql } from 'graphql';
 import { introspectionQuery } from 'graphql/utilities';
-import schema from './schema/schema';
+// import schema from './schema/schema';
 import morgan from 'morgan';
 import cors from 'cors';
 import graphqlHTTP from 'express-graphql';
 import fs from 'fs';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
-import subscriber from './models/subscriber';
+import { post, subscriber } from './models';
+import schema from './graphql';
 
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 1337 : process.env.PORT;
@@ -64,7 +65,7 @@ graphql(schema, query).then((result) => {
     });
     let json = await graphql(schema, introspectionQuery);
     fs.writeFile(
-      './server/schema/schema.json',
+      './server/graphql/schema/schema.json',
       JSON.stringify(json, null, 2),
       err => {
         if (err) throw err;

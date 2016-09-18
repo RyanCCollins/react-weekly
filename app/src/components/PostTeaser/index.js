@@ -48,7 +48,10 @@ const PostTeaser = ({
           </Paragraph>
         </Box>
         <div className={styles.readMore}>
-          <Anchor href={`https://medium.com/react-weekly/${post.uniqueSlug}`} className={styles.readMoreButton}>
+          <Anchor
+            href={`https://medium.com/react-weekly/${post.uniqueSlug}`}
+            className={styles.readMoreButton}
+          >
             Read more...
           </Anchor>
         </div>
@@ -59,7 +62,8 @@ const PostTeaser = ({
               {post.virtuals.usersBySocialRecommends.map((person, index) =>
                 <span>
                   <a href={`https://medium.com/@${person.username}`}>
-                    {person.name}{index < post.virtuals.usersBySocialRecommends.length ? ', ' : ''}
+                    {person.name}
+                    {index < post.virtuals.usersBySocialRecommends.length ? ', ' : ''}
                   </a>
                 </span>
               )}

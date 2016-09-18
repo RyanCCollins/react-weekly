@@ -63,6 +63,7 @@ const RecommendationType = new GraphQLObjectType({
   name: 'Recommendation',
   fields: () => ({
     name: { type: GraphQLString },
+    username: { type: GraphQLString },
   }),
 });
 
