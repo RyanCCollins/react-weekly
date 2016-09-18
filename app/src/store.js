@@ -4,6 +4,7 @@ import thunk from 'redux-thunk';
 import { browserHistory } from 'react-router';
 import createLogger from 'redux-logger';
 import rootReducer from './reducers';
+import client from './apolloClient';
 // Import and combine initial state here:
 import { initialState as contentStream } from './containers/ContentStreamContainer/reducer';
 import { initialState as landing } from './containers/LandingContainer/reducer';
@@ -19,7 +20,7 @@ const isDeveloping = process.env.NODE_ENV !== 'production';
 /* Commonly used middlewares and enhancers */
 /* See: http://redux.js.org/docs/advanced/Middleware.html*/
 const loggerMiddleware = createLogger();
-const middlewares = [thunk];
+const middlewares = [thunk, client.middleware()];
 
 if (isDeveloping) {
   middlewares.push(loggerMiddleware);

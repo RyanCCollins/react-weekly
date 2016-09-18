@@ -1,13 +1,10 @@
-import mongoose, { Schema, Types } from 'mongoose';
-const {
-  ObjectId,
-} = Types;
-const ObjectIdSchema = Schema.ObjectId;
+import mongoose from 'mongoose';
+import shortid from 'shortid';
 
 const SubscriberSchema = new mongoose.Schema({
   _id: {
-    type: ObjectIdSchema,
-    default: new ObjectId(),
+    type: String,
+    default: () => shortid.generate(),
   },
   email: {
     type: String,

@@ -1,11 +1,13 @@
 import {
-  SUBMIT_EMAIL_INITIATION,
-  SUBMIT_EMAIL_SUCCESS,
-  SUBMIT_EMAIL_FAILURE,
+  EMAIL_SUBMISSION,
   CLOSE_LANDING_MODAL,
   CLOSE_LANDING_ERROR,
   LANDING_IS_LOADED,
+  EMAIL_SUBMISSION_SUCCESS,
+  EMAIL_SUBMISSION_FAILURE,
+  EMAIL_SUBMISSION_INITIATION,
 } from './constants';
+import * as messages from './messages';
 
 export const initialState = {
   isSubmitting: false,
@@ -14,27 +16,27 @@ export const initialState = {
   message: null,
   isShowingModal: false,
   isLoaded: false,
+  messages,
 };
 
 const landingReducer =
   (state = initialState, action) => {
     switch (action.type) {
-      case SUBMIT_EMAIL_INITIATION:
-        return Object.assign({}, state, {
-          isSubmitting: true,
-        });
-      case SUBMIT_EMAIL_SUCCESS:
-        return Object.assign({}, state, {
-          isSubmitting: false,
-          didSubmit: true,
-          message: action.message,
-          isShowingModal: true,
-        });
-      case SUBMIT_EMAIL_FAILURE:
+      case EMAIL_SUBMISSION_FAILURE:
         return Object.assign({}, state, {
           isSubmitting: false,
           error: action.error,
+        });
+      case EMAIL_SUBMISSION_INITIATION:
+        return Object.assign({}, state, {
+          isSubmitting: true,
+        });
+      case EMAIL_SUBMISSION_SUCCESS:
+        return Object.assign({}, state, {
           isShowingModal: true,
+          message: action.message,
+          isSubmitting: false,
+          didSubmit: true,
         });
       case CLOSE_LANDING_MODAL:
         return Object.assign({}, state, {
