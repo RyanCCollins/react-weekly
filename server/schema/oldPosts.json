@@ -20,9 +20,9 @@
         "width": 0
       },
       "metadata": {
-        "followerCount": 43,
+        "followerCount": 47,
         "postCount": 0,
-        "activeAt": 1473921977600
+        "activeAt": 1474203128205
       },
       "virtuals": {
         "permissions": {
@@ -154,6 +154,210 @@
       "type": "Collection"
     },
     "posts": [{
+      "id": "ad57b7413ead",
+      "versionId": "e95f6e566c37",
+      "creatorId": "2324364c8b65",
+      "homeCollectionId": "955bdba6e52f",
+      "title": "React Native and Typescript",
+      "detectedLanguage": "en",
+      "latestVersion": "e95f6e566c37",
+      "latestPublishedVersion": "e95f6e566c37",
+      "hasUnpublishedEdits": false,
+      "latestRev": 1067,
+      "createdAt": 1472521342331,
+      "updatedAt": 1474203128205,
+      "acceptedAt": 0,
+      "firstPublishedAt": 1472526999439,
+      "latestPublishedAt": 1473635039450,
+      "vote": true,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "virtuals": {
+        "statusForCollection": "APPROVED",
+        "createdAtRelative": "19 days ago",
+        "updatedAtRelative": "a few seconds ago",
+        "acceptedAtRelative": "",
+        "createdAtEnglish": "August 29, 2016",
+        "updatedAtEnglish": "September 18, 2016",
+        "acceptedAtEnglish": "",
+        "firstPublishedAtEnglish": "August 29, 2016",
+        "latestPublishedAtEnglish": "September 11, 2016",
+        "allowNotes": true,
+        "snippet": "The main intention of this blog post is to show how to setup a React Native project with a Typescript environment as an alternative to Flow…",
+        "previewImage": {
+          "imageId": "1*FP3RecILCxajfhtt8vO5-w.png",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 2264,
+          "originalHeight": 1524,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 1085,
+        "imageCount": 7,
+        "readingTime": 5.1443396226415095,
+        "subtitle": "The main intention of this blog post is to show how to setup a React Native project with a Typescript environment as an alternative to Flow…",
+        "userPostRelation": {
+          "userId": "bcc0b1e6ca00",
+          "postId": "ad57b7413ead",
+          "readAt": 1474203135325,
+          "readLaterAddedAt": 0,
+          "votedAt": 1474162323864,
+          "collaboratorAddedAt": 0,
+          "notesAddedAt": 0,
+          "subscribedAt": 0,
+          "lastReadSectionName": "4457",
+          "lastReadVersionId": "e95f6e566c37",
+          "lastReadAt": 1474203127012,
+          "lastReadParagraphName": "710a",
+          "lastReadPercentage": 0.95,
+          "viewedAt": 1474203124406,
+          "presentedCountInResponseManagement": 0
+        },
+        "publishedInCount": 1,
+        "usersBySocialRecommends": [],
+        "latestPublishedAtAbbreviated": "Sep 11",
+        "firstPublishedAtAbbreviated": "Aug 29",
+        "emailSnippet": ".\n\nThis is not intended to be used in production level, because of the missing support of official typings.\n\nGo ahead and install Node.js and the required tools from the official install guide: https://facebook.github.io/react-native/docs/getting-started.html#content\n\nA more complete example code and starting point is available here:\n\nUp next, we will setup the most basic React Native application with Typescript.",
+        "recommends": 14,
+        "isBookmarked": false,
+        "tags": [{
+          "slug": "javascript",
+          "name": "JavaScript",
+          "postCount": 15565,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 17195,
+            "postCount": 15565,
+            "coverImage": {
+              "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
+              "originalWidth": 5100,
+              "originalHeight": 2264
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "typescript",
+          "name": "Typescript",
+          "postCount": 300,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 401,
+            "postCount": 300,
+            "coverImage": {
+              "id": "1*cwGG5geZxEsur5Brdqrgmw.png",
+              "originalWidth": 1327,
+              "originalHeight": 633
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "react",
+          "name": "React",
+          "postCount": 3031,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 6037,
+            "postCount": 3031,
+            "coverImage": {
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
+            }
+          },
+          "type": "Tag"
+        }, {
+          "slug": "react-native",
+          "name": "React Native",
+          "postCount": 583,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 1521,
+            "postCount": 583,
+            "coverImage": {
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
+            }
+          },
+          "type": "Tag"
+        }],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [],
+          "version": "0.3",
+          "generatedAt": 1473635040490
+        },
+        "isLockedPreviewOnly": false
+      },
+      "coverless": true,
+      "slug": "react-native-and-typescript",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": true,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "react-native-and-typescript-ad57b7413ead",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [{
+            "name": "97cd",
+            "type": 3,
+            "text": "React Native and Typescript",
+            "markups": [{
+              "type": 3,
+              "start": 17,
+              "end": 27,
+              "href": "http://www.typescriptlang.org/",
+              "title": "",
+              "rel": "",
+              "anchorType": 0
+            }],
+            "alignment": 1
+          }, {
+            "name": "71c1",
+            "type": 13,
+            "text": "The main intention of this blog post is to show how to setup a React Native project with a Typescript environment as an alternative to Flow.",
+            "markups": [],
+            "alignment": 1
+          }],
+          "sections": [{
+            "startIndex": 0
+          }]
+        },
+        "isFullContent": false
+      },
+      "license": 1,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "955bdba6e52f",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": false,
+      "isSponsored": false,
+      "isRequestToPubDisabled": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "type": "Post"
+    }, {
       "id": "aafb57589995",
       "versionId": "f8ccc1f8b6b4",
       "creatorId": "a158ea836ddb",
@@ -174,8 +378,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "2 days ago",
-        "updatedAtRelative": "a day ago",
+        "createdAtRelative": "4 days ago",
+        "updatedAtRelative": "3 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 14, 2016",
         "updatedAtEnglish": "September 15, 2016",
@@ -238,31 +442,30 @@
         "tags": [{
           "slug": "react",
           "name": "React",
-          "postCount": 3013,
+          "postCount": 3031,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5991,
-            "postCount": 3013,
+            "followerCount": 6037,
+            "postCount": 3031,
             "coverImage": {
-              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
-              "originalWidth": 1592,
-              "originalHeight": 838,
-              "isFeatured": true
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
             }
           },
           "type": "Tag"
         }, {
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15475,
+          "postCount": 15565,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17100,
-            "postCount": 15475,
+            "followerCount": 17195,
+            "postCount": 15565,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -273,47 +476,48 @@
         }, {
           "slug": "web-development",
           "name": "Web Development",
-          "postCount": 20036,
+          "postCount": 20125,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 18810,
-            "postCount": 20036,
+            "followerCount": 18940,
+            "postCount": 20125,
             "coverImage": {
-              "id": "1*0nJYGbjwV7Ifj8hYQp43Qw.jpeg",
-              "originalWidth": 1920,
-              "originalHeight": 675
+              "id": "1*AZVLKxS8qigWKeEmSDJEBQ.png",
+              "originalWidth": 1996,
+              "originalHeight": 589,
+              "isFeatured": true
             }
           },
           "type": "Tag"
         }, {
           "slug": "coding",
           "name": "Coding",
-          "postCount": 4739,
+          "postCount": 4769,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 6554,
-            "postCount": 4739,
+            "followerCount": 6600,
+            "postCount": 4769,
             "coverImage": {
-              "id": "1*zVTfzYbzaptZwLBpzQjzkA.jpeg",
-              "originalWidth": 1280,
-              "originalHeight": 720
+              "id": "1*fy4mkPit0bgQJPrYlsX0mQ.png",
+              "originalWidth": 1800,
+              "originalHeight": 404
             }
           },
           "type": "Tag"
         }, {
           "slug": "angular",
           "name": "Angular",
-          "postCount": 87,
+          "postCount": 86,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 181,
-            "postCount": 87,
+            "followerCount": 182,
+            "postCount": 86,
             "coverImage": {
               "id": "1*1mnuBFkslw57jIZVDU2j1A.png",
               "originalWidth": 1920,
@@ -429,8 +633,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "2 days ago",
-        "updatedAtRelative": "a day ago",
+        "createdAtRelative": "4 days ago",
+        "updatedAtRelative": "3 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 14, 2016",
         "updatedAtEnglish": "September 15, 2016",
@@ -457,17 +661,17 @@
           "userId": "bcc0b1e6ca00",
           "postId": "dad7acf39e1b",
           "readAt": 1473914935257,
-          "readLaterAddedAt": 1473975372361,
+          "readLaterAddedAt": 1474050583432,
           "votedAt": 1473907352107,
           "collaboratorAddedAt": 0,
           "notesAddedAt": 0,
           "subscribedAt": 0,
           "lastReadSectionName": "8960",
           "lastReadVersionId": "746ccbe7684",
-          "lastReadAt": 1474005884201,
-          "lastReadParagraphName": "e8e9",
-          "lastReadPercentage": 0.49,
-          "viewedAt": 1474007358849,
+          "lastReadAt": 1474067499677,
+          "lastReadParagraphName": "6e6d",
+          "lastReadPercentage": 0.99,
+          "viewedAt": 1474080475232,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -501,18 +705,18 @@
         "latestPublishedAtAbbreviated": "Sep 15",
         "firstPublishedAtAbbreviated": "Sep 14",
         "emailSnippet": "of integrating it into my workflow. I expect that you have some amount of familiarity with the setup involved in React / Redux projects and will link to resources as I go.\n\nWhile Redux at it’s core is a State management library, often times your action creators take care of loading data from your API. The method that I have used mostly is to implement thunks, along with having several actions / action creators to communicate between the store and UI during the data-loading process.",
-        "recommends": 8,
+        "recommends": 10,
         "isBookmarked": true,
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15475,
+          "postCount": 15565,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17100,
-            "postCount": 15475,
+            "followerCount": 17195,
+            "postCount": 15565,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -523,31 +727,30 @@
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 3013,
+          "postCount": 3031,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5991,
-            "postCount": 3013,
+            "followerCount": 6037,
+            "postCount": 3031,
             "coverImage": {
-              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
-              "originalWidth": 1592,
-              "originalHeight": 838,
-              "isFeatured": true
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
             }
           },
           "type": "Tag"
         }, {
           "slug": "graphql",
           "name": "Graphql",
-          "postCount": 167,
+          "postCount": 169,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 556,
-            "postCount": 167,
+            "followerCount": 563,
+            "postCount": 169,
             "coverImage": {
               "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
               "originalWidth": 1592,
@@ -657,7 +860,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "a year ago",
-        "updatedAtRelative": "4 days ago",
+        "updatedAtRelative": "6 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 25, 2015",
         "updatedAtEnglish": "September 12, 2016",
@@ -712,7 +915,7 @@
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 548,
+            "followerCount": 553,
             "postCount": 814,
             "coverImage": {
               "id": "1*FJhxgyS9qTT1LKan_6RviA.png",
@@ -741,13 +944,13 @@
         }, {
           "slug": "graphql",
           "name": "Graphql",
-          "postCount": 167,
+          "postCount": 169,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 556,
-            "postCount": 167,
+            "followerCount": 563,
+            "postCount": 169,
             "coverImage": {
               "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
               "originalWidth": 1592,
@@ -861,7 +1064,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "9 months ago",
-        "updatedAtRelative": "6 days ago",
+        "updatedAtRelative": "8 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "December 24, 2015",
         "updatedAtEnglish": "September 10, 2016",
@@ -945,18 +1148,18 @@
         "latestPublishedAtAbbreviated": "Dec 25, 2015",
         "firstPublishedAtAbbreviated": "Dec 25, 2015",
         "emailSnippet": "Or this guy?\n\nA few weeks ago, a colleague at Udacity showed me a trick that eliminates the need for repetitive import statements in your code. The magic starts on line 18, with Webpack’s ProvidePlugin:\n\nWhen Webpack builds your JavaScript, it will load the ‘react’ module whenever the identifier ‘React’ is declared in your code. So now you can use:\n\n…without having to import ‘react’ explicitly at the top of your component file.",
-        "recommends": 228,
+        "recommends": 227,
         "isBookmarked": false,
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15475,
+          "postCount": 15565,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17100,
-            "postCount": 15475,
+            "followerCount": 17195,
+            "postCount": 15565,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -967,35 +1170,34 @@
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 3013,
+          "postCount": 3031,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5991,
-            "postCount": 3013,
+            "followerCount": 6037,
+            "postCount": 3031,
             "coverImage": {
-              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
-              "originalWidth": 1592,
-              "originalHeight": 838,
-              "isFeatured": true
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
             }
           },
           "type": "Tag"
         }, {
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 337,
+          "postCount": 340,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 619,
-            "postCount": 337,
+            "followerCount": 625,
+            "postCount": 340,
             "coverImage": {
-              "id": "1*CDASmWXZsdGhJyiVq9AS6g.jpeg",
-              "originalWidth": 3264,
-              "originalHeight": 4912
+              "id": "1*QKB2QosjAEpAHjDRyi9QnQ.jpeg",
+              "originalWidth": 978,
+              "originalHeight": 578
             }
           },
           "type": "Tag"
@@ -1097,8 +1299,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "25 days ago",
-        "updatedAtRelative": "6 days ago",
+        "createdAtRelative": "a month ago",
+        "updatedAtRelative": "8 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "August 22, 2016",
         "updatedAtEnglish": "September 10, 2016",
@@ -1148,30 +1350,30 @@
         "tags": [{
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 337,
+          "postCount": 340,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 619,
-            "postCount": 337,
+            "followerCount": 625,
+            "postCount": 340,
             "coverImage": {
-              "id": "1*CDASmWXZsdGhJyiVq9AS6g.jpeg",
-              "originalWidth": 3264,
-              "originalHeight": 4912
+              "id": "1*QKB2QosjAEpAHjDRyi9QnQ.jpeg",
+              "originalWidth": 978,
+              "originalHeight": 578
             }
           },
           "type": "Tag"
         }, {
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15475,
+          "postCount": 15565,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17100,
-            "postCount": 15475,
+            "followerCount": 17195,
+            "postCount": 15565,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -1187,12 +1389,12 @@
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 49,
+            "followerCount": 50,
             "postCount": 23,
             "coverImage": {
-              "id": "1*gDZgHB7KYr44WG442p5BBw.png",
-              "originalWidth": 823,
-              "originalHeight": 386
+              "id": "1*qHdzvFpEH0dxY-IzPuKuIw.jpeg",
+              "originalWidth": 1919,
+              "originalHeight": 301
             }
           },
           "type": "Tag"
@@ -1204,7 +1406,7 @@
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 156,
+            "followerCount": 157,
             "postCount": 67,
             "coverImage": {
               "id": "1*5rhtsSpxx8iL1Gm8FnG0YA.jpeg",
@@ -1216,18 +1418,17 @@
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 3013,
+          "postCount": 3031,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5991,
-            "postCount": 3013,
+            "followerCount": 6037,
+            "postCount": 3031,
             "coverImage": {
-              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
-              "originalWidth": 1592,
-              "originalHeight": 838,
-              "isFeatured": true
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
             }
           },
           "type": "Tag"
@@ -1323,7 +1524,7 @@
       "virtuals": {
         "statusForCollection": "APPROVED",
         "createdAtRelative": "a year ago",
-        "updatedAtRelative": "11 days ago",
+        "updatedAtRelative": "13 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "July 11, 2015",
         "updatedAtEnglish": "September 5, 2016",
@@ -1399,30 +1600,30 @@
         "tags": [{
           "slug": "reactjs",
           "name": "Reactjs",
-          "postCount": 424,
+          "postCount": 419,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 2075,
-            "postCount": 424,
+            "followerCount": 2087,
+            "postCount": 419,
             "coverImage": {
-              "id": "1*nIof-zUK6DpNvinE_g57iw.png",
-              "originalWidth": 787,
-              "originalHeight": 343
+              "id": "1*W7JKn48kJARmaWgeGTk5UA.png",
+              "originalWidth": 1842,
+              "originalHeight": 578
             }
           },
           "type": "Tag"
         }, {
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15475,
+          "postCount": 15565,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17100,
-            "postCount": 15475,
+            "followerCount": 17195,
+            "postCount": 15565,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -1433,18 +1634,17 @@
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 3013,
+          "postCount": 3031,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5991,
-            "postCount": 3013,
+            "followerCount": 6037,
+            "postCount": 3031,
             "coverImage": {
-              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
-              "originalWidth": 1592,
-              "originalHeight": 838,
-              "isFeatured": true
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
             }
           },
           "type": "Tag"
@@ -1532,8 +1732,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "13 days ago",
-        "updatedAtRelative": "10 days ago",
+        "createdAtRelative": "15 days ago",
+        "updatedAtRelative": "12 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 3, 2016",
         "updatedAtEnglish": "September 6, 2016",
@@ -1566,11 +1766,11 @@
           "notesAddedAt": 0,
           "subscribedAt": 0,
           "lastReadSectionName": "ed0c",
-          "lastReadVersionId": "4cbb24313cf",
-          "lastReadAt": 1473108832350,
-          "lastReadParagraphName": "7c07",
-          "lastReadPercentage": 0.56,
-          "viewedAt": 1473108825308,
+          "lastReadVersionId": "896a9d631811",
+          "lastReadAt": 1474072555319,
+          "lastReadParagraphName": "e7d2",
+          "lastReadPercentage": 0.75,
+          "viewedAt": 1474072532589,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -1583,13 +1783,13 @@
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15475,
+          "postCount": 15565,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17100,
-            "postCount": 15475,
+            "followerCount": 17195,
+            "postCount": 15565,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -1600,35 +1800,34 @@
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 3013,
+          "postCount": 3031,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5991,
-            "postCount": 3013,
+            "followerCount": 6037,
+            "postCount": 3031,
             "coverImage": {
-              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
-              "originalWidth": 1592,
-              "originalHeight": 838,
-              "isFeatured": true
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
             }
           },
           "type": "Tag"
         }, {
           "slug": "webpack",
           "name": "Webpack",
-          "postCount": 337,
+          "postCount": 340,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 619,
-            "postCount": 337,
+            "followerCount": 625,
+            "postCount": 340,
             "coverImage": {
-              "id": "1*CDASmWXZsdGhJyiVq9AS6g.jpeg",
-              "originalWidth": 3264,
-              "originalHeight": 4912
+              "id": "1*QKB2QosjAEpAHjDRyi9QnQ.jpeg",
+              "originalWidth": 978,
+              "originalHeight": 578
             }
           },
           "type": "Tag"
@@ -1652,13 +1851,13 @@
         }, {
           "slug": "code",
           "name": "Code",
-          "postCount": 1384,
+          "postCount": 1411,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 571,
-            "postCount": 1384,
+            "followerCount": 579,
+            "postCount": 1411,
             "coverImage": {
               "id": "1*SpeorHJpfNnlAMS8Ph7inA.png",
               "originalWidth": 2432,
@@ -1755,8 +1954,8 @@
       "displayAuthor": "",
       "virtuals": {
         "statusForCollection": "APPROVED",
-        "createdAtRelative": "14 days ago",
-        "updatedAtRelative": "5 days ago",
+        "createdAtRelative": "16 days ago",
+        "updatedAtRelative": "7 days ago",
         "acceptedAtRelative": "",
         "createdAtEnglish": "September 2, 2016",
         "updatedAtEnglish": "September 11, 2016",
@@ -1790,10 +1989,10 @@
           "subscribedAt": 0,
           "lastReadSectionName": "03ed",
           "lastReadVersionId": "253483a87f01",
-          "lastReadAt": 1473621112623,
-          "lastReadParagraphName": "af8a",
-          "lastReadPercentage": 0.94,
-          "viewedAt": 1473980563852,
+          "lastReadAt": 1474160077973,
+          "lastReadParagraphName": "201d",
+          "lastReadPercentage": 0.91,
+          "viewedAt": 1474160053364,
           "presentedCountInResponseManagement": 0
         },
         "publishedInCount": 1,
@@ -1808,6 +2007,19 @@
           "bio": "Primarily Javascript, potentially personal, possibly pointless. I welcome and am fascinated by your many marvelous opinions.",
           "twitterScreenName": "dtipson",
           "facebookAccountId": "596511901",
+          "allowNotes": 1,
+          "type": "User"
+        }, {
+          "userId": "f21a05e7ec5b",
+          "name": "Param Singh",
+          "username": "paramsingh_66174",
+          "createdAt": 1443366277806,
+          "lastPostCreatedAt": 1473251645534,
+          "imageId": "0*d3ML_mBrORTXjhUK.jpg",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "psvalent88",
+          "facebookAccountId": "1149140838447897",
           "allowNotes": 1,
           "type": "User"
         }, {
@@ -1840,18 +2052,18 @@
         "latestPublishedAtAbbreviated": "Sep 11",
         "firstPublishedAtAbbreviated": "Sep 2",
         "emailSnippet": "building apps has crept into the mainstream JavaScript ecosystem and it is here to stay.\n\nWhat is Immutable Architecture, anyways?\n\nTo understand immutable architecture, we need to first understand state. State, an evil source of complexity in any software, is the characteristic of a value. According to Miriam Webster, state is defined as “the particular condition that someone or something is in at a specific time.”",
-        "recommends": 30,
+        "recommends": 32,
         "isBookmarked": false,
         "tags": [{
           "slug": "javascript",
           "name": "JavaScript",
-          "postCount": 15475,
+          "postCount": 15565,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 17100,
-            "postCount": 15475,
+            "followerCount": 17195,
+            "postCount": 15565,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -1862,18 +2074,17 @@
         }, {
           "slug": "react",
           "name": "React",
-          "postCount": 3013,
+          "postCount": 3031,
           "virtuals": {
             "isFollowing": true
           },
           "metadata": {
-            "followerCount": 5991,
-            "postCount": 3013,
+            "followerCount": 6037,
+            "postCount": 3031,
             "coverImage": {
-              "id": "1*51SBnuBFxAGu9Vpw8V8KNA.png",
-              "originalWidth": 1592,
-              "originalHeight": 838,
-              "isFeatured": true
+              "id": "1*gRKX8a_U8R0WiVdHyqJdNQ.png",
+              "originalWidth": 471,
+              "originalHeight": 213
             }
           },
           "type": "Tag"
@@ -1888,22 +2099,22 @@
             "followerCount": 3,
             "postCount": 5,
             "coverImage": {
-              "id": "1*X9QHbRm4Zc0DRPd3FyygkA.png",
-              "originalWidth": 2454,
-              "originalHeight": 852
+              "id": "1*De-cn--751z3cHRlMiXJDw.png",
+              "originalWidth": 934,
+              "originalHeight": 531
             }
           },
           "type": "Tag"
         }, {
           "slug": "functional-programming",
           "name": "Functional Programming",
-          "postCount": 1028,
+          "postCount": 1040,
           "virtuals": {
             "isFollowing": false
           },
           "metadata": {
-            "followerCount": 2718,
-            "postCount": 1028,
+            "followerCount": 2754,
+            "postCount": 1040,
             "coverImage": {
               "id": "1*AM83LP9sGGjIul3c5hIsWg.png",
               "originalWidth": 5100,
@@ -1912,7 +2123,7 @@
           },
           "type": "Tag"
         }],
-        "socialRecommendsCount": 3,
+        "socialRecommendsCount": 4,
         "responsesCreatedCount": 0,
         "links": {
           "entries": [{
@@ -2018,8 +2229,8 @@
       "responseHiddenOnParentPostAt": 0,
       "type": "Post"
     }],
-    "writerNames": ["thejenniekim", "MattiaManzati", "gabriele.cimato", "khor",
-      "RecastAI", "jeffbski", "paramsingh_66174"
+    "writerNames": ["patriciolpezjuri", "thejenniekim", "MattiaManzati",
+      "gabriele.cimato", "khor", "RecastAI", "jeffbski", "paramsingh_66174"
     ],
     "tagName": null,
     "references": {
@@ -2029,12 +2240,26 @@
           "name": "Ryan C. Collins",
           "username": "ryancollinsio",
           "createdAt": 1457157779447,
-          "lastPostCreatedAt": 1473900006719,
+          "lastPostCreatedAt": 1474139253599,
           "imageId": "0*YnFnlAO5FsAdP7LI.jpg",
           "backgroundImageId": "",
           "bio": "Hi, I'm Ryan. I’m a software engineer working on the web and mobile platforms. I am a geek for React. http://www.ryancollins.io/#/portfolio",
           "twitterScreenName": "ryancollinsio",
           "facebookAccountId": "",
+          "allowNotes": 1,
+          "type": "User"
+        },
+        "2324364c8b65": {
+          "userId": "2324364c8b65",
+          "name": "Patricio López Juri",
+          "username": "patriciolpezjuri",
+          "createdAt": 1438952631274,
+          "lastPostCreatedAt": 1472521342331,
+          "imageId": "0*0KG0UWUV7j1jPc40.jpg",
+          "backgroundImageId": "",
+          "bio": "Estudiante de Ingeniería Industrial Computación en la UC. Desarrollador de Software y fanático de la música.",
+          "twitterScreenName": "mrpatiwi",
+          "facebookAccountId": "845192715563329",
           "allowNotes": 1,
           "type": "User"
         },
@@ -2057,7 +2282,7 @@
           "name": "Soon Hin Khor",
           "username": "khor",
           "createdAt": 1436145799627,
-          "lastPostCreatedAt": 1473928320972,
+          "lastPostCreatedAt": 1474079300682,
           "imageId": "1*DcVPSE7CSzxd-PCWL0y6PA.jpeg",
           "backgroundImageId": "",
           "bio": "Use tech to make the world more caring, and responsible. Nat. Univ. Singapore, Carnegie Mellon Univ, Univ. of Tokyo. IBM, 500Startups & Y-Combinator companies",
@@ -2143,9 +2368,9 @@
             "width": 0
           },
           "metadata": {
-            "followerCount": 43,
+            "followerCount": 47,
             "postCount": 0,
-            "activeAt": 1473921977600
+            "activeAt": 1474203128205
           },
           "virtuals": {
             "permissions": {
@@ -2281,7 +2506,7 @@
     "paging": {
       "previous": {
         "limit": 10,
-        "from": "1473921977593"
+        "from": "1474203128199"
       },
       "next": {
         "limit": 10,
