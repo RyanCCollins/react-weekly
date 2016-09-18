@@ -13,7 +13,6 @@ export const initialState = {
   error: null,
   message: null,
   isShowingModal: false,
-  modalMessage: '',
   isLoaded: false,
 };
 

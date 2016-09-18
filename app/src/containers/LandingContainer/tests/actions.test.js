@@ -1,12 +1,6 @@
 import expect from 'expect';
 import * as actions from '../actions';
 import * as types from '../constants';
-import configureMockStore from 'redux-mock-store';
-import thunk from 'redux-thunk';
-import nock from 'nock';
-
-const middlewares = [thunk];
-const mockStore = configureMockStore(middlewares);
 
 describe('LandingContainer actions', () => {
   it('should dispatch an action to initiate email submission', () => {
