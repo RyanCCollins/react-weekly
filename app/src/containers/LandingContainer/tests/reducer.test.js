@@ -1,13 +1,7 @@
 import expect from 'expect';
 import landingReducer, { initialState } from '../reducer';
-import configureMockStore from 'redux-mock-store';
-import * as actions from '../actions';
 import * as types from '../constants';
-import thunk from 'redux-thunk';
-import nock from 'nock';
-
-const middlewares = [thunk];
-const mockStore = configureMockStore(middlewares);
+import * as messages from '../messages';
 
 describe('landingReducer', () => {
   it('returns the initial state', () => {
@@ -15,7 +9,15 @@ describe('landingReducer', () => {
       landingReducer(undefined, {})
     ).toEqual(initialState);
   });
-  it('should handle SUBMIT_EMAIL_INITIATION', () => {
+  it('should handle EMAIL_SUBMISSION_INITIATION', () => {
+    const stateBefore = {
+      isSubmitting: false,
+      didSubmit: false,
+      error: null,
+      message: null,
+      isShowingModal: false,
+      isLoaded: false,
+    };
     const stateAfter = {
       isSubmitting: true,
       didSubmit: false,
@@ -25,13 +27,38 @@ describe('landingReducer', () => {
       isLoaded: false,
     };
     expect(
-      landingReducer(initialState, {
-        type: types.SUBMIT_EMAIL_INITIATION,
+      landingReducer(stateBefore, {
+        type: types.EMAIL_SUBMISSION_INITIATION,
       })
     ).toEqual(stateAfter);
   });
-  it('should handle SUBMIT_EMAIL_SUCCESS', () => {
-    const message = 'Woohoo!!';
+  it('should handle EMAIL_SUBMISSION_FAILURE', () => {
+    const error = new Error('An error has occured');
+    const stateBefore = {
+      isSubmitting: true,
+      didSubmit: false,
+      error: null,
+      message: null,
+      isShowingModal: false,
+      isLoaded: false,
+    };
+    const stateAfter = {
+      isSubmitting: false,
+      didSubmit: false,
+      error,
+      message: null,
+      isShowingModal: false,
+      isLoaded: false,
+    };
+    expect(
+      landingReducer(stateBefore, {
+        type: types.EMAIL_SUBMISSION_FAILURE,
+        error,
+      })
+    ).toEqual(stateAfter);
+  });
+  it('should handle EMAIL_SUBMISSION_SUCCESS', () => {
+    const message = 'Woohoo!';
     const stateBefore = {
       isSubmitting: true,
       didSubmit: false,
@@ -50,33 +77,8 @@ describe('landingReducer', () => {
     };
     expect(
       landingReducer(stateBefore, {
-        type: types.SUBMIT_EMAIL_SUCCESS,
+        type: types.EMAIL_SUBMISSION_SUCCESS,
         message,
-      })
-    ).toEqual(stateAfter);
-  });
-  it('should handle SUBMIT_EMAIL_FAILURE', () => {
-    const error = new Error('Oh crap!');
-    const stateBefore = {
-      isSubmitting: true,
-      didSubmit: false,
-      error: null,
-      message: null,
-      isShowingModal: false,
-      isLoaded: false,
-    };
-    const stateAfter = {
-      isSubmitting: false,
-      didSubmit: false,
-      error,
-      message: null,
-      isShowingModal: true,
-      isLoaded: false,
-    };
-    expect(
-      landingReducer(stateBefore, {
-        type: types.SUBMIT_EMAIL_FAILURE,
-        error,
       })
     ).toEqual(stateAfter);
   });
@@ -134,6 +136,7 @@ describe('landingReducer', () => {
       message: null,
       isShowingModal: false,
       isLoaded: true,
+      messages,
     };
     expect(
       landingReducer(initialState, {
