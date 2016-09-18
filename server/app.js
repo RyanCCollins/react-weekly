@@ -10,12 +10,16 @@ import cors from 'cors';
 import graphqlHTTP from 'express-graphql';
 import fs from 'fs';
 import bodyParser from 'body-parser';
+import mongoose from 'mongoose';
+import subscriber from './models/subscriber';
 
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 1337 : process.env.PORT;
 const app = express();
 const query = 'query { posts { id, title, image, tags: { slug, name }, snippet, uniqueSlug }}';
 const needsCors = true;
+
+mongoose.connect('mongodb://heroku_qbvbph0t:7a4qr4q29f2iudg5ttk0lfg4a8@ds033096.mlab.com:33096/heroku_qbvbph0t');
 
 if (isDeveloping || needsCors) {
   app.all('*', (req, res, next) => {
@@ -29,17 +33,6 @@ if (isDeveloping || needsCors) {
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json())
-
-app.post('/contact', (req, res, next) => {
-  console.log(req.body);
-  if (!req.body) {
-    res.status(500).send({
-      error: 'Please submit an email address.'
-    });
-  } else {
-    res.status(200).send(req.body);
-  }
-});
 
 graphql(schema, query).then((result) => {
   console.log(JSON.stringify(result))

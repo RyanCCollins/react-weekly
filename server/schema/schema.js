@@ -7,6 +7,9 @@ import {
 
 import pythonShell from 'python-shell';
 import fs from 'fs';
+import mongoose from 'mongoose';
+import subscriber from '../models/subscriber';
+
 const store = {};
 
 const runPythonScript = () =>

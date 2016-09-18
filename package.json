@@ -80,6 +80,7 @@
     "json-loader": "^0.5.4",
     "lru-memoize": "^1.0.1",
     "minimist": "^1.2.0",
+    "mongoose": "^4.6.0",
     "morgan": "^1.7.0",
     "node-sass": "^3.4.2",
     "python-shell": "^0.4.0",
