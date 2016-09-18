@@ -2,7 +2,7 @@ import ApolloClient, {
   createNetworkInterface,
   addTypeName,
 } from 'apollo-client';
-const baseUrl = process.env.BASE_URL || 'http://0.0.0.0:1339/';
+const baseUrl = process.env.BASE_URL || 'http://www.reactweekly.co/';
 const url = `${baseUrl}api`;
 
 const client = new ApolloClient({
