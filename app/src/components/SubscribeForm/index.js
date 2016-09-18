@@ -43,7 +43,9 @@ const SubscribeForm = ({
             justify="center"
             pad={{ vertical: 'large' }}
           >
-            <Button onClick={(e) => e}>{/* eslint-disable react/jsx-no-bind */}
+            <Button
+              onClick={(e) => e} // eslint-disable-line
+            >
               <Anchor href="mailto:admin@ryancollins.io">
                 Contact Us
               </Anchor>
@@ -72,7 +74,12 @@ const SubscribeForm = ({
           {...emailInput}
         />
       </FormField>
-      <Button primary onClick={onSubmit} className={styles.button}>
+      <Button
+        primary
+        onClick={onSubmit}
+        className={styles.button}
+        id="submit-button"
+      >
         Submit
       </Button>
     </Box>

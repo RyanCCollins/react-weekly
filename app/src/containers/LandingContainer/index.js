@@ -12,7 +12,7 @@ export const subscribeFields = [
   'emailInput',
 ];
 
-class Landing extends Component { // eslint-disable-line react/prefer-stateless-function
+export class LandingContainer extends Component {
   constructor() {
     super();
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -84,7 +84,7 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
   }
 }
 
-Landing.propTypes = {
+LandingContainer.propTypes = {
   fields: PropTypes.object.isRequired,
   isShowingModal: PropTypes.bool.isRequired,
   actions: PropTypes.object.isRequired,
@@ -111,7 +111,7 @@ const mapDispatchToProps = (dispatch) => ({
   ),
 });
 
-const Container = cssModules(Landing, styles);
+const Container = cssModules(LandingContainer, styles);
 
 const ConnectedContainer = connect(
   mapStateToProps,
