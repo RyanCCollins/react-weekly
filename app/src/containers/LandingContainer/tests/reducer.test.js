@@ -57,9 +57,6 @@ describe('landingReducer', () => {
   });
   it('should handle SUBMIT_EMAIL_FAILURE', () => {
     const error = new Error('Oh crap!');
-    const message = `Sorry, but we just launched and not
-      everything is working yet.  Please try again soon, or email
-      us and we will make sure to get you on the list`;
     const stateBefore = {
       isSubmitting: true,
       didSubmit: false,
@@ -72,7 +69,7 @@ describe('landingReducer', () => {
       isSubmitting: false,
       didSubmit: false,
       error,
-      message,
+      message: null,
       isShowingModal: true,
       isLoaded: false,
     };

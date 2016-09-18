@@ -35,9 +35,6 @@ const landingReducer =
           isSubmitting: false,
           error: action.error,
           isShowingModal: true,
-          message: `Sorry, but we just launched and not
-            everything is working yet.  Please try again soon, or email
-            us and we will make sure to get you on the list`,
         });
       case CLOSE_LANDING_MODAL:
         return Object.assign({}, state, {

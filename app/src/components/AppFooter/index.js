@@ -25,7 +25,9 @@ const AppFooter = () => (
         />
       </Anchor>
       <Heading tag="h3">
-        React Weekly
+        <Anchor href="https://medium.com/react-weekly">
+          React Weekly
+        </Anchor>
       </Heading>
       <Heading tag="h5">
         Curated React Content Delivered Weekly
@@ -41,21 +43,21 @@ const AppFooter = () => (
         <SocialShare
           a11yTitle="Go to Facebook to Share this website"
           type="facebook"
-          link="http://react-weekly.com"
+          link="http://www.reactweekly.co"
           title="React Weekly"
           text="React Weekly - Curated React Content Delivered Weekly"
         />
         <SocialShare
           a11yTitle="Go to Twitter to Share this website"
           type="twitter"
-          link="http://react-weekly.com"
+          link="http://www.reactweekly.co"
           title="React Weekly"
           text="React Weekly - Curated React Content Delivered Weekly"
         />
         <SocialShare
           a11yTitle="Go to Linkedin to Share this website"
           type="linkedin"
-          link="http://react-weekly.com"
+          link="http://www.reactweekly.co"
           title="React Weekly"
           text="React Weekly - Curated React Content Delivered Weekly"
         />

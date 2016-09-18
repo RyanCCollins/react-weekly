@@ -30,7 +30,7 @@ const Navbar = ({
         <Anchor href="https://medium.com/react-weekly">
           Medium
         </Anchor>
-        <Anchor href="mailto:help@reactweekly.co">
+        <Anchor href="mailto:admin@ryancollins.io">
           Contact Us
         </Anchor>
       </Menu>

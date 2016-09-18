@@ -73,7 +73,7 @@ class Landing extends Component { // eslint-disable-line react/prefer-stateless-
           {...fields}
           onCloseError={this.handleCloseError}
           isSubmitting={isSubmitting}
-          message={message}
+          message={error ? error.message : message}
           error={error}
           onSubmit={this.handleSubmit}
           isShowingModal={isShowingModal}
