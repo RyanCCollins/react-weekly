@@ -4,11 +4,20 @@ import { bindActionCreators } from 'redux';
 import * as LandingActionCreators from './actions';
 import cssModules from 'react-css-modules';
 import styles from './index.module.scss';
-import { HomeHero, SubscribeForm, Thanks } from 'components';
 import { reduxForm } from 'redux-form';
 import validation from './validation';
 import gql from 'graphql-tag';
 import { graphql } from 'react-apollo';
+import Anchor from 'grommet/components/Anchor';
+import Footer from 'grommet/components/Footer';
+import Heading from 'grommet/components/Heading';
+import Button from 'grommet/components/Button';
+import {
+  HomeHero,
+  SubscribeForm,
+  Thanks,
+  ModalDialog,
+} from 'components';
 
 export const subscribeFields = [
   'emailInput',
@@ -100,10 +109,32 @@ export class LandingContainer extends Component {
             message={error ? error.message : message}
             error={error}
             onSubmit={this.handleSubmit}
-            isShowingModal={isShowingModal}
-            onCloseModal={this.handleModalClose}
           />
         }
+        <ModalDialog
+          isVisible={isShowingModal}
+          onClose={this.handleModalClose}
+        >
+          <Heading align="center" tag="h2">
+            Thanks!
+          </Heading>
+          <Heading align="center" tag="h5">
+            {message}
+          </Heading>
+          <Footer
+            align="center"
+            justify="center"
+            pad={{ vertical: 'large' }}
+          >
+            <Button
+              onClick={(e) => e} // eslint-disable-line
+            >
+              <Anchor href="mailto:admin@ryancollins.io">
+                Contact Us
+              </Anchor>
+            </Button>
+          </Footer>
+        </ModalDialog>
       </HomeHero>
     );
   }

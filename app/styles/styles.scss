@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 .spin-image {
   animation-name: spin;
   animation-duration: 10000ms;
