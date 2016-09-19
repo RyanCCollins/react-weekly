@@ -12,7 +12,7 @@ const PrivacyPage = () => (
       <Heading align="center" tag="h1">
         Privacy Policy
       </Heading>
-      <Static content={privacyPolicy} />
+      <Static content={privacyPolicy} hasBoxShadow />
     </Section>
     <AppFooter />
   </main>

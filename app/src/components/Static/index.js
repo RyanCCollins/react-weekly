@@ -7,10 +7,12 @@ import Article from 'grommet/components/Article';
 
 const Static = ({
   content,
+  hasBoxShadow,
 }) => (
   <Section
     align="center"
-    className={styles.static}
+    className={hasBoxShadow ? styles.boxShadow : styles.static}
+    colorIndex={hasBoxShadow ? 'light-1' : ''}
     pad={{ horizontal: 'medium', vertical: 'medium' }}
   >
     <Article>
@@ -21,6 +23,11 @@ const Static = ({
 
 Static.propTypes = {
   content: PropTypes.string.isRequired,
+  hasBoxShadow: PropTypes.bool,
+};
+
+Static.defaultProps = {
+  hasBoxShadow: false,
 };
 
 export default cssModules(Static, styles);
