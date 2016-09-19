@@ -8,7 +8,12 @@ import privacyPolicy from './privacy_policy.md';
 
 const PrivacyPage = () => (
   <main className={styles.container}>
-    <Section align="center" justify="center" pad={{ vertical: 'large' }}>
+    <Section
+      colorIndex="light-2"
+      align="center"
+      justify="center"
+      pad={{ vertical: 'large' }}
+    >
       <Heading align="center" tag="h1">
         Privacy Policy
       </Heading>
