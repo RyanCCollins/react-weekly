@@ -64,7 +64,11 @@ module.exports = {
     {
       test: /\.(jpg|png)$/,
       loader: 'file?name=[path][name].[hash].[ext]'
-    }
+    },
+    {
+      test: /\.md$/,
+      loader: "html!markdown"
+    },
   ]
   },
   resolve: {

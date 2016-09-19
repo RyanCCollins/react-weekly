@@ -71,6 +71,7 @@ const AppFooter = () => (
           icon={<ComplianceIcon />}
           colorIndex="brand"
         />
+      <span>{'  |  '}</span>
         <span className={styles.privacyAnchor}>
           <Anchor
             href="/privacy"
