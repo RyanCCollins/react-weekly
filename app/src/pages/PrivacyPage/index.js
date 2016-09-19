@@ -12,9 +12,6 @@ const PrivacyPage = () => (
       <Heading align="center" tag="h1">
         Privacy Policy
       </Heading>
-      <Heading align="center" tag="h3">
-        Last Updated: September 1, 2016
-      </Heading>
       <Static content={privacyPolicy} />
     </Section>
     <AppFooter />

@@ -14,9 +14,6 @@ const TermsPage = () => (
       <Heading align="center" tag="h1">
         Terms of Service
       </Heading>
-      <Heading align="center" tag="h3">
-        Last Updated: September 1, 2016
-      </Heading>
       <Static content={terms} />
     </Section>
     <AppFooter />
