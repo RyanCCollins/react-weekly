@@ -1,3 +1,5 @@
+Last Updated: September 1st, 2016
+
 Please read these Terms of Use ("Terms", "Terms of Use") carefully before using the React Weekly website (the "Service") operated by React Weekly Maintainers (React Weekly Maintainers may be referred to hereinafter as "us", "we", or "our").
 
 Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the Service.
