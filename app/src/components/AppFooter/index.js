@@ -7,6 +7,8 @@ import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
 import SocialShare from 'grommet/components/SocialShare';
 import Anchor from 'grommet/components/Anchor';
+import ComplianceIcon from 'grommet/components/icons/base/Compliance';
+import ShieldIcon from 'grommet/components/icons/base/Shield';
 
 const AppFooter = () => (
   <Footer className={styles.appFooter}>
@@ -62,6 +64,22 @@ const AppFooter = () => (
           text="React Weekly - Curated React Content Delivered Weekly"
         />
       </nav>
+      <div className={styles.termsAnchor}>
+        <Anchor
+          href="/terms"
+          label="Terms of Service"
+          icon={<ComplianceIcon />}
+          colorIndex="brand"
+        />
+        <span className={styles.privacyAnchor}>
+          <Anchor
+            href="/privacy"
+            label="Privacy Policy"
+            icon={<ShieldIcon />}
+            colorIndex="brand"
+          />
+        </span>
+      </div>
     </Box>
   </Footer>
 );

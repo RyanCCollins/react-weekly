@@ -1,4 +1,5 @@
 /* Assemble all components for export */
+export Static from './Static';
 export ModalDialog from './ModalDialog';
 export Thanks from './Thanks';
 export Error from './Error';
