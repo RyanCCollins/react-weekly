@@ -1,3 +1,5 @@
+Last Updated: September 1st, 2016
+
 React Weekly ("us", "we", or "our") operates the React Weekly website (the "Service").
 
 This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.
