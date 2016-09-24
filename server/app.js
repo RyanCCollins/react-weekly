@@ -13,6 +13,15 @@ import mongoose from 'mongoose';
 import { post, subscriber } from './models';
 import schema from './graphql';
 
+import createTemplate from './utils/createTemplate';
+import React from 'react';
+import { renderToString } from 'react-dom/server';
+import { match, RouterContext } from 'react-router';
+import { Provider } from 'react-redux';
+import store from '../app/src/store.js';
+import { routes } from '../app/src/routes.js';
+import { ApolloProvider } from 'react-apollo';
+import client from '../app/src/apolloClient.js';
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 1337 : process.env.PORT;
 const app = express();
@@ -54,6 +63,27 @@ graphql(schema, query).then((result) => {
 
     app.get('*', (req, res) => {
       res.sendFile(path.join(__dirname, 'public/index.html'));
+    });
+
+    app.use((req, res) => {
+      match({ routes, location: req.url },
+        (error, redirectLocation, renderProps) => {
+          if (error) {
+            res.status(500).send(error.message);
+          } else if (redirectLocation) {
+            res.redirect(302, redirectLocation.pathname + redirectLocation.search);
+          } else if (renderProps) {
+            const body = renderToString(
+              <ApolloProvider store={store} client={client}>
+                <RouterContext {...renderProps} />
+              </ApolloProvider>
+            );
+            res.status(200)
+              .send(createTemplate(body, store.getState(), mainHash, vendorHash));
+          } else {
+            res.status(400).send('Not Found 🤔');
+          }
+        });
     });
 
     app.listen(port, '0.0.0.0', (err) => {
