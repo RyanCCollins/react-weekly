@@ -1,11 +1,10 @@
 import React from 'react';
-import { Router, Route, IndexRoute } from 'react-router';
+import { Router } from 'react-router';
 import store, { history } from './store';
 import { ApolloProvider } from 'react-apollo';
 import client from './apolloClient';
 /* eslint-disable */
-import App from 'components/App';
-import * as Pages from 'pages';
+import App from './components/App';
 /* eslint-enable */
 
 if (typeof module !== 'undefined' && module.require) {

@@ -20,7 +20,8 @@ import { match, RouterContext } from 'react-router';
 import { Provider } from 'react-redux';
 import store from '../app/src/store.js';
 import { routes } from '../app/src/routes.js';
-
+import { ApolloProvider } from 'react-apollo';
+import client from '../app/src/apolloClient.js';
 const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 1337 : process.env.PORT;
 const app = express();
@@ -73,9 +74,9 @@ graphql(schema, query).then((result) => {
             res.redirect(302, redirectLocation.pathname + redirectLocation.search);
           } else if (renderProps) {
             const body = renderToString(
-              <Provider store={store}>
+              <ApolloProvider store={store} client={client}>
                 <RouterContext {...renderProps} />
-              </Provider>
+              </ApolloProvider>
             );
             res.status(200)
               .send(createTemplate(body, store.getState(), mainHash, vendorHash));
