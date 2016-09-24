@@ -12,4 +12,14 @@
 
 .termsAnchor {
   margin-top: 40px;
+  @media screen and (max-width: 680px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.seperator {
+  @media screen and (max-width: 680px) {
+    display: none;
+  }
 }

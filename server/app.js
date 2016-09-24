@@ -4,7 +4,6 @@ import path from 'path';
 import express from 'express';
 import { graphql } from 'graphql';
 import { introspectionQuery } from 'graphql/utilities';
-// import schema from './schema/schema';
 import morgan from 'morgan';
 import cors from 'cors';
 import graphqlHTTP from 'express-graphql';
@@ -61,7 +60,10 @@ graphql(schema, query).then((result) => {
       if (err) {
         return console.warn(err);
       }
-      return console.info(`==> 😎 Listening on port ${port}. Open http://0.0.0.0:${port}/ in your browser.`);
+      return console.info(
+        `==> 😎 Listening on port ${port}.` +
+          `Open http://0.0.0.0:${port}/ in your browser.`
+      );
     });
     let json = await graphql(schema, introspectionQuery);
     fs.writeFile(
