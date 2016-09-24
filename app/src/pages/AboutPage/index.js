@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import cssModules from 'react-css-modules';
 import styles from './index.module.scss';
-import { AboutInfo, AppFooter } from 'components';
+import { AboutInfo, AppFooter } from '../../components';
 import editors from './data';
-import { updatePageTitle } from 'utils/a11yTitle';
+import { updatePageTitle } from '../../../utils/a11yTitle';
 
 class AboutPage extends Component {
   constructor() {

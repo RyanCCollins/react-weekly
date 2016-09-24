@@ -61,10 +61,6 @@ graphql(schema, query).then((result) => {
       res.json(data.payload.posts);
     });
 
-    app.get('*', (req, res) => {
-      res.sendFile(path.join(__dirname, 'public/index.html'));
-    });
-
     app.use((req, res) => {
       match({ routes, location: req.url },
         (error, redirectLocation, renderProps) => {
